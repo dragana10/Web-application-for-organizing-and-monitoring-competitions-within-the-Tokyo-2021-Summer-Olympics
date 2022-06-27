@@ -1,0 +1,3 @@
+-pozicionirati se u frontend/app ->npm i ngx-pagination (npm install ngx-pagination --save)
+-npm install angular-crumbs --save
+-npm install ngx graphs (dopuniti)
