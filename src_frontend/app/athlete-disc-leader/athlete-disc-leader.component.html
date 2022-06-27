@@ -1,0 +1,46 @@
+<div class="back_form">
+
+    <div class="meni">
+        <h4>
+            Select the discipline
+        </h4>
+    </div>
+    <div  style="padding-left: 45%;padding-right: 45%; color: #396b88;">
+        <h2>
+            {{name}}
+        </h2>
+    </div>
+    <table class="meniO" style="padding-left: 39%;padding-right: 39%;">
+        <tr *ngFor='let k of disciplines'>
+            <td>
+                <a routerLink='{{k.name}}'>{{k.name}}</a>
+            </td>
+        </tr>
+    </table>
+
+    <div *ngIf="flag==1">
+        <div class="meni">
+            <h5>
+                Registered competitors
+            </h5>
+        </div>
+        <table style="padding-left:42%;padding-right: 42%; text-align: left; font-size: 20px;">
+            <tr style="font-weight: bold;">
+                <td style="width: 20em;">
+                    lastname
+                </td>
+                <td style="width: 20em;">
+                    name
+                </td>
+            </tr>
+            <tr *ngFor="let c of athletes">
+                <td>
+                    {{c.lastname}}
+                </td>
+                <td>
+                    {{c.name}}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
