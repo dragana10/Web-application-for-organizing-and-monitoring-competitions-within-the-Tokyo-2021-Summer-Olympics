@@ -1,0 +1,252 @@
+{
+    "_id" : ObjectId("613e8cf740b0ed168949b2ce"),
+    "name" : "225km Road Race",
+    "sport" : "cycling",
+    "kind" : 0,
+    "min" : 0,
+    "max" : 0,
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("613e8cf740b0ed168949b2d1"),
+    "name" : "Single",
+    "sport" : "tennis",
+    "kind" : 0,
+    "min" : 0,
+    "max" : 0,
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("613e8cf740b0ed168949b2d4"),
+    "name" : "Double",
+    "sport" : "tennis",
+    "kind" : 1,
+    "min" : 2,
+    "max" : 2,
+    "cnt" : 2
+}
+{
+    "_id" : ObjectId("613e8cf740b0ed168949b2d7"),
+    "name" : "50m Rifle 3 Positions",
+    "sport" : "shooting",
+    "kind" : 0,
+    "min" : 0,
+    "max" : 0,
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("613e8cf740b0ed168949b2da"),
+    "name" : "10m Air Rifle",
+    "sport" : "shooting",
+    "kind" : 0,
+    "min" : 0,
+    "max" : 0,
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("613e8cf740b0ed168949b2dd"),
+    "name" : "25m Pistol",
+    "sport" : "shooting",
+    "kind" : 0,
+    "min" : 0,
+    "max" : 0,
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("613e8cf740b0ed168949b2e0"),
+    "name" : "10m Air Pistol",
+    "sport" : "shooting",
+    "kind" : 0,
+    "min" : 0,
+    "max" : 0,
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("613e8cf740b0ed168949b2e3"),
+    "name" : "100m Butterfly",
+    "sport" : "swimming",
+    "kind" : 0,
+    "min" : 0,
+    "max" : 0,
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("613e8cf740b0ed168949b2e6"),
+    "name" : "200m Freestyle",
+    "sport" : "swimming",
+    "kind" : 0,
+    "min" : 0,
+    "max" : 0,
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("613e8cf740b0ed168949b2e9"),
+    "name" : "100m Running",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 0,
+    "max" : 0,
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("613e8cf740b0ed168949b2ec"),
+    "name" : "100m Relay Running",
+    "sport" : "athletics",
+    "kind" : 1,
+    "min" : 4,
+    "max" : 4,
+    "cnt" : 4
+}
+{
+    "_id" : ObjectId("613e8cf740b0ed168949b2ef"),
+    "name" : "200m Running",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 0,
+    "max" : 0,
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6142ad2047e7dc72b8fed8d9"),
+    "name" : "400m Running",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ad2047e7dc72b8fed8dc"),
+    "name" : "400m Relay Running",
+    "sport" : "athletics",
+    "kind" : 1,
+    "min" : 4,
+    "max" : 4,
+    "cnt" : 4
+}
+{
+    "_id" : ObjectId("6142ad2047e7dc72b8fed8df"),
+    "name" : "800m Running",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ad2047e7dc72b8fed8e2"),
+    "name" : "5000m Running",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ad2047e7dc72b8fed8e5"),
+    "name" : "10000m Running",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ae5947e7dc72b8fed9c4"),
+    "name" : "High Jump",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ae5947e7dc72b8fed9c7"),
+    "name" : "Long Jump",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ae5947e7dc72b8fed9ca"),
+    "name" : "Triple Jump",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ae5947e7dc72b8fed9cd"),
+    "name" : "Pole Vault",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ae5947e7dc72b8fed9d0"),
+    "name" : "Shot Put",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ae5947e7dc72b8fed9d3"),
+    "name" : "Discus Throw",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ae5947e7dc72b8fed9d6"),
+    "name" : "Hammer Throw",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ae5947e7dc72b8fed9d9"),
+    "name" : "Javelin Throw",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ae5947e7dc72b8fed9dc"),
+    "name" : "Marathon",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ae5947e7dc72b8fed9df"),
+    "name" : "20km Race Walk",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("6142ae5947e7dc72b8fed9e2"),
+    "name" : "50km Race Walk",
+    "sport" : "athletics",
+    "kind" : 0,
+    "min" : 1,
+    "max" : 1,
+    "cnt" : 1
+}

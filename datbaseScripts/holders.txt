@@ -1,0 +1,619 @@
+{
+    "_id" : ObjectId("61400ad640b0ed16894a1612"),
+    "name" : "Single",
+    "sport" : "tennis",
+    "gender" : "m",
+    "num_of_hldrs" : 16,
+    "candidates" : [ 
+        {
+            "name" : "Novak",
+            "lastname" : "DJOKOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Kei",
+            "lastname" : "NISHIKORI",
+            "country" : "Japan",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Karen",
+            "lastname" : "KHACHANOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Ivan",
+            "lastname" : "DODIG",
+            "country" : "Croatia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Alejandro",
+            "lastname" : "DAVIDOVICH FOKINA",
+            "country" : "Spain",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Pablo",
+            "lastname" : "CARRENO BUSTA",
+            "country" : "Spain",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Andrey",
+            "lastname" : "RUBLEV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Aslan",
+            "lastname" : "KARATSEV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Stefanos",
+            "lastname" : "TSITSIPAS",
+            "country" : "Greece",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Jeremy",
+            "lastname" : "CHARDY",
+            "country" : "France",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Michael",
+            "lastname" : "VENUS",
+            "country" : "New Zealand",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Marcus",
+            "lastname" : "DANIELL",
+            "country" : "New Zealand",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Mate",
+            "lastname" : "PAVIC",
+            "country" : "Croatia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Marin",
+            "lastname" : "CILIC",
+            "country" : "Croatia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Alexander",
+            "lastname" : "ZVEREV",
+            "country" : "Germany",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Jan-Lennard",
+            "lastname" : "STRUFF",
+            "country" : "Germany",
+            "gender" : "m"
+        }
+    ],
+    "first" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("61401985e711291e38fbab7c"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Novak",
+            "lastname" : "DJOKOVIC",
+            "country" : "Serbia"
+        }
+    ],
+    "second" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140ce502ee2371cfcc084d8"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Ivan",
+            "lastname" : "DODIG",
+            "country" : "Croatia"
+        }
+    ],
+    "third" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140d0322ee2371cfcc084d9"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Karen",
+            "lastname" : "KHACHANOV",
+            "country" : "Russia"
+        }
+    ],
+    "fourth" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Kei",
+            "lastname" : "NISHIKORI",
+            "country" : "Russia"
+        }
+    ],
+    "fifth" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140d0322ee2371cfcc084dd"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Alejandro",
+            "lastname" : "DAVIDOVICH FOKINA",
+            "country" : "Spain"
+        }
+    ],
+    "sixth" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140d0322ee2371cfcc084df"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Pablo",
+            "lastname" : "CARRENO BUSTA",
+            "country" : "Spain"
+        }
+    ],
+    "seventh" : [ 
+        {
+            "name" : "Jan-Lennard",
+            "lastname" : "STRUFF",
+            "country" : "Germany",
+            "gender" : "m"
+        }
+    ],
+    "eighth" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140d0322ee2371cfcc084de"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Andrey",
+            "lastname" : "RUBLEV",
+            "country" : "Russia"
+        }
+    ],
+    "ninth" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140d0322ee2371cfcc084e1"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Aslan",
+            "lastname" : "KARATSEV",
+            "country" : "Russia"
+        }
+    ],
+    "tenth" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140d0322ee2371cfcc084e4"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Stefanos",
+            "lastname" : "TSITSIPAS",
+            "country" : "Greece"
+        }
+    ],
+    "eleventh" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140d0322ee2371cfcc084e2"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Jeremy",
+            "lastname" : "CHARDY",
+            "country" : "France"
+        }
+    ],
+    "twelfth" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140d0322ee2371cfcc084e3"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Michael",
+            "lastname" : "VENUS",
+            "country" : "New Zealand"
+        }
+    ],
+    "thirteenth" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140d0322ee2371cfcc084e5"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Marcus",
+            "lastname" : "DANIELL",
+            "country" : "New Zealand"
+        }
+    ],
+    "fourteenth" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140d0322ee2371cfcc084e6"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Mate",
+            "lastname" : "PAVIC",
+            "country" : "Croatia"
+        }
+    ],
+    "fifteenth" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140d0322ee2371cfcc084e7"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Marin",
+            "lastname" : "CILIC",
+            "country" : "Croatia"
+        }
+    ],
+    "sixteenth" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6140d0322ee2371cfcc084e8"),
+            "sport" : "tennis",
+            "gender" : "m",
+            "name" : "Alexander",
+            "lastname" : "ZVEREV",
+            "country" : "Germany"
+        }
+    ]
+}
+{
+    "_id" : ObjectId("61512ce03868392bc5130ed0"),
+    "name" : "Single",
+    "sport" : "tennis",
+    "gender" : "f",
+    "num_of_hldrs" : 16,
+    "candidates" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2d32731cca44a01dad06"),
+            "name" : "Heather",
+            "lastname" : "WATSON ",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3a35731cca44a01dad3f"),
+            "name" : "Ivana",
+            "lastname" : "JOROVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3a96731cca44a01dad49"),
+            "name" : "Aleksandra",
+            "lastname" : "KRUNIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4646731cca44a01dadda"),
+            "name" : "Ekaterina",
+            "lastname" : "ALEKSANDROVA ",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e485a731cca44a01dae05"),
+            "name" : "Anastasia",
+            "lastname" : "PAVLYUCHENKOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4884731cca44a01dae08"),
+            "name" : "Veronika",
+            "lastname" : "KUDERMETOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e778054b51d27e0c61a6c"),
+            "name" : "Qiang",
+            "lastname" : "WANG",
+            "country" : "People's Republic of China",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f9a27020b72bb48d6f3c"),
+            "name" : "Nicole",
+            "lastname" : "MELICHAR",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f9e27020b72bb48d6f42"),
+            "name" : "Jessica",
+            "lastname" : "PEGULA",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f9f57020b72bb48d6f45"),
+            "name" : "Alison",
+            "lastname" : "RISKE",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150fa177020b72bb48d6f48"),
+            "name" : "Jennifer",
+            "lastname" : "BRADY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("615173e828b9fe217cd96f36"),
+            "name" : "Nao",
+            "lastname" : "HIBINO",
+            "country" : "Japan",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615175555c01aa45dcbf69b1"),
+            "name" : "Misaki",
+            "lastname" : "DOI",
+            "country" : "Japan",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615175fd5281cd4818ef4960"),
+            "name" : "Makoto",
+            "lastname" : "NINOMIYA",
+            "country" : "Japan",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61517fc0568a3d2aa8f61320"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Donna",
+            "lastname" : "VEKIC",
+            "country" : "Croatia"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615186d7568a3d2aa8f61323"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Barbora",
+            "lastname" : "KREJCIKOVA",
+            "country" : "Czech Republic"
+        }
+    ],
+    "first" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f61367"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Heather",
+            "lastname" : "WATSON",
+            "country" : "Great Britain"
+        }
+    ],
+    "second" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f61368"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Ivana",
+            "lastname" : "JOROVIC",
+            "country" : "Serbia"
+        }
+    ],
+    "third" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f61369"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Aleksandra",
+            "lastname" : "KRUNIC",
+            "country" : "Serbia"
+        }
+    ],
+    "fourth" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f6136a"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Ekaterina",
+            "lastname" : "ALEKSANDROVA",
+            "country" : "Russia"
+        }
+    ],
+    "fifth" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f6136c"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Anastasia",
+            "lastname" : "PAVLYUCHENKOVA",
+            "country" : "Russia"
+        }
+    ],
+    "sixth" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f6136d"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Veronika",
+            "lastname" : "KUDERMETOVA",
+            "country" : "Russia"
+        }
+    ],
+    "seventh" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f6136b"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Qiang",
+            "lastname" : "WANG",
+            "country" : "People's Republic of China"
+        }
+    ],
+    "eighth" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f6136e"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Nicole",
+            "lastname" : "MELICHAR",
+            "country" : "United States of America"
+        }
+    ],
+    "ninth" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f6136f"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Jessica",
+            "lastname" : "PEGULA",
+            "country" : "United States of America"
+        }
+    ],
+    "tenth" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f61370"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Alison",
+            "lastname" : "RISKE",
+            "country" : "United States of America"
+        }
+    ],
+    "eleventh" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f61372"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Jennifer",
+            "lastname" : "BRADY",
+            "country" : "United States of America"
+        }
+    ],
+    "twelfth" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f61374"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Nao",
+            "lastname" : "HIBINO",
+            "country" : "Japan"
+        }
+    ],
+    "thirteenth" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f61373"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Misaki",
+            "lastname" : "DOI",
+            "country" : "Japan"
+        }
+    ],
+    "fourteenth" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f61375"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Makoto",
+            "lastname" : "NINOMIYA",
+            "country" : "Japan"
+        }
+    ],
+    "fifteenth" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f61371"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Donna",
+            "lastname" : "VEKIC",
+            "country" : "Croatia"
+        }
+    ],
+    "sixteenth" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61519807568a3d2aa8f61376"),
+            "sport" : "tennis",
+            "gender" : "f",
+            "name" : "Barbora",
+            "lastname" : "KREJCIKOVA",
+            "country" : "Czech Republic"
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "_id" : ObjectId("6138e1be37e8758cc097adf9"),
+    "name" : "tennis",
+    "kind" : 2,
+    "has_a_disciplines" : 1,
+    "disciplines" : [ 
+        {
+            "name" : "Single",
+            "kind" : 0
+        }, 
+        {
+            "name" : "Double",
+            "kind" : 1
+        }
+    ]
+}
+{
+    "_id" : ObjectId("6138e28e37e8758cc097aeb8"),
+    "name" : "cycling",
+    "kind" : 0,
+    "has_a_disciplines" : 1,
+    "disciplines" : [ 
+        {
+            "name" : "225km Road Race",
+            "kind" : 0
+        }
+    ]
+}
+{
+    "_id" : ObjectId("6138e35537e8758cc097af71"),
+    "name" : "shooting",
+    "kind" : 0,
+    "has_a_disciplines" : 1,
+    "disciplines" : [ 
+        {
+            "name" : "50m Rifle 3 Positions",
+            "kind" : 0
+        }, 
+        {
+            "name" : "10m Air Rifle",
+            "kind" : 0
+        }, 
+        {
+            "name" : "25m Pistol",
+            "kind" : 0
+        }, 
+        {
+            "name" : "10m Air Pistol",
+            "kind" : 0
+        }
+    ]
+}
+{
+    "_id" : ObjectId("613a4a1e7e729b4128c92a94"),
+    "disciplines" : [ 
+        {
+            "_id" : ObjectId("613a4a4a7e729b4128c92a95"),
+            "name" : "100m Butterfly",
+            "sport" : "swimming",
+            "kind" : 0
+        }, 
+        {
+            "_id" : ObjectId("613a4a707e729b4128c92a96"),
+            "name" : "200m Freestyle",
+            "sport" : "swimming",
+            "kind" : 0
+        }
+    ],
+    "name" : "swimming",
+    "kind" : 0,
+    "has_a_disciplines" : 1
+}
+{
+    "_id" : ObjectId("613a540f44d4c747d808e5b9"),
+    "disciplines" : [ 
+        {
+            "_id" : ObjectId("613a553544d4c747d808e5ba"),
+            "name" : "100m Running",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "_id" : ObjectId("613a559344d4c747d808e5bb"),
+            "name" : "100m Relay Running",
+            "sport" : "athletics",
+            "kind" : 1
+        }, 
+        {
+            "name" : "200m Running",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "400m Running",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "800m Running",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "5000m Running",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "1000m Running",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "_id" : ObjectId("613a561e44d4c747d808e5bc"),
+            "name" : "200m Running",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "High Jump",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "Long Jump",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "Triple Jump",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "Pole Vault",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "Shot Put",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "Discus Throw",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "Hammer Throw",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "Javelin Throw",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "Marathon",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "20km Race Walk",
+            "sport" : "athletics",
+            "kind" : 0
+        }, 
+        {
+            "name" : "50km Race Walk",
+            "sport" : "athletics",
+            "kind" : 0
+        }
+    ],
+    "name" : "athletics",
+    "kind" : 2,
+    "has_a_disciplines" : 1
+}
+{
+    "_id" : ObjectId("613b9c5837e8758cc099c27c"),
+    "name" : "basketball",
+    "kind" : 1,
+    "has_a_disciplines" : 0
+}
+{
+    "_id" : ObjectId("61415f8440b0ed16894a57bc"),
+    "name" : "volleyball",
+    "kind" : 1,
+    "has_a_disciplines" : 0
+}
+{
+    "_id" : ObjectId("61415f8440b0ed16894a57bf"),
+    "name" : "water polo",
+    "kind" : 2,
+    "has_a_disciplines" : 0,
+    "disciplines" : []
+}

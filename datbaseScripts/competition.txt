@@ -1,0 +1,5688 @@
+{
+    "_id" : ObjectId("6142a8c347e7dc72b8fed666"),
+    "name" : "tennis Men Single",
+    "sport" : "tennis",
+    "discipline" : "Single",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "First Round", 
+        "Quarterfinal", 
+        "Semifinal", 
+        "Bronze Medal Match", 
+        "Gold Medal Match"
+    ],
+    "date_start" : "2021-09-10",
+    "date_end" : "2021-09-13",
+    "time_start" : "20:00",
+    "time_end" : "20:00",
+    "location" : "Ariake Tennis Centre Court",
+    "delegate" : "mile",
+    "status" : 2,
+    "num_par" : 2,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "name" : "Novak",
+            "lastname" : "Djokovic",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Kei",
+            "lastname" : "NISHIKORI",
+            "country" : "Japan",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Karen",
+            "lastname" : "KHACHANOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Ivan",
+            "lastname" : "Dodig",
+            "country" : "Croatia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Alejandro",
+            "lastname" : "DAVIDOVICH FOKINA",
+            "country" : "Spain",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Pablo",
+            "lastname" : "CARRENO BUSTA",
+            "country" : "Spain",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Andrey",
+            "lastname" : "RUBLEV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Aslan",
+            "lastname" : "KARATSEV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Stefanos",
+            "lastname" : "TSITSIPAS",
+            "country" : "Greece",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Jeremy",
+            "lastname" : "CHARDY",
+            "country" : "France",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Michael",
+            "lastname" : "VENUS",
+            "country" : "New Zealand",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Marcus",
+            "lastname" : "DANIELL",
+            "country" : "New Zealand",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Mate",
+            "lastname" : "PAVIC",
+            "country" : "Croatia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Marin",
+            "lastname" : "CILIC",
+            "country" : "Croatia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Alexander",
+            "lastname" : "ZVEREV",
+            "country" : "Germany",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Jan-Lennard",
+            "lastname" : "STRUFF",
+            "country" : "Germany",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2d4d731cca44a01dad09"),
+            "name" : "Andy",
+            "lastname" : "MURRAY",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2d61731cca44a01dad0c"),
+            "name" : "Joe",
+            "lastname" : "SALISBURY ",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2d9d731cca44a01dad0f"),
+            "name" : "Jamie",
+            "lastname" : "MURRAY",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2dac731cca44a01dad12"),
+            "name" : "Neal",
+            "lastname" : "SKUPSKI",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3a62731cca44a01dad44"),
+            "name" : "Miomir",
+            "lastname" : "KECMANOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e482d731cca44a01dae02"),
+            "name" : "Daniil",
+            "lastname" : "MEDVEDEV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e776054b51d27e0c61a6a"),
+            "name" : "Saisai",
+            "lastname" : "ZHENG",
+            "country" : "People's Republic of China",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("613eaad725087f3a6c21db09"),
+            "name" : "Karen",
+            "lastname" : "Khachanov",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("613f7d562e8b182a84de1bda"),
+            "name" : "Novak",
+            "lastname" : "Djokovic",
+            "country" : "Serbia",
+            "gender" : "m"
+        }
+    ],
+    "bronze" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614ffe512d1cbf48f0a67c35"),
+        "name" : "Marcus",
+        "lastname" : "DANIELL",
+        "country" : "New Zealand",
+        "gender" : "m"
+    },
+    "silver" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("615002252d1cbf48f0a67c37"),
+        "name" : "Mate",
+        "lastname" : "PAVIC",
+        "country" : "Croatia",
+        "gender" : "m"
+    },
+    "gold" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("615002252d1cbf48f0a67c38"),
+        "name" : "Novak",
+        "lastname" : "DJOKOVIC",
+        "country" : "Serbia",
+        "gender" : "m"
+    },
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6142a8e747e7dc72b8fed680"),
+    "name" : "tennis Women Single",
+    "sport" : "tennis",
+    "discipline" : "Single",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Gold Medal Match", 
+        "Bronze Medal Match", 
+        "Semifinal", 
+        "Quarterfinal", 
+        "First Round"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-15",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Ariake Tennis Centre Court",
+    "delegate" : "mile",
+    "status" : 0,
+    "num_par" : 2,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2d32731cca44a01dad06"),
+            "name" : "Heather",
+            "lastname" : "WATSON ",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3a35731cca44a01dad3f"),
+            "name" : "Ivana",
+            "lastname" : "JOROVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3a96731cca44a01dad49"),
+            "name" : "Aleksandra",
+            "lastname" : "KRUNIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4646731cca44a01dadda"),
+            "name" : "Ekaterina",
+            "lastname" : "ALEKSANDROVA ",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e485a731cca44a01dae05"),
+            "name" : "Anastasia",
+            "lastname" : "PAVLYUCHENKOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4884731cca44a01dae08"),
+            "name" : "Veronika",
+            "lastname" : "KUDERMETOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e778054b51d27e0c61a6c"),
+            "name" : "Qiang",
+            "lastname" : "WANG",
+            "country" : "People's Republic of China",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f9a27020b72bb48d6f3c"),
+            "name" : "Nicole",
+            "lastname" : "MELICHAR",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f9e27020b72bb48d6f42"),
+            "name" : "Jessica",
+            "lastname" : "PEGULA",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f9f57020b72bb48d6f45"),
+            "name" : "Alison",
+            "lastname" : "RISKE",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150fa177020b72bb48d6f48"),
+            "name" : "Jennifer",
+            "lastname" : "BRADY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("615173e828b9fe217cd96f36"),
+            "name" : "Nao",
+            "lastname" : "HIBINO",
+            "country" : "Japan",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615175555c01aa45dcbf69b1"),
+            "name" : "Misaki",
+            "lastname" : "DOI",
+            "country" : "Japan",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615175fd5281cd4818ef4960"),
+            "name" : "Makoto",
+            "lastname" : "NINOMIYA",
+            "country" : "Japan",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61517fbe568a3d2aa8f6131e"),
+            "name" : "Donna",
+            "lastname" : "VEKIC",
+            "country" : "Croatia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615186d6568a3d2aa8f61321"),
+            "name" : "Barbora",
+            "lastname" : "KREJCIKOVA",
+            "country" : "Czech Republic",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6142a8fb47e7dc72b8fed687"),
+    "name" : "tennis Men Double",
+    "sport" : "tennis",
+    "discipline" : "Double",
+    "gender" : "m",
+    "kind" : 1,
+    "level" : [ 
+        "Gold Medal Match", 
+        "Bronze Medal Match", 
+        "Semifinal", 
+        "Quarterfinal", 
+        "First Round"
+    ],
+    "date_start" : "2021-9-9",
+    "date_end" : "2021-9-9",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Ariake Tennis Centre Court",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 2,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2d4e731cca44a01dad0b"),
+            "name" : "Andy",
+            "lastname" : "MURRAY",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2d63731cca44a01dad0e"),
+            "name" : "Joe",
+            "lastname" : "SALISBURY ",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2d9e731cca44a01dad11"),
+            "name" : "Jamie",
+            "lastname" : "MURRAY",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2dad731cca44a01dad14"),
+            "name" : "Neal",
+            "lastname" : "SKUPSKI",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3a63731cca44a01dad46"),
+            "name" : "Miomir",
+            "lastname" : "KECMANOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e482e731cca44a01dae04"),
+            "name" : "Daniil",
+            "lastname" : "MEDVEDEV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f9bd7020b72bb48d6f3e"),
+            "name" : "Tennys",
+            "lastname" : "SANDGREN",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f9d17020b72bb48d6f40"),
+            "name" : "Tommy",
+            "lastname" : "PAUL",
+            "country" : "United States of America",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6142a91947e7dc72b8fed6a2"),
+    "name" : "tennis Women Double",
+    "sport" : "tennis",
+    "discipline" : "Double",
+    "gender" : "f",
+    "kind" : 1,
+    "level" : [ 
+        "Gold Medal Match", 
+        "Bronze Medal Match", 
+        "Semifinal", 
+        "Quarterfinal", 
+        "First Round"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Ariake Tennis Centre Court",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 2,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2d33731cca44a01dad08"),
+            "name" : "Heather",
+            "lastname" : "WATSON ",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3a37731cca44a01dad41"),
+            "name" : "Ivana",
+            "lastname" : "JOROVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3a97731cca44a01dad4b"),
+            "name" : "Aleksandra",
+            "lastname" : "KRUNIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4647731cca44a01daddc"),
+            "name" : "Ekaterina",
+            "lastname" : "ALEKSANDROVA ",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e485c731cca44a01dae07"),
+            "name" : "Anastasia",
+            "lastname" : "PAVLYUCHENKOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4886731cca44a01dae0a"),
+            "name" : "Veronika",
+            "lastname" : "KUDERMETOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f9e47020b72bb48d6f44"),
+            "name" : "Jessica",
+            "lastname" : "PEGULA",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f9f87020b72bb48d6f47"),
+            "name" : "Alison",
+            "lastname" : "RISKE",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150fa187020b72bb48d6f4a"),
+            "name" : "Jennifer",
+            "lastname" : "BRADY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6142a93747e7dc72b8fed6b0"),
+    "name" : "shooting Men 50m Rifle 3 Positions",
+    "sport" : "shooting",
+    "discipline" : "50m Rifle 3 Positions",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-04",
+    "date_end" : "2021-09-04",
+    "time_start" : "18:00",
+    "time_end" : "20:00",
+    "location" : "Asaka Shooting Range",
+    "delegate" : "ema",
+    "status" : 2,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "name" : "Changhong",
+            "lastname" : "ZHANG",
+            "country" : "People's Republic of China"
+        }, 
+        {
+            "name" : "Sergey",
+            "lastname" : "KAMENSKIY",
+            "country" : "Russia"
+        }, 
+        {
+            "name" : "Milenko",
+            "lastname" : "SEBIC",
+            "country" : "Serbia"
+        }, 
+        {
+            "name" : "Jon-Hermann",
+            "lastname" : "HEGG",
+            "country" : "Norway",
+            "sport" : "shooting"
+        }, 
+        {
+            "name" : "Petar",
+            "lastname" : "GORSA",
+            "country" : "Croatia"
+        }, 
+        {
+            "name" : "Miran",
+            "lastname" : "MARICIC",
+            "country" : "Croatia",
+            "sport" : "shooting"
+        }, 
+        {
+            "name" : "Yury",
+            "lastname" : "SHCHERBATSEVICH",
+            "country" : "Belarus"
+        }, 
+        {
+            "name" : "Serhiy",
+            "lastname" : "KULISH",
+            "country" : "Ukraine"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3af3731cca44a01dad50"),
+            "name" : "Damir",
+            "lastname" : "MIKEC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3c5a731cca44a01dad72"),
+            "name" : "Milutin",
+            "lastname" : "STEFANOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e40be731cca44a01dad84"),
+            "name" : "Omer",
+            "lastname" : "AKGUN",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4177731cca44a01dad8c"),
+            "name" : "Yusuf",
+            "lastname" : "DIKEC",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4244731cca44a01dad9b"),
+            "name" : "Ismail",
+            "lastname" : "KELES",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4505731cca44a01dadc6"),
+            "name" : "Alexey",
+            "lastname" : "ALIPOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4553731cca44a01dadce"),
+            "name" : "Anton",
+            "lastname" : "ARISTARKHOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e677cc1d01839f4540fd2"),
+            "name" : "Wei",
+            "lastname" : "PANG",
+            "country" : "People's Republic of China",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [ 
+        {
+            "name" : "Changhong",
+            "lastname" : "ZHANG",
+            "country" : "People's Republic of China"
+        }, 
+        {
+            "name" : "Sergey",
+            "lastname" : "KAMENSKIY",
+            "country" : "Russia"
+        }, 
+        {
+            "name" : "Milenko",
+            "lastname" : "SEBIC",
+            "country" : "Serbia"
+        }, 
+        {
+            "name" : "Jon-Hermann",
+            "lastname" : "HEGG",
+            "country" : "Norway",
+            "sport" : "shooting"
+        }, 
+        {
+            "name" : "Petar",
+            "lastname" : "GORSA",
+            "country" : "Croatia"
+        }, 
+        {
+            "name" : "Miran",
+            "lastname" : "MARICIC",
+            "country" : "Croatia",
+            "sport" : "shooting"
+        }, 
+        {
+            "name" : "Yury",
+            "lastname" : "SHCHERBATSEVICH",
+            "country" : "Belarus"
+        }, 
+        {
+            "name" : "Serhiy",
+            "lastname" : "KULISH",
+            "country" : "Ukraine"
+        }
+    ],
+    "bronze" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614bd87ea8a64448b8874d7f"),
+        "name" : "Milenko",
+        "lastname" : "SEBIC",
+        "country" : "Serbia"
+    },
+    "silver" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614bd87ea8a64448b8874d81"),
+        "name" : "Sergey",
+        "lastname" : "KAMENSKIY",
+        "country" : "Russia"
+    },
+    "gold" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614bd87ea8a64448b8874d82"),
+        "name" : "Changhong",
+        "lastname" : "ZHANG",
+        "country" : "People's Republic of China"
+    },
+    "winner" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614bd87ea8a64448b8874d80"),
+        "name" : "Changhong",
+        "lastname" : "ZHANG",
+        "country" : "People's Republic of China"
+    }
+}
+{
+    "_id" : ObjectId("6142a94c47e7dc72b8fed6c2"),
+    "name" : "shooting Women 50m Rifle 3 Positions",
+    "sport" : "shooting",
+    "discipline" : "50m Rifle 3 Positions",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-03",
+    "date_end" : "2021-09-03",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Asaka Shooting Range",
+    "delegate" : "ema",
+    "status" : 2,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2cd7731cca44a01dad01"),
+            "name" : "Seonaid",
+            "lastname" : "McINTOSH",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e389c731cca44a01dad1c"),
+            "name" : "Jovana",
+            "lastname" : "Arsovic",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e38bb731cca44a01dad21"),
+            "name" : "Zorana",
+            "lastname" : "ARUNOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3b11731cca44a01dad55"),
+            "name" : "Jasmina",
+            "lastname" : "MILOVANOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3c7e731cca44a01dad77"),
+            "name" : "Sanja",
+            "lastname" : "VUKASINOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e46ad731cca44a01daddf"),
+            "name" : "Anastasiia",
+            "lastname" : "GALASHINA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e46c7731cca44a01dade3"),
+            "name" : "Vitalina",
+            "lastname" : "BATSARASHKINA ",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4706731cca44a01dade8"),
+            "name" : "Yulia",
+            "lastname" : "ZYKOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4717731cca44a01dadec"),
+            "name" : "Yulia",
+            "lastname" : "KARIMOVA ",
+            "country" : "Russia",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e5ea0b93312461457be57"),
+            "name" : "Seonaid",
+            "lastname" : "McINTOSH",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e5ea1b93312461457be58"),
+            "name" : "Jovana",
+            "lastname" : "Arsovic",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e5ea4b93312461457be59"),
+            "name" : "Zorana",
+            "lastname" : "ARUNOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e5ec5b93312461457be5a"),
+            "name" : "Sanja",
+            "lastname" : "VUKASINOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e5ecbb93312461457be5b"),
+            "name" : "Vitalina",
+            "lastname" : "BATSARASHKINA ",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e5eccb93312461457be5c"),
+            "name" : "Yulia",
+            "lastname" : "ZYKOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e5ecdb93312461457be5d"),
+            "name" : "Yulia",
+            "lastname" : "KARIMOVA ",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e5ed2b93312461457be5e"),
+            "name" : "Anastasiia",
+            "lastname" : "GALASHINA",
+            "country" : "Russia",
+            "gender" : "f"
+        }
+    ],
+    "bronze" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614e7f4954b51d27e0c61a6e"),
+        "name" : "Zorana",
+        "lastname" : "ARUNOVIC",
+        "country" : "Serbia",
+        "gender" : "f"
+    },
+    "silver" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614e7f4954b51d27e0c61a6f"),
+        "name" : "Jovana",
+        "lastname" : "Arsovic",
+        "country" : "Serbia",
+        "gender" : "f"
+    },
+    "gold" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614e7f4954b51d27e0c61a70"),
+        "name" : "Seonaid",
+        "lastname" : "McINTOSH",
+        "country" : "Great Britain",
+        "gender" : "f"
+    },
+    "winner" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614e7f4954b51d27e0c61a71"),
+        "name" : "Seonaid",
+        "lastname" : "McINTOSH",
+        "country" : "Great Britain",
+        "gender" : "f"
+    }
+}
+{
+    "_id" : ObjectId("6142a95e47e7dc72b8fed6ca"),
+    "name" : "shooting Men 10m Air Rifle",
+    "sport" : "shooting",
+    "discipline" : "10m Air Rifle",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-9-9",
+    "date_end" : "2021-9-9",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Asaka Shooting Range",
+    "delegate" : "mina",
+    "status" : 2,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "name" : "Sergey",
+            "lastname" : "KAMENSKIY",
+            "country" : "Russia"
+        }, 
+        {
+            "name" : "Milenko",
+            "lastname" : "SEBIC",
+            "country" : "Serbia"
+        }, 
+        {
+            "name" : "Jon-Hermann",
+            "lastname" : "HEGG",
+            "country" : "Norway"
+        }, 
+        {
+            "name" : "Petar",
+            "lastname" : "GORSA",
+            "country" : "Croatia"
+        }, 
+        {
+            "name" : "Miran",
+            "lastname" : "MARICIC",
+            "country" : "Croatia"
+        }, 
+        {
+            "name" : "Yury",
+            "lastname" : "SHCHERBATSEVICH",
+            "country" : "Belarus"
+        }, 
+        {
+            "name" : "Serhiy",
+            "lastname" : "KULISH",
+            "country" : "Ukraine"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3af4731cca44a01dad52"),
+            "name" : "Damir",
+            "lastname" : "MIKEC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3c5c731cca44a01dad74"),
+            "name" : "Milutin",
+            "lastname" : "STEFANOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e40c0731cca44a01dad86"),
+            "name" : "Omer",
+            "lastname" : "AKGUN",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4179731cca44a01dad8e"),
+            "name" : "Yusuf",
+            "lastname" : "DIKEC",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4245731cca44a01dad9d"),
+            "name" : "Ismail",
+            "lastname" : "KELES",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4507731cca44a01dadc8"),
+            "name" : "Alexey",
+            "lastname" : "ALIPOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4554731cca44a01dadd0"),
+            "name" : "Anton",
+            "lastname" : "ARISTARKHOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f3ec7020b72bb48d6f0d"),
+            "name" : "Nickolaus",
+            "lastname" : "MOWRER",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f4ba7020b72bb48d6f19"),
+            "name" : "Lucas",
+            "lastname" : "KOZENIESKY",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f4f17020b72bb48d6f1d"),
+            "name" : "William",
+            "lastname" : "SHANER",
+            "country" : "United States of America",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("61513e2167f19a42dc3328ad"),
+            "name" : "Sergey",
+            "lastname" : "KAMENSKIY",
+            "country" : "Russia"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("61513e2667f19a42dc3328ae"),
+            "name" : "Milenko",
+            "lastname" : "SEBIC",
+            "country" : "Serbia"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("61513e2767f19a42dc3328af"),
+            "name" : "Jon-Hermann",
+            "lastname" : "HEGG",
+            "country" : "Norway"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("61513e2867f19a42dc3328b0"),
+            "name" : "Petar",
+            "lastname" : "GORSA",
+            "country" : "Croatia"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("61513e2967f19a42dc3328b1"),
+            "name" : "Yury",
+            "lastname" : "SHCHERBATSEVICH",
+            "country" : "Belarus"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("61513e2b67f19a42dc3328b2"),
+            "name" : "Damir",
+            "lastname" : "MIKEC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("61513e2c67f19a42dc3328b3"),
+            "name" : "Omer",
+            "lastname" : "AKGUN",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("61513e2d67f19a42dc3328b4"),
+            "name" : "Alexey",
+            "lastname" : "ALIPOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }
+    ],
+    "bronze" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("615156f757fcee34f85c33fa"),
+        "name" : "Jon-Hermann",
+        "lastname" : "HEGG",
+        "country" : "Norway"
+    },
+    "silver" : {
+        "disciplines" : [],
+        "medals" : [],
+        "name" : "Sergey",
+        "lastname" : "KAMENSKIY",
+        "country" : "Russia"
+    },
+    "gold" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("615156f757fcee34f85c33fb"),
+        "name" : "Milenko",
+        "lastname" : "SEBIC",
+        "country" : "Serbia"
+    },
+    "winner" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("615156f757fcee34f85c33fd"),
+        "name" : "Milenko",
+        "lastname" : "SEBIC",
+        "country" : "Serbia"
+    }
+}
+{
+    "_id" : ObjectId("6142a97047e7dc72b8fed6d1"),
+    "name" : "shooting Women 10m Air Rifle",
+    "sport" : "shooting",
+    "discipline" : "10m Air Rifle",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-9-9",
+    "date_end" : "2021-9-9",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Asaka Shooting Range",
+    "delegate" : "ema",
+    "status" : 1,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2cd9731cca44a01dad03"),
+            "name" : "Seonaid",
+            "lastname" : "McINTOSH",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e389e731cca44a01dad1e"),
+            "name" : "Jovana",
+            "lastname" : "Arsovic",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e38bd731cca44a01dad23"),
+            "name" : "Zorana",
+            "lastname" : "ARUNOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3b12731cca44a01dad57"),
+            "name" : "Jasmina",
+            "lastname" : "MILOVANOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3c80731cca44a01dad79"),
+            "name" : "Sanja",
+            "lastname" : "VUKASINOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e46ad731cca44a01dade1"),
+            "name" : "Anastasiia",
+            "lastname" : "GALASHINA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e46c9731cca44a01dade5"),
+            "name" : "Vitalina",
+            "lastname" : "BATSARASHKINA ",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4707731cca44a01dadea"),
+            "name" : "Yulia",
+            "lastname" : "ZYKOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e471a731cca44a01dadee"),
+            "name" : "Yulia",
+            "lastname" : "KARIMOVA ",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f3ac7020b72bb48d6f09"),
+            "name" : "Mary Carolynn",
+            "lastname" : "TUCKER",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f4197020b72bb48d6f11"),
+            "name" : "Alexis",
+            "lastname" : "LAGAN",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f49a7020b72bb48d6f15"),
+            "name" : "Sandra",
+            "lastname" : "UPTAGRAFFT",
+            "country" : "United States of America",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523c6bc3d1071978606652"),
+            "name" : "Seonaid",
+            "lastname" : "McINTOSH",
+            "country" : "Great Britain",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523c6cc3d1071978606653"),
+            "name" : "Jovana",
+            "lastname" : "Arsovic",
+            "country" : "Serbia",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523c6ec3d1071978606654"),
+            "name" : "Anastasiia",
+            "lastname" : "GALASHINA",
+            "country" : "Russia",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523c6fc3d1071978606655"),
+            "name" : "Yulia",
+            "lastname" : "KARIMOVA ",
+            "country" : "Russia",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523c71c3d1071978606656"),
+            "name" : "Mary Carolynn",
+            "lastname" : "TUCKER",
+            "country" : "United States of America",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523c72c3d1071978606657"),
+            "name" : "Sanja",
+            "lastname" : "VUKASINOVIC",
+            "country" : "Serbia",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523c75c3d1071978606658"),
+            "name" : "Jasmina",
+            "lastname" : "MILOVANOVIC",
+            "country" : "Serbia",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523c7ec3d1071978606659"),
+            "name" : "Alexis",
+            "lastname" : "LAGAN",
+            "country" : "United States of America",
+            "gender" : "f",
+            "medals" : []
+        }
+    ],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6142a98247e7dc72b8fed6e2"),
+    "name" : "shooting Men 25m Pistol",
+    "sport" : "shooting",
+    "discipline" : "25m Pistol",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-9-9",
+    "date_end" : "2021-9-9",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Asaka Shooting Range",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3af5731cca44a01dad53"),
+            "name" : "Damir",
+            "lastname" : "MIKEC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3c2d731cca44a01dad71"),
+            "name" : "Milenko",
+            "lastname" : "SEBIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3c5d731cca44a01dad75"),
+            "name" : "Milutin",
+            "lastname" : "STEFANOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e40c0731cca44a01dad87"),
+            "name" : "Omer",
+            "lastname" : "AKGUN",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4246731cca44a01dad9e"),
+            "name" : "Ismail",
+            "lastname" : "KELES",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4555731cca44a01dadd1"),
+            "name" : "Anton",
+            "lastname" : "ARISTARKHOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f3ec7020b72bb48d6f0f"),
+            "name" : "Nickolaus",
+            "lastname" : "MOWRER",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f4ba7020b72bb48d6f1b"),
+            "name" : "Lucas",
+            "lastname" : "KOZENIESKY",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f4f17020b72bb48d6f1f"),
+            "name" : "William",
+            "lastname" : "SHANER",
+            "country" : "United States of America",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6142a99947e7dc72b8fed6eb"),
+    "name" : "shooting Women 25m Pistol",
+    "sport" : "shooting",
+    "discipline" : "25m Pistol",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-9-9",
+    "date_end" : "2021-9-9",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Asaka Shooting Range",
+    "delegate" : "mile",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2cda731cca44a01dad04"),
+            "name" : "Seonaid",
+            "lastname" : "McINTOSH",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e389f731cca44a01dad1f"),
+            "name" : "Jovana",
+            "lastname" : "Arsovic",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e38be731cca44a01dad24"),
+            "name" : "Zorana",
+            "lastname" : "ARUNOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3b13731cca44a01dad58"),
+            "name" : "Jasmina",
+            "lastname" : "MILOVANOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3c81731cca44a01dad7a"),
+            "name" : "Sanja",
+            "lastname" : "VUKASINOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e46ae731cca44a01dade2"),
+            "name" : "Anastasiia",
+            "lastname" : "GALASHINA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4721731cca44a01dadf0"),
+            "name" : "Yulia",
+            "lastname" : "KARIMOVA ",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f3ad7020b72bb48d6f0b"),
+            "name" : "Mary Carolynn",
+            "lastname" : "TUCKER",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f4197020b72bb48d6f13"),
+            "name" : "Alexis",
+            "lastname" : "LAGAN",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f49b7020b72bb48d6f17"),
+            "name" : "Sandra",
+            "lastname" : "UPTAGRAFFT",
+            "country" : "United States of America",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6142a9a947e7dc72b8fed6f1"),
+    "name" : "shooting Men 10m Air Pistol",
+    "sport" : "shooting",
+    "discipline" : "10m Air Pistol",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-9-9",
+    "date_end" : "2021-9-9",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Asaka Shooting Range",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3af6731cca44a01dad54"),
+            "name" : "Damir",
+            "lastname" : "MIKEC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3c5e731cca44a01dad76"),
+            "name" : "Milutin",
+            "lastname" : "STEFANOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e40c1731cca44a01dad88"),
+            "name" : "Omer",
+            "lastname" : "AKGUN",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4246731cca44a01dad9f"),
+            "name" : "Ismail",
+            "lastname" : "KELES",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4555731cca44a01dadd2"),
+            "name" : "Anton",
+            "lastname" : "ARISTARKHOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e46e5731cca44a01dade6"),
+            "name" : "Artem",
+            "lastname" : "CHERNOUSOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f3ed7020b72bb48d6f10"),
+            "name" : "Nickolaus",
+            "lastname" : "MOWRER",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f4bb7020b72bb48d6f1c"),
+            "name" : "Lucas",
+            "lastname" : "KOZENIESKY",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f4f47020b72bb48d6f20"),
+            "name" : "William",
+            "lastname" : "SHANER",
+            "country" : "United States of America",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6142a9ba47e7dc72b8fed700"),
+    "name" : "shooting Women 10m Air Pistol",
+    "sport" : "shooting",
+    "discipline" : "10m Air Pistol",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-9-9",
+    "date_end" : "2021-9-9",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Asaka Shooting Range",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2cda731cca44a01dad05"),
+            "name" : "Seonaid",
+            "lastname" : "McINTOSH",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e38a0731cca44a01dad20"),
+            "name" : "Jovana",
+            "lastname" : "Arsovic",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e38bf731cca44a01dad25"),
+            "name" : "Zorana",
+            "lastname" : "ARUNOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3b14731cca44a01dad59"),
+            "name" : "Jasmina",
+            "lastname" : "MILOVANOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3c82731cca44a01dad7b"),
+            "name" : "Sanja",
+            "lastname" : "VUKASINOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4708731cca44a01dadeb"),
+            "name" : "Yulia",
+            "lastname" : "ZYKOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e471b731cca44a01dadef"),
+            "name" : "Yulia",
+            "lastname" : "KARIMOVA ",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f3ae7020b72bb48d6f0c"),
+            "name" : "Mary Carolynn",
+            "lastname" : "TUCKER",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f41a7020b72bb48d6f14"),
+            "name" : "Alexis",
+            "lastname" : "LAGAN",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f49b7020b72bb48d6f18"),
+            "name" : "Sandra",
+            "lastname" : "UPTAGRAFFT",
+            "country" : "United States of America",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6142a9cc47e7dc72b8fed70a"),
+    "name" : "swimming Men 200m Freestyle",
+    "sport" : "swimming",
+    "discipline" : "200m Freestyle",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-04",
+    "time_start" : "11:00",
+    "time_end" : "20:00",
+    "location" : "Tokyo Aquatics Centre",
+    "delegate" : "",
+    "status" : 2,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "name" : "Martin",
+            "lastname" : "MALYUTIN",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "David",
+            "lastname" : "POPOVICI",
+            "country" : "Romania",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Fernando",
+            "lastname" : "SCHEFFER",
+            "country" : "Brazil",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Thomas",
+            "lastname" : "NEIL",
+            "country" : "Australia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Townley",
+            "lastname" : "HAAS",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Stefano",
+            "lastname" : "di COLA",
+            "country" : "Italy",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Nandor",
+            "lastname" : "NEMETH",
+            "country" : "Hungary",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Velimir",
+            "lastname" : "STJEPANOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2c66731cca44a01dacfd"),
+            "name" : "Joe",
+            "lastname" : "LITCHFIELD",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2c84731cca44a01dad00"),
+            "name" : "Duncan",
+            "lastname" : "SCOTT",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2e3f731cca44a01dad17"),
+            "name" : "Nikola",
+            "lastname" : "ACIN",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e38e0731cca44a01dad28"),
+            "name" : "Andrej",
+            "lastname" : "BARNA Andrej",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e396a731cca44a01dad2f"),
+            "name" : "Vuk",
+            "lastname" : "CELIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3b6b731cca44a01dad62"),
+            "name" : "Uros",
+            "lastname" : "NIKOLIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3b80731cca44a01dad65"),
+            "name" : "Vladimir",
+            "lastname" : "STJEPANOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3bb4731cca44a01dad68"),
+            "name" : "Caba",
+            "lastname" : "SILADI",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e414c731cca44a01dad8b"),
+            "name" : "Yigit",
+            "lastname" : "ASLAN",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e422e731cca44a01dad9a"),
+            "name" : "Berkay",
+            "lastname" : "OGRETIR",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4290731cca44a01dada5"),
+            "name" : "Baturlap",
+            "lastname" : "UNLU",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e42e6731cca44a01dadab"),
+            "name" : "Berke",
+            "lastname" : "SAKA",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e47ba731cca44a01dadf5"),
+            "name" : "Aleksandr",
+            "lastname" : "KRASNYKH",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e47ca731cca44a01dadf8"),
+            "name" : "Ivan",
+            "lastname" : "GIREV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e47d9731cca44a01dadfb"),
+            "name" : "Mikhail",
+            "lastname" : "VEKOVISHCHEV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e47f6731cca44a01dadfe"),
+            "name" : "Evgeny",
+            "lastname" : "RYLOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e480f731cca44a01dae01"),
+            "name" : "Kliment",
+            "lastname" : "KOLESNIKOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [ 
+        {
+            "name" : "Martin",
+            "lastname" : "MALYUTIN",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "David",
+            "lastname" : "POPOVICI",
+            "country" : "Romania",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Fernando",
+            "lastname" : "SCHEFFER",
+            "country" : "Brazil",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Thomas",
+            "lastname" : "NEIL",
+            "country" : "Australia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Townley",
+            "lastname" : "HAAS",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Stefano",
+            "lastname" : "di COLA",
+            "country" : "Italy",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Nandor",
+            "lastname" : "NEMETH",
+            "country" : "Hungary",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Velimir",
+            "lastname" : "STJEPANOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }
+    ],
+    "bronze" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614be8fba8a64448b8874d87"),
+        "name" : "David",
+        "lastname" : "POPOVICI",
+        "country" : "Romania",
+        "gender" : "m"
+    },
+    "silver" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614be8fba8a64448b8874d89"),
+        "name" : "Fernando",
+        "lastname" : "SCHEFFER",
+        "country" : "Brazil",
+        "gender" : "m"
+    },
+    "gold" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614be8fba8a64448b8874d8a"),
+        "name" : "Thomas",
+        "lastname" : "NEIL",
+        "country" : "Australia",
+        "gender" : "m"
+    },
+    "winner" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("614be8fba8a64448b8874d88"),
+        "name" : "Thomas",
+        "lastname" : "NEIL",
+        "country" : "Australia",
+        "gender" : "m"
+    }
+}
+{
+    "_id" : ObjectId("6142a9dd47e7dc72b8fed711"),
+    "name" : "swimming Women 200m Freestyle",
+    "sport" : "swimming",
+    "discipline" : "200m Freestyle",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-9-9",
+    "date_end" : "2021-9-9",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Tokyo Aquatics Centre",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6148e778c4d80f2d04b04d35"),
+            "name" : "Yufei",
+            "lastname" : "ZHANG",
+            "country" : "People's Republic of China",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2c10731cca44a01dacf7"),
+            "name" : "Anna",
+            "lastname" : "HOPKIN",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2c2e731cca44a01dacfa"),
+            "name" : "Freya",
+            "lastname" : "ANDERSON",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3981731cca44a01dad32"),
+            "name" : "Anja",
+            "lastname" : "CREVAR",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e41ad731cca44a01dad91"),
+            "name" : "Beril",
+            "lastname" : "BOCEKLER",
+            "country" : "Turkey",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e41d9731cca44a01dad94"),
+            "name" : "Deniz",
+            "lastname" : "ERTAN",
+            "country" : "Turkey",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e41f4731cca44a01dad97"),
+            "name" : "Viktoria",
+            "lastname" : "GUNES",
+            "country" : "Turkey",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4267731cca44a01dada2"),
+            "name" : "Merve",
+            "lastname" : "TUNCEL",
+            "country" : "Turkey",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e42aa731cca44a01dada8"),
+            "name" : "Defne",
+            "lastname" : "TACYILDIZ",
+            "country" : "Turkey",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4521731cca44a01dadcb"),
+            "name" : "Veronika",
+            "lastname" : "ANDRUSENKO",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4580731cca44a01dadd5"),
+            "name" : "Yuliya",
+            "lastname" : "EFIMOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e76c354b51d27e0c61a67"),
+            "name" : "Bingjie",
+            "lastname" : "LI",
+            "country" : "People's Republic of China",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e76f454b51d27e0c61a68"),
+            "name" : "Liyan",
+            "lastname" : "YU",
+            "country" : "People's Republic of China",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f60d7020b72bb48d6f23"),
+            "name" : "Emma",
+            "lastname" : "WEYANT",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f66f7020b72bb48d6f26"),
+            "name" : "Regan",
+            "lastname" : "SMITH",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f6897020b72bb48d6f29"),
+            "name" : "Rhyan Elizabeth",
+            "lastname" : "WHITE",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f69f7020b72bb48d6f2c"),
+            "name" : "Lydia",
+            "lastname" : "JACOBY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f6ca7020b72bb48d6f2f"),
+            "name" : "Lilly",
+            "lastname" : "KING",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f6f47020b72bb48d6f32"),
+            "name" : "Alex",
+            "lastname" : "WALSH",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f7087020b72bb48d6f35"),
+            "name" : "Kate",
+            "lastname" : "DOUGLASS",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f73d7020b72bb48d6f38"),
+            "name" : "Kathleen",
+            "lastname" : "LEDECKY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f7527020b72bb48d6f3b"),
+            "name" : "Erica",
+            "lastname" : "SULLIVAN",
+            "country" : "United States of America",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6142a9ef47e7dc72b8fed71b"),
+    "name" : "athletics Men 100m Running",
+    "sport" : "athletics",
+    "discipline" : "100m Running",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "03:48",
+    "time_end" : "20:00",
+    "location" : "Olympic Stadium-Track",
+    "delegate" : "kika",
+    "status" : 2,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d629f1bcafd3cc085094b"),
+            "name" : "Tyquendo",
+            "lastname" : "TRACEY",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d64ef627c664280b316e1"),
+            "name" : "Oblique",
+            "lastname" : "SEVILLE",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d6757afc86b1e14148c06"),
+            "name" : "Nathon",
+            "lastname" : "ALLEN",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d69baafc86b1e14148c0a"),
+            "name" : "Sean",
+            "lastname" : "BAILEY",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d6b289da7d82d40c25661"),
+            "name" : "Karayme",
+            "lastname" : "BARTLEY",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4393731cca44a01dadb6"),
+            "name" : "Emre Zafer",
+            "lastname" : "BARNES",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e43ca731cca44a01dadbb"),
+            "name" : "Jak Ali",
+            "lastname" : "HARVEY",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e43f5731cca44a01dadbe"),
+            "name" : "Kayhan",
+            "lastname" : "OZER",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4413731cca44a01dadc1"),
+            "name" : "Ertan",
+            "lastname" : "OZKAN",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f0667020b72bb48d6ed2"),
+            "name" : "Benard",
+            "lastname" : "KETER",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f08a7020b72bb48d6ed7"),
+            "name" : "Hillary",
+            "lastname" : "BOR",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6151345fc7524046d80c797e"),
+            "name" : "Sarthak",
+            "lastname" : "BHAMBRI",
+            "country" : "India",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("615136335070e74290e46752"),
+            "name" : "Alex",
+            "lastname" : "ANTONY",
+            "country" : "India",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615230790b257347408a84fb"),
+            "name" : "Julio",
+            "lastname" : "ARENAS",
+            "country" : "Spain",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615246ddc3d107197860665a"),
+            "name" : "Tyquendo",
+            "lastname" : "TRACEY",
+            "country" : "Jamaica",
+            "gender" : "m",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615246dfc3d107197860665b"),
+            "name" : "Emre Zafer",
+            "lastname" : "BARNES",
+            "country" : "Turkey",
+            "gender" : "m",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615246e1c3d107197860665c"),
+            "name" : "Benard",
+            "lastname" : "KETER",
+            "country" : "United States of America",
+            "gender" : "m",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615246e2c3d107197860665d"),
+            "name" : "Sarthak",
+            "lastname" : "BHAMBRI",
+            "country" : "India",
+            "gender" : "m",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615246e3c3d107197860665e"),
+            "name" : "Julio",
+            "lastname" : "ARENAS",
+            "country" : "Spain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615246f4c3d107197860665f"),
+            "name" : "Oblique",
+            "lastname" : "SEVILLE",
+            "country" : "Jamaica",
+            "gender" : "m",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615246f7c3d1071978606660"),
+            "name" : "Jak Ali",
+            "lastname" : "HARVEY",
+            "country" : "Turkey",
+            "gender" : "m",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615246f9c3d1071978606661"),
+            "name" : "Hillary",
+            "lastname" : "BOR",
+            "country" : "United States of America",
+            "gender" : "m",
+            "medals" : []
+        }
+    ],
+    "bronze" : {
+        "disciplines" : [],
+        "_id" : ObjectId("61524a87c3d107197860668d"),
+        "name" : "Emre Zafer",
+        "lastname" : "BARNES",
+        "country" : "Turkey",
+        "gender" : "m"
+    },
+    "silver" : {
+        "disciplines" : [],
+        "_id" : ObjectId("61524a87c3d107197860668f"),
+        "name" : "Jak Ali",
+        "lastname" : "HARVEY",
+        "country" : "Turkey",
+        "gender" : "m"
+    },
+    "gold" : {
+        "disciplines" : [],
+        "_id" : ObjectId("61524a87c3d1071978606690"),
+        "name" : "Tyquendo",
+        "lastname" : "TRACEY",
+        "country" : "Jamaica",
+        "gender" : "m"
+    },
+    "winner" : {
+        "disciplines" : [],
+        "_id" : ObjectId("61524a87c3d107197860668e"),
+        "name" : "Tyquendo",
+        "lastname" : "TRACEY",
+        "country" : "Jamaica",
+        "gender" : "m"
+    }
+}
+{
+    "_id" : ObjectId("6142aa0247e7dc72b8fed728"),
+    "name" : "athletics Women 100m Running",
+    "sport" : "athletics",
+    "discipline" : "100m Running",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Olympic Stadium-Track",
+    "delegate" : "kika",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d60321bcafd3cc085093d"),
+            "name" : "Elaine",
+            "lastname" : "THOMPSON-HERAH",
+            "country" : "Jamaica",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d609a1bcafd3cc0850944"),
+            "name" : "Shelly-Ann",
+            "lastname" : "FRASER-PRYCE",
+            "country" : "Jamaica",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d60c81bcafd3cc0850947"),
+            "name" : "Shericka",
+            "lastname" : "JACKSON",
+            "country" : "Jamaica",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2901731cca44a01dacdb"),
+            "name" : "Dina",
+            "lastname" : "ASHER-SMITH",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2934731cca44a01dacdf"),
+            "name" : "Daryll",
+            "lastname" : "NEITA",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1f97020b72bb48d6ef5"),
+            "name" : "Fred",
+            "lastname" : "KERLEY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("6152331bc3d107197860663e"),
+            "name" : "Laura",
+            "lastname" : "BUENO",
+            "country" : "Spain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524812c3d1071978606666"),
+            "name" : "Rafalia",
+            "lastname" : "SPANOUDAKI",
+            "country" : "Greece",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615248d8c3d107197860667f"),
+            "name" : "Christina Ioanna",
+            "lastname" : "BOURMPOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6142aa1447e7dc72b8fed731"),
+    "name" : "athletics Men 200m Running",
+    "sport" : "athletics",
+    "discipline" : "200m Running",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Olympic Stadium-Track",
+    "delegate" : "kika",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d64f4627c664280b316e3"),
+            "name" : "Oblique",
+            "lastname" : "SEVILLE",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d675dafc86b1e14148c08"),
+            "name" : "Nathon",
+            "lastname" : "ALLEN",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d69c2afc86b1e14148c0c"),
+            "name" : "Sean",
+            "lastname" : "BAILEY",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d6b2f9da7d82d40c25663"),
+            "name" : "Karayme",
+            "lastname" : "BARTLEY",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e43d5731cca44a01dadbd"),
+            "name" : "Jak Ali",
+            "lastname" : "HARVEY",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4415731cca44a01dadc3"),
+            "name" : "Ertan",
+            "lastname" : "OZKAN",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f0687020b72bb48d6ed5"),
+            "name" : "Benard",
+            "lastname" : "KETER",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f08d7020b72bb48d6ed9"),
+            "name" : "Hillary",
+            "lastname" : "BOR",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615247d7c3d1071978606662"),
+            "name" : "Miltiadis",
+            "lastname" : "TENTOGLOU",
+            "country" : "Greece",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615248aac3d1071978606679"),
+            "name" : "Stylianos",
+            "lastname" : "ARGYROPOULOS KANAKAKIS",
+            "country" : "Greece",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("6152493dc3d1071978606689"),
+            "name" : "Konstantinos",
+            "lastname" : "DOUVALIDIS",
+            "country" : "Greece",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6142aa2547e7dc72b8fed737"),
+    "name" : "athletics Women 200m Running",
+    "sport" : "athletics",
+    "discipline" : "200m Running",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Olympic Stadium-Track",
+    "delegate" : "acika",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d603c1bcafd3cc0850942"),
+            "name" : "Elaine",
+            "lastname" : "THOMPSON-HERAH",
+            "country" : "Jamaica",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d609d1bcafd3cc0850946"),
+            "name" : "Shelly-Ann",
+            "lastname" : "FRASER-PRYCE",
+            "country" : "Jamaica",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d60cb1bcafd3cc0850949"),
+            "name" : "Shericka",
+            "lastname" : "JACKSON",
+            "country" : "Jamaica",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2905731cca44a01dacdd"),
+            "name" : "Dina",
+            "lastname" : "ASHER-SMITH",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2938731cca44a01dace1"),
+            "name" : "Daryll",
+            "lastname" : "NEITA",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1fa7020b72bb48d6ef7"),
+            "name" : "Fred",
+            "lastname" : "KERLEY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523322c3d1071978606640"),
+            "name" : "Laura",
+            "lastname" : "BUENO",
+            "country" : "Spain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524814c3d1071978606668"),
+            "name" : "Rafalia",
+            "lastname" : "SPANOUDAKI",
+            "country" : "Greece",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615248d9c3d1071978606681"),
+            "name" : "Christina Ioanna",
+            "lastname" : "BOURMPOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614577fa47e7dc72b8ff925e"),
+    "name" : "swimming Men 100m Butterfly",
+    "sport" : "swimming",
+    "discipline" : "100m Butterfly",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-02",
+    "date_end" : "2021-09-02",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Tokyo Aquatics Centre",
+    "delegate" : "jana",
+    "status" : 1,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "name" : "Martin",
+            "lastname" : "MALYUTIN",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "David",
+            "lastname" : "POPOVICI",
+            "country" : "Romania",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Fernando",
+            "lastname" : "SCHEFFER",
+            "country" : "Brazil",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Thomas",
+            "lastname" : "NEIL",
+            "country" : "Australia",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Townley",
+            "lastname" : "HAAS",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Stefano",
+            "lastname" : "di COLA",
+            "country" : "Italy",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Nandor",
+            "lastname" : "NEMETH",
+            "country" : "Hungary",
+            "gender" : "m"
+        }, 
+        {
+            "name" : "Velimir",
+            "lastname" : "STJEPANOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2c65731cca44a01dacfb"),
+            "name" : "Joe",
+            "lastname" : "LITCHFIELD",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2c83731cca44a01dacfe"),
+            "name" : "Duncan",
+            "lastname" : "SCOTT",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2e3e731cca44a01dad15"),
+            "name" : "Nikola",
+            "lastname" : "ACIN",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e38de731cca44a01dad26"),
+            "name" : "Andrej",
+            "lastname" : "BARNA Andrej",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3968731cca44a01dad2d"),
+            "name" : "Vuk",
+            "lastname" : "CELIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3b6a731cca44a01dad60"),
+            "name" : "Uros",
+            "lastname" : "NIKOLIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3b7e731cca44a01dad63"),
+            "name" : "Vladimir",
+            "lastname" : "STJEPANOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3bb2731cca44a01dad66"),
+            "name" : "Caba",
+            "lastname" : "SILADI",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e414b731cca44a01dad89"),
+            "name" : "Yigit",
+            "lastname" : "ASLAN",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e422d731cca44a01dad98"),
+            "name" : "Berkay",
+            "lastname" : "OGRETIR",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e428e731cca44a01dada3"),
+            "name" : "Baturlap",
+            "lastname" : "UNLU",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e42e4731cca44a01dada9"),
+            "name" : "Berke",
+            "lastname" : "SAKA",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e47a5731cca44a01dadf1"),
+            "name" : "Mikhail",
+            "lastname" : "DOVGALYUK",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e47b9731cca44a01dadf3"),
+            "name" : "Aleksandr",
+            "lastname" : "KRASNYKH",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e47c9731cca44a01dadf6"),
+            "name" : "Ivan",
+            "lastname" : "GIREV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e47d8731cca44a01dadf9"),
+            "name" : "Mikhail",
+            "lastname" : "VEKOVISHCHEV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e47f5731cca44a01dadfc"),
+            "name" : "Evgeny",
+            "lastname" : "RYLOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e480e731cca44a01dadff"),
+            "name" : "Kliment",
+            "lastname" : "KOLESNIKOV",
+            "country" : "Russia",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e6554c1d01839f4540fca"),
+            "name" : "Martin",
+            "lastname" : "MALYUTIN",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e6555c1d01839f4540fcb"),
+            "name" : "David",
+            "lastname" : "POPOVICI",
+            "country" : "Romania",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e6557c1d01839f4540fcc"),
+            "name" : "Fernando",
+            "lastname" : "SCHEFFER",
+            "country" : "Brazil",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e6559c1d01839f4540fcd"),
+            "name" : "Thomas",
+            "lastname" : "NEIL",
+            "country" : "Australia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e655cc1d01839f4540fce"),
+            "name" : "Stefano",
+            "lastname" : "di COLA",
+            "country" : "Italy",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e655fc1d01839f4540fcf"),
+            "name" : "Velimir",
+            "lastname" : "STJEPANOVIC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e6564c1d01839f4540fd0"),
+            "name" : "Yigit",
+            "lastname" : "ASLAN",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e657fc1d01839f4540fd1"),
+            "name" : "Nandor",
+            "lastname" : "NEMETH",
+            "country" : "Hungary",
+            "gender" : "m"
+        }
+    ],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6145788747e7dc72b8ff9283"),
+    "name" : "swimming Women 100m Butterfly",
+    "sport" : "swimming",
+    "discipline" : "100m Butterfly",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-02",
+    "date_end" : "2021-09-02",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Tokyo Aquatics Centre",
+    "delegate" : "jana",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6148e76fc4d80f2d04b04d33"),
+            "name" : "Yufei",
+            "lastname" : "ZHANG",
+            "country" : "People's Republic of China",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2c0f731cca44a01dacf5"),
+            "name" : "Anna",
+            "lastname" : "HOPKIN",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2c2d731cca44a01dacf8"),
+            "name" : "Freya",
+            "lastname" : "ANDERSON",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e397f731cca44a01dad30"),
+            "name" : "Anja",
+            "lastname" : "CREVAR",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e41ac731cca44a01dad8f"),
+            "name" : "Beril",
+            "lastname" : "BOCEKLER",
+            "country" : "Turkey",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e41d7731cca44a01dad92"),
+            "name" : "Deniz",
+            "lastname" : "ERTAN",
+            "country" : "Turkey",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e41f2731cca44a01dad95"),
+            "name" : "Viktoria",
+            "lastname" : "GUNES",
+            "country" : "Turkey",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4266731cca44a01dada0"),
+            "name" : "Merve",
+            "lastname" : "TUNCEL",
+            "country" : "Turkey",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e42a8731cca44a01dada6"),
+            "name" : "Defne",
+            "lastname" : "TACYILDIZ",
+            "country" : "Turkey",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4520731cca44a01dadc9"),
+            "name" : "Veronika",
+            "lastname" : "ANDRUSENKO",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e457f731cca44a01dadd3"),
+            "name" : "Yuliya",
+            "lastname" : "EFIMOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e76c154b51d27e0c61a65"),
+            "name" : "Bingjie",
+            "lastname" : "LI",
+            "country" : "People's Republic of China",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f60c7020b72bb48d6f21"),
+            "name" : "Emma",
+            "lastname" : "WEYANT",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f66f7020b72bb48d6f24"),
+            "name" : "Regan",
+            "lastname" : "SMITH",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f6887020b72bb48d6f27"),
+            "name" : "Rhyan Elizabeth",
+            "lastname" : "WHITE",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f69d7020b72bb48d6f2a"),
+            "name" : "Lydia",
+            "lastname" : "JACOBY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f6c87020b72bb48d6f2d"),
+            "name" : "Lilly",
+            "lastname" : "KING",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f6f47020b72bb48d6f30"),
+            "name" : "Alex",
+            "lastname" : "WALSH",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f7067020b72bb48d6f33"),
+            "name" : "Kate",
+            "lastname" : "DOUGLASS",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f73c7020b72bb48d6f36"),
+            "name" : "Kathleen",
+            "lastname" : "LEDECKY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f7527020b72bb48d6f39"),
+            "name" : "Erica",
+            "lastname" : "SULLIVAN",
+            "country" : "United States of America",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("6146ac0647e7dc72b8ffcd70"),
+    "name" : "athletics Women Marathon",
+    "sport" : "athletics",
+    "discipline" : "Marathon",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-9-9",
+    "date_end" : "2021-9-9",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Sapporo Odori Park",
+    "delegate" : "veljko",
+    "status" : 2,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "name" : "Peres",
+            "lastname" : "JEPCHIRCHIR",
+            "country" : "Kenya"
+        }, 
+        {
+            "name" : "Brigid",
+            "lastname" : "KOSGEI",
+            "country" : "Kenya"
+        }, 
+        {
+            "name" : "Molly",
+            "lastname" : "SEIDEL",
+            "country" : "United States of America"
+        }, 
+        {
+            "name" : "Roza",
+            "lastname" : "DEREJE",
+            "country" : "Ethiopia"
+        }, 
+        {
+            "name" : "Volha",
+            "lastname" : "MAZURONAK",
+            "country" : "Belarus"
+        }, 
+        {
+            "name" : "Melat Yisak",
+            "lastname" : "KEJETA",
+            "country" : "Germany"
+        }, 
+        {
+            "name" : "Eunice Chebichii",
+            "lastname" : "CHUMBA",
+            "country" : "Bahrain"
+        }, 
+        {
+            "name" : "Mao",
+            "lastname" : "ICHIYAMA",
+            "country" : "Japan"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e297e731cca44a01dace3"),
+            "name" : "Stephanie",
+            "lastname" : "DAVIS",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e43b1731cca44a01dadb9"),
+            "name" : "Meryem",
+            "lastname" : "ERDOGAN",
+            "country" : "Turkey",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [ 
+        {
+            "name" : "Peres",
+            "lastname" : "JEPCHIRCHIR",
+            "country" : "Kenya"
+        }, 
+        {
+            "name" : "Brigid",
+            "lastname" : "KOSGEI",
+            "country" : "Kenya"
+        }, 
+        {
+            "name" : "Molly",
+            "lastname" : "SEIDEL",
+            "country" : "United States of America"
+        }, 
+        {
+            "name" : "Roza",
+            "lastname" : "DEREJE",
+            "country" : "Ethiopia"
+        }, 
+        {
+            "name" : "Volha",
+            "lastname" : "MAZURONAK",
+            "country" : "Belarus"
+        }, 
+        {
+            "name" : "Melat Yisak",
+            "lastname" : "KEJETA",
+            "country" : "Germany"
+        }, 
+        {
+            "name" : "Eunice Chebichii",
+            "lastname" : "CHUMBA",
+            "country" : "Bahrain"
+        }, 
+        {
+            "name" : "Mao",
+            "lastname" : "ICHIYAMA",
+            "country" : "Japan"
+        }
+    ],
+    "bronze" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("6148eacd8e9a052fb0fcc72d"),
+        "name" : "Molly",
+        "lastname" : "SEIDEL",
+        "country" : "United States of America"
+    },
+    "silver" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("6148eacd8e9a052fb0fcc730"),
+        "name" : "Roza",
+        "lastname" : "DEREJE",
+        "country" : "Ethiopia"
+    },
+    "gold" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("6148eacd8e9a052fb0fcc72e"),
+        "name" : "Mao",
+        "lastname" : "ICHIYAMA",
+        "country" : "Japan"
+    },
+    "winner" : {
+        "disciplines" : [],
+        "medals" : [],
+        "_id" : ObjectId("6148eacd8e9a052fb0fcc72f"),
+        "name" : "Mao",
+        "lastname" : "ICHIYAMA",
+        "country" : "Japan"
+    }
+}
+{
+    "_id" : ObjectId("61481de647e7dc72b80011cf"),
+    "name" : "athletics Men High Jump",
+    "sport" : "athletics",
+    "discipline" : "High Jump",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Olympic Stadium - High Jump",
+    "delegate" : "boka",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("61481e5b41ee7914bc4901d0"),
+            "name" : "Mikhail",
+            "lastname" : "AKIMENKO",
+            "country" : "Russia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e29f8731cca44a01dace7"),
+            "name" : "Tom",
+            "lastname" : "GALE",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150efe27020b72bb48d6eca"),
+            "name" : "Juvaughn",
+            "lastname" : "HARRISON",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f0127020b72bb48d6ecd"),
+            "name" : "Shelby",
+            "lastname" : "McEWEN",
+            "country" : "United States of America",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a99a847e7dc72b80084d8"),
+    "name" : "cycling Men 225km Road Race",
+    "sport" : "cycling",
+    "discipline" : "225km Road Race",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-09",
+    "date_end" : "2021-09-09",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Fuji International Speedway",
+    "delegate" : "boka",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2b47731cca44a01dacef"),
+            "name" : "Geraint",
+            "lastname" : "THOMAS",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2b88731cca44a01dacf1"),
+            "name" : "Tao",
+            "lastname" : "GEOGHEGAN HART",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f2777020b72bb48d6efd"),
+            "name" : "Brandon",
+            "lastname" : "McNULTY",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f28c7020b72bb48d6eff"),
+            "name" : "Lawson",
+            "lastname" : "CRADDOCK",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("6152366fc3d1071978606641"),
+            "name" : "Gorka",
+            "lastname" : "IZAGIRRE INSAUSTI",
+            "country" : "Spain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523683c3d1071978606643"),
+            "name" : "Alejandro",
+            "lastname" : "VALVERDE",
+            "country" : "Spain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("6152369ec3d1071978606645"),
+            "name" : "Jesus",
+            "lastname" : "HERRADA",
+            "country" : "Spain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615236bcc3d1071978606647"),
+            "name" : "Jon",
+            "lastname" : "IZAGIRRE INSAUSTI",
+            "country" : "Spain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615236d0c3d1071978606649"),
+            "name" : "Omar",
+            "lastname" : "FRAILE MATARRANZ",
+            "country" : "Spain",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a99a847e7dc72b80084db"),
+    "name" : "cycling Women 225km Road Race",
+    "sport" : "cycling",
+    "discipline" : "225km Road Race",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-9-9",
+    "date_end" : "2021-9-9",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Fuji International Speedway",
+    "delegate" : "ficolini",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2bb9731cca44a01dacf3"),
+            "name" : "Anna",
+            "lastname" : "SHACKLEY",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e453b731cca44a01dadcc"),
+            "name" : "Nataliia",
+            "lastname" : "ANTONOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4625731cca44a01dadd8"),
+            "name" : "Natalia",
+            "lastname" : "AFREMOVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f2c27020b72bb48d6f01"),
+            "name" : "Coryn",
+            "lastname" : "RIVERA",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f2d67020b72bb48d6f03"),
+            "name" : "Leah",
+            "lastname" : "THOMAS",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f2ee7020b72bb48d6f05"),
+            "name" : "Chloe",
+            "lastname" : "DYGERT",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f2fe7020b72bb48d6f07"),
+            "name" : "Ruth",
+            "lastname" : "WINDER",
+            "country" : "United States of America",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523715c3d107197860664b"),
+            "name" : "Anna",
+            "lastname" : "SHACKLEY",
+            "country" : "Great Britain",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523717c3d107197860664c"),
+            "name" : "Nataliia",
+            "lastname" : "ANTONOVA",
+            "country" : "Russia",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523718c3d107197860664d"),
+            "name" : "Natalia",
+            "lastname" : "AFREMOVA",
+            "country" : "Russia",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523718c3d107197860664e"),
+            "name" : "Coryn",
+            "lastname" : "RIVERA",
+            "country" : "United States of America",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61523719c3d107197860664f"),
+            "name" : "Leah",
+            "lastname" : "THOMAS",
+            "country" : "United States of America",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("6152371ac3d1071978606650"),
+            "name" : "Chloe",
+            "lastname" : "DYGERT",
+            "country" : "United States of America",
+            "gender" : "f",
+            "medals" : []
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("6152371bc3d1071978606651"),
+            "name" : "Ruth",
+            "lastname" : "WINDER",
+            "country" : "United States of America",
+            "gender" : "f",
+            "medals" : []
+        }
+    ],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ac947e7dc72b800854c"),
+    "name" : "athletics Men Marathon",
+    "sport" : "athletics",
+    "discipline" : "Marathon",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Sapporo Odori Park",
+    "delegate" : "veljko",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e29bd731cca44a01dace5"),
+            "name" : "Chris",
+            "lastname" : "Thompson",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e42ff731cca44a01dadac"),
+            "name" : "Yavuz",
+            "lastname" : "AGRALI",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4333731cca44a01dadb0"),
+            "name" : "Polat Kemboi",
+            "lastname" : "ARIKAN",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4427731cca44a01dadc4"),
+            "name" : "Sahin",
+            "lastname" : "SENODUNCU",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1337020b72bb48d6ee3"),
+            "name" : "Reggie",
+            "lastname" : "JAGERS",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150fb907020b72bb48d6f4e"),
+            "name" : "Yemaneberhan",
+            "lastname" : "CRIPPA",
+            "country" : "Italy",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("6152488bc3d1071978606678"),
+            "name" : "Michail",
+            "lastname" : "ANASTASAKIS",
+            "country" : "Greece",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9b9647e7dc72b80085b7"),
+    "name" : "athletics Men 400m Running",
+    "sport" : "athletics",
+    "discipline" : "400m Running",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-09",
+    "date_end" : "2021-09-09",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium-Track",
+    "delegate" : "acika",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d665001d3f040e04e6950"),
+            "name" : "Oblique",
+            "lastname" : "SEVILLE",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d676aafc86b1e14148c09"),
+            "name" : "Nathon",
+            "lastname" : "ALLEN",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d69c8afc86b1e14148c0d"),
+            "name" : "Sean",
+            "lastname" : "BAILEY",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d6b379da7d82d40c25664"),
+            "name" : "Karayme",
+            "lastname" : "BARTLEY",
+            "country" : "Jamaica",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f0697020b72bb48d6ed6"),
+            "name" : "Benard",
+            "lastname" : "KETER",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f08e7020b72bb48d6eda"),
+            "name" : "Hillary",
+            "lastname" : "BOR",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615247d8c3d1071978606664"),
+            "name" : "Miltiadis",
+            "lastname" : "TENTOGLOU",
+            "country" : "Greece",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615248abc3d107197860667b"),
+            "name" : "Stylianos",
+            "lastname" : "ARGYROPOULOS KANAKAKIS",
+            "country" : "Greece",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("6152493ec3d107197860668a"),
+            "name" : "Konstantinos",
+            "lastname" : "DOUVALIDIS",
+            "country" : "Greece",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9b9647e7dc72b80085ba"),
+    "name" : "athletics Women 400m Running",
+    "sport" : "athletics",
+    "discipline" : "400m Running",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-09",
+    "date_end" : "2021-09-09",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium-Track",
+    "delegate" : "acika",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d60421bcafd3cc0850943"),
+            "name" : "Elaine",
+            "lastname" : "THOMPSON-HERAH",
+            "country" : "Jamaica",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614d60d01bcafd3cc085094a"),
+            "name" : "Shericka",
+            "lastname" : "JACKSON",
+            "country" : "Jamaica",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1757020b72bb48d6ee8"),
+            "name" : "Dalilah",
+            "lastname" : "MUHAMMAD",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1fb7020b72bb48d6ef8"),
+            "name" : "Fred",
+            "lastname" : "KERLEY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524815c3d1071978606669"),
+            "name" : "Rafalia",
+            "lastname" : "SPANOUDAKI",
+            "country" : "Greece",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615248dac3d1071978606682"),
+            "name" : "Christina Ioanna",
+            "lastname" : "BOURMPOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9b9647e7dc72b80085bd"),
+    "name" : "athletics Men 800m Running",
+    "sport" : "athletics",
+    "discipline" : "800m Running",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium-Track",
+    "delegate" : "ivo",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f08f7020b72bb48d6edb"),
+            "name" : "Hillary",
+            "lastname" : "BOR",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615247dac3d1071978606665"),
+            "name" : "Miltiadis",
+            "lastname" : "TENTOGLOU",
+            "country" : "Greece",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615248acc3d107197860667c"),
+            "name" : "Stylianos",
+            "lastname" : "ARGYROPOULOS KANAKAKIS",
+            "country" : "Greece",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("6152493fc3d107197860668b"),
+            "name" : "Konstantinos",
+            "lastname" : "DOUVALIDIS",
+            "country" : "Greece",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9b9647e7dc72b80085c0"),
+    "name" : "athletics Women 800m Running",
+    "sport" : "athletics",
+    "discipline" : "800m Running",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium-Track",
+    "delegate" : "ivo",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e290c731cca44a01dacde"),
+            "name" : "Dina",
+            "lastname" : "ASHER-SMITH",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e293b731cca44a01dace2"),
+            "name" : "Daryll",
+            "lastname" : "NEITA",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1777020b72bb48d6eea"),
+            "name" : "Dalilah",
+            "lastname" : "MUHAMMAD",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1907020b72bb48d6eec"),
+            "name" : "Raevyn",
+            "lastname" : "ROGERS",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1fc7020b72bb48d6ef9"),
+            "name" : "Fred",
+            "lastname" : "KERLEY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524815c3d107197860666a"),
+            "name" : "Rafalia",
+            "lastname" : "SPANOUDAKI",
+            "country" : "Greece",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615248dcc3d1071978606684"),
+            "name" : "Christina Ioanna",
+            "lastname" : "BOURMPOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9b9647e7dc72b80085c3"),
+    "name" : "athletics Men 5000m Running",
+    "sport" : "athletics",
+    "discipline" : "5000m Running",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium-Track",
+    "delegate" : "ivo",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615248adc3d107197860667d"),
+            "name" : "Stylianos",
+            "lastname" : "ARGYROPOULOS KANAKAKIS",
+            "country" : "Greece",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("6152493fc3d107197860668c"),
+            "name" : "Konstantinos",
+            "lastname" : "DOUVALIDIS",
+            "country" : "Greece",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9b9647e7dc72b80085c6"),
+    "name" : "athletics Women 5000m Running",
+    "sport" : "athletics",
+    "discipline" : "5000m Running",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium-Track",
+    "delegate" : "maja",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f0f27020b72bb48d6edc"),
+            "name" : "Cory Ann",
+            "lastname" : "McGEE",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1787020b72bb48d6eeb"),
+            "name" : "Dalilah",
+            "lastname" : "MUHAMMAD",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1927020b72bb48d6eee"),
+            "name" : "Raevyn",
+            "lastname" : "ROGERS",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524816c3d107197860666b"),
+            "name" : "Rafalia",
+            "lastname" : "SPANOUDAKI",
+            "country" : "Greece",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615248dcc3d1071978606685"),
+            "name" : "Christina Ioanna",
+            "lastname" : "BOURMPOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9b9647e7dc72b80085c9"),
+    "name" : "athletics Men 10000m Running",
+    "sport" : "athletics",
+    "discipline" : "10000m Running",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium-Track",
+    "delegate" : "maja",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615248aec3d107197860667e"),
+            "name" : "Stylianos",
+            "lastname" : "ARGYROPOULOS KANAKAKIS",
+            "country" : "Greece",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9b9647e7dc72b80085cc"),
+    "name" : "athletics Women 10000m Running",
+    "sport" : "athletics",
+    "discipline" : "10000m Running",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium-Track",
+    "delegate" : "maja",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f0f47020b72bb48d6ede"),
+            "name" : "Cory Ann",
+            "lastname" : "McGEE",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("615248ddc3d1071978606686"),
+            "name" : "Christina Ioanna",
+            "lastname" : "BOURMPOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b800866c"),
+    "name" : "athletics Men Long Jump",
+    "sport" : "athletics",
+    "discipline" : "Long Jump",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Long Jump",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150efe57020b72bb48d6ecc"),
+            "name" : "Juvaughn",
+            "lastname" : "HARRISON",
+            "country" : "United States of America",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b800866f"),
+    "name" : "athletics Women Long Jump",
+    "sport" : "athletics",
+    "discipline" : "Long Jump",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Long Jump",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3cca731cca44a01dad7e"),
+            "name" : "Ivana",
+            "lastname" : "SPANOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524865c3d107197860666e"),
+            "name" : "Chrysoula",
+            "lastname" : "ANAGNOSTOPOULOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b8008672"),
+    "name" : "athletics Men Triple Jump",
+    "sport" : "athletics",
+    "discipline" : "Triple Jump",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Triple Jump",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "name" : "Pedro",
+            "lastname" : "ZHU",
+            "country" : "People's Republic of China"
+        }, 
+        {
+            "name" : "Yaming",
+            "lastname" : "PICHARDO",
+            "country" : "Portugal"
+        }, 
+        {
+            "name" : "Hugues Fabrice",
+            "lastname" : "ZANGO",
+            "country" : "Burkina Faso"
+        }, 
+        {
+            "name" : "Will",
+            "lastname" : "CLAYE",
+            "country" : "United States of America"
+        }, 
+        {
+            "name" : "Yasser Mohamed",
+            "lastname" : "TRIKI",
+            "country" : "Algeria"
+        }, 
+        {
+            "name" : "Necati",
+            "lastname" : "ER",
+            "country" : "Turkey"
+        }, 
+        {
+            "name" : "Donald",
+            "lastname" : "SCOTT",
+            "country" : "United States of America"
+        }, 
+        {
+            "name" : "Yaoqing",
+            "lastname" : "FANG",
+            "country" : "People's Republic of China"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b8008675"),
+    "name" : "athletics Women Triple Jump",
+    "sport" : "athletics",
+    "discipline" : "Triple Jump",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Triple Jump",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524866c3d107197860666f"),
+            "name" : "Chrysoula",
+            "lastname" : "ANAGNOSTOPOULOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b8008678"),
+    "name" : "athletics Men Pole Vault",
+    "sport" : "athletics",
+    "discipline" : "Pole Vault",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Pole Vault",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b800867b"),
+    "name" : "athletics Women Pole Vault",
+    "sport" : "athletics",
+    "discipline" : "Pole Vault",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Pole Vault",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e45e7731cca44a01dadd6"),
+            "name" : "Anzhelika",
+            "lastname" : "SIDOROVA",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524867c3d1071978606670"),
+            "name" : "Chrysoula",
+            "lastname" : "ANAGNOSTOPOULOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b800867e"),
+    "name" : "athletics Men Shot Put",
+    "sport" : "athletics",
+    "discipline" : "Shot Put",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Shot Put",
+    "delegate" : "nemanja",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2ae3731cca44a01daced"),
+            "name" : "Scott",
+            "lastname" : "LINCOLN",
+            "country" : "Great Britain",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3cab731cca44a01dad7c"),
+            "name" : "Asmir",
+            "lastname" : "KOLASINAC",
+            "country" : "Serbia",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e759354b51d27e0c61a5b"),
+            "name" : "Lijiao",
+            "lastname" : "GONG",
+            "country" : "People's Republic of China",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e75a754b51d27e0c61a5d"),
+            "name" : "Yang",
+            "lastname" : "GAO",
+            "country" : "People's Republic of China",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b8008681"),
+    "name" : "athletics Women Shot Put",
+    "sport" : "athletics",
+    "discipline" : "Shot Put",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Shot Put",
+    "delegate" : "nemanja",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4367731cca44a01dadb4"),
+            "name" : "Emel",
+            "lastname" : "DERELI",
+            "country" : "Turkey",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1b17020b72bb48d6eef"),
+            "name" : "Raven",
+            "lastname" : "SAUNDERS",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1d57020b72bb48d6ef2"),
+            "name" : "Jessica",
+            "lastname" : "RAMSEY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524868c3d1071978606671"),
+            "name" : "Chrysoula",
+            "lastname" : "ANAGNOSTOPOULOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b8008684"),
+    "name" : "athletics Men Discus Throw",
+    "sport" : "athletics",
+    "discipline" : "Discus Throw",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Long Throws",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f0397020b72bb48d6ecf"),
+            "name" : "Sam",
+            "lastname" : "MATTIS",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f12f7020b72bb48d6edf"),
+            "name" : "Reggie",
+            "lastname" : "JAGERS",
+            "country" : "United States of America",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b8008687"),
+    "name" : "athletics Women Discus Throw",
+    "sport" : "athletics",
+    "discipline" : "Discus Throw",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Long Throws",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3cf7731cca44a01dad82"),
+            "name" : "Dragana",
+            "lastname" : "TOMASEVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1517020b72bb48d6ee4"),
+            "name" : "Rachel",
+            "lastname" : "DINCOFF",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1b47020b72bb48d6ef1"),
+            "name" : "Raven",
+            "lastname" : "SAUNDERS",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1d77020b72bb48d6ef4"),
+            "name" : "Jessica",
+            "lastname" : "RAMSEY",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524868c3d1071978606672"),
+            "name" : "Chrysoula",
+            "lastname" : "ANAGNOSTOPOULOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b800868a"),
+    "name" : "athletics Men Hammer Throw",
+    "sport" : "athletics",
+    "discipline" : "Hammer Throw",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Long Throws",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4318731cca44a01dadae"),
+            "name" : "Esref",
+            "lastname" : "APAK",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4353731cca44a01dadb2"),
+            "name" : "Ozkan",
+            "lastname" : "BALTACI",
+            "country" : "Turkey",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f03b7020b72bb48d6ed1"),
+            "name" : "Sam",
+            "lastname" : "MATTIS",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1317020b72bb48d6ee1"),
+            "name" : "Reggie",
+            "lastname" : "JAGERS",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f2177020b72bb48d6efa"),
+            "name" : "Alex",
+            "lastname" : "YOUNG",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524888c3d1071978606675"),
+            "name" : "Michail",
+            "lastname" : "ANASTASAKIS",
+            "country" : "Greece",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b800868d"),
+    "name" : "athletics Women Hammer Throw",
+    "sport" : "athletics",
+    "discipline" : "Hammer Throw",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Long Throws",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e75cb54b51d27e0c61a5f"),
+            "name" : "Zheng",
+            "lastname" : "WANG",
+            "country" : "People's Republic of China",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1537020b72bb48d6ee6"),
+            "name" : "Rachel",
+            "lastname" : "DINCOFF",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524869c3d1071978606673"),
+            "name" : "Chrysoula",
+            "lastname" : "ANAGNOSTOPOULOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b8008690"),
+    "name" : "athletics Men Javelin Throw",
+    "sport" : "athletics",
+    "discipline" : "Javelin Throw",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Long Throws",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1327020b72bb48d6ee2"),
+            "name" : "Reggie",
+            "lastname" : "JAGERS",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f2187020b72bb48d6efc"),
+            "name" : "Alex",
+            "lastname" : "YOUNG",
+            "country" : "United States of America",
+            "gender" : "m"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("6152488ac3d1071978606677"),
+            "name" : "Michail",
+            "lastname" : "ANASTASAKIS",
+            "country" : "Greece",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9ce747e7dc72b8008693"),
+    "name" : "athletics Women Javelin Throw",
+    "sport" : "athletics",
+    "discipline" : "Javelin Throw",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Olympic Stadium - Long Throws",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e3ce1731cca44a01dad80"),
+            "name" : "Marija",
+            "lastname" : "VUCENOVIC",
+            "country" : "Serbia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e755054b51d27e0c61a57"),
+            "name" : "Shiying",
+            "lastname" : "LIU",
+            "country" : "People's Republic of China",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e756854b51d27e0c61a59"),
+            "name" : "Huihui",
+            "lastname" : "LYU",
+            "country" : "People's Republic of China",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150f1547020b72bb48d6ee7"),
+            "name" : "Rachel",
+            "lastname" : "DINCOFF",
+            "country" : "United States of America",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("6152486ac3d1071978606674"),
+            "name" : "Chrysoula",
+            "lastname" : "ANAGNOSTOPOULOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9d9a47e7dc72b80086fb"),
+    "name" : "athletics Men 20km Race Walk",
+    "sport" : "athletics",
+    "discipline" : "20km Race Walk",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Sapporo Odori Park",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150fb8d7020b72bb48d6f4b"),
+            "name" : "Yemaneberhan",
+            "lastname" : "CRIPPA",
+            "country" : "Italy",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9d9a47e7dc72b80086fe"),
+    "name" : "athletics Women 20km Race Walk",
+    "sport" : "athletics",
+    "discipline" : "20km Race Walk",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Sapporo Odori Park",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e764454b51d27e0c61a61"),
+            "name" : "Hong",
+            "lastname" : "LIU",
+            "country" : "People's Republic of China",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e765c54b51d27e0c61a63"),
+            "name" : "Jiayu",
+            "lastname" : "YANG",
+            "country" : "People's Republic of China",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9d9a47e7dc72b8008701"),
+    "name" : "athletics Men 50km Race Walk",
+    "sport" : "athletics",
+    "discipline" : "50km Race Walk",
+    "gender" : "m",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Sapporo Odori Park",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("6150fb8f7020b72bb48d6f4d"),
+            "name" : "Yemaneberhan",
+            "lastname" : "CRIPPA",
+            "country" : "Italy",
+            "gender" : "m"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614a9d9a47e7dc72b8008704"),
+    "name" : "athletics Women 50km Race Walk",
+    "sport" : "athletics",
+    "discipline" : "50km Race Walk",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "",
+    "date_end" : "",
+    "time_start" : "",
+    "time_end" : "",
+    "location" : "Sapporo Odori Park",
+    "delegate" : "",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
+{
+    "_id" : ObjectId("614d019e47e7dc72b800d135"),
+    "name" : "athletics Women High Jump",
+    "sport" : "athletics",
+    "discipline" : "High Jump",
+    "gender" : "f",
+    "kind" : 0,
+    "level" : [ 
+        "Final"
+    ],
+    "date_start" : "2021-09-01",
+    "date_end" : "2021-09-01",
+    "time_start" : "15:00",
+    "time_end" : "20:00",
+    "location" : "Olympic Stadium - High Jump",
+    "delegate" : "boka",
+    "status" : 0,
+    "num_par" : 8,
+    "competitor_A" : "",
+    "competitor_B" : "",
+    "to_apply" : [ 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2a34731cca44a01dace9"),
+            "name" : "Katarina",
+            "lastname" : "JOHNSON-THOMPSON",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e2aaf731cca44a01daceb"),
+            "name" : "Sophie",
+            "lastname" : "McKINNA",
+            "country" : "Great Britain",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "medals" : [],
+            "_id" : ObjectId("614e4661731cca44a01daddd"),
+            "name" : "Mariya",
+            "lastname" : "LASITSKENE",
+            "country" : "Russia",
+            "gender" : "f"
+        }, 
+        {
+            "disciplines" : [],
+            "_id" : ObjectId("61524864c3d107197860666c"),
+            "name" : "Chrysoula",
+            "lastname" : "ANAGNOSTOPOULOU",
+            "country" : "Greece",
+            "gender" : "f"
+        }
+    ],
+    "participants" : [],
+    "bronze" : {},
+    "silver" : {},
+    "gold" : {},
+    "winner" : {}
+}
