@@ -1,0 +1,135 @@
+<h2>Form a competition for {{name_of_sport}}:</h2>
+<table>
+    <tr>
+        <td>Discipline:</td>
+        <td>
+            <select name='choosen_discipline' [(ngModel)]='choosen_discipline' (ngModelChange)="get_locations_for_discipline()" id="selectid" class="form-control-mb-12">
+                <option value="">---Please select---</option>
+                <option *ngFor='let c of disciplines'>{{c.name}}</option>
+            </select>        
+        </td>
+    </tr>
+    <tr>
+        <td>Gender:</td>
+        <td>
+            <select name='gender' [(ngModel)]='gender'>
+                <option value="m">men</option>
+                <option value="f">female</option>
+            </select>        
+        </td>
+    </tr>
+    <tr>
+        <td>Start date:</td>
+        <td>
+            <input type='date' name='start_date' [(ngModel)]='start_date' min="2020-01-01">
+            <!-- <span style='color: rgb(179, 99, 99)'>{{format}}</span> -->
+        </td>
+    </tr>
+    <tr>
+        <td>End date:</td>
+        <td>
+            <input type='date' name='end_date' [(ngModel)]='end_date'>
+            <!-- <span style='color: rgb(204, 102, 102)2)'>{{format}}</span> -->
+        </td>
+    </tr>
+    <tr>
+        <td>Location:</td>
+        <td>
+            <select name='lctn' [(ngModel)]='lctn_name'>
+                <option value="">---Please select---</option>
+                <option *ngFor='let c of location_for_this_sport'>{{c.name}}</option>
+            </select>        
+        </td>
+    </tr>
+    <tr>
+        <div *ngIf="the_disc_is_chosen==0; then thenBlock else elseBlock"></div>
+        <ng-template #thenBlock>
+            <tr *ngIf="kind==2">
+                <td>Individual or team:</td>
+                <td>
+                    <input type='radio' name='kind' [(ngModel)]='kind' value="0">individual
+                    <input type='radio' name='kind' [(ngModel)]='kind' value="1">team
+                </td>
+            </tr>
+            <tr *ngIf="kind==0">
+                <td>This is an exclusively individual sport(discipline).</td>
+            </tr>
+            <tr *ngIf="kind==1">
+                <td>This is exclusively a team sport(discipline).</td>
+            </tr>
+        </ng-template>
+        <ng-template #elseBlock>
+            {{msg_about_kind}}
+        </ng-template>
+    </tr>
+    <tr>
+        <td>
+            Level:
+        </td>
+        <td>
+            <select name='lvl' [(ngModel)]='lvl'>
+                <option value="">---Please select---</option>
+                <option *ngFor='let c of levels'>{{c.level}}</option>
+            </select>        
+        </td>
+    </tr>
+    <!-- <tr>
+        <td>
+            Number of competitors:
+        </td>
+        <td>
+            <input type='text' name='num' [(ngModel)]='num'>      
+        </td>
+    </tr>
+    <tr>
+        <button (click)='create()'>create</button>
+    </tr> -->
+</table>
+<span style='color: red'>{{error}}</span>
+
+<table>
+    <tr>
+        <h3>
+            Competitors who have registered for this competition
+            <button (click)='show_req()'>show requests</button>
+        </h3>
+    </tr>
+    <tr>
+        <td>
+            <h4>
+                Name and lastname
+            </h4>
+        </td>
+    </tr>
+    <tr *ngFor="let r of registered_competitors">
+        <td>
+            {{r.name}}{{spc}}{{r.lastname}}
+        </td>
+        <td>
+            <button (click)='add(r)'>add</button>
+        </td>
+        <td>
+            <button (click)='remove(r)'>remove</button>
+        </td>
+    </tr>
+    <tr>
+        {{show_requests_msg}}
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+            <h3>
+                Competitors who are selected
+            </h3>
+        </td>
+        <td>
+            <button (click)='show()'>show</button>
+        </td>
+    </tr>
+    <tr *ngFor="let r of selected_competitors">
+        {{r.name}}{{spc}}{{r.lastname}}
+    </tr>
+</table>
+
+

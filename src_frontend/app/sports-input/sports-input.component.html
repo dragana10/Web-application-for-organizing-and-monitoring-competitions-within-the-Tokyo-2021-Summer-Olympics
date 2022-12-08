@@ -1,0 +1,132 @@
+<div class="back_sports_input">
+
+    <div style="font-weight: bold;padding-left: 3%;padding-bottom: 1em; font-size: 25px;">
+        An overview of all sports in the system:
+    </div>
+    <table style="margin-left: 3%; margin-right: 3%;">
+        <tr style="font-weight: bold;">
+            <td style="width: 3em;">name</td>
+            <td style="width: 3em;">kind</td>
+            <td  style="width: 3em;">disciplines</td>
+        </tr>
+        <tr *ngFor="let c of all_sports_in_system" colspan="3" style="height: 100px;">
+            <td style="font-weight: bold;font-size: 20px;width: 3em;">{{c.name}}</td>
+
+            <td style="color: rgb(202, 23, 23);width:3em;font-size: 15px;" *ngIf="(c.kind)==0">individual</td>
+            <td style="color: rgb(202, 23, 23);width:3em;font-size: 15px;"  *ngIf="(c.kind)==1">team</td>
+            <td style="color: rgb(202, 23, 23);width:3em;font-size: 15px;" *ngIf="(c.kind)==2">both individual and team</td>
+            <td style="background:#b8e1f8; font-weight: 500; font-size: 12px;" *ngFor="let t of c.disciplines">
+                {{t.name}}<br>
+                <div style="font-size: 12px; color: rgb(202, 23, 23);font-weight: bold;" *ngIf="(t.kind)==0">individual</div>
+                <div style="font-size: 12px; color: rgb(202, 23, 23);font-weight: bold;" *ngIf="(t.kind)==1">team</div>
+            </td>
+        </tr>
+    </table>
+    
+    <div style="font-weight: bold; padding-left: 3%; padding-top: 60px;">
+        Enter a new sport:
+    </div>
+    <table style="margin-left: 3%;">
+        <tr>
+            <td style="width: 10em;">Name:</td>
+            <td style="width: 20em;">
+                <input type='text' name='name_of_sport' [(ngModel)]='name_of_sport'>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 10em;">Kind:</td>
+            <td  style="width: 20em; font-size: 15px;">
+                <input type='radio' name='kind_of_sport' [(ngModel)]='kind_of_sport' value="0">individual
+                <input type='radio' name='kind_of_sport' [(ngModel)]='kind_of_sport' value="1">team
+                <input type='radio' name='kind_of_sport' [(ngModel)]='kind_of_sport' value="2">both individual and team
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 10em;">
+                Has a discipline?
+            </td>
+            <td style="width: 20em; font-size: 15px;">
+                <input type='radio' name='has_a_discipline' [(ngModel)]='has_a_discipline' value="0">No
+                <input type='radio' name='has_a_discipline' [(ngModel)]='has_a_discipline' value="1">Yes
+            </td>
+        </tr>
+        <tr  *ngIf="has_a_discipline==1">
+            <td  style="width: 10em;">
+                Name of discipline:
+            </td>
+            <td style="width: 20em;">
+                <input type='text' name='name_of_discipline' [(ngModel)]='name_of_discipline'>
+            </td>
+        </tr>
+        <tr  *ngIf="has_a_discipline==1">
+            <td style="width: 10em;">
+                Kind of discipline:
+            </td>
+            <td style="width: 20em; font-size: 15px;">
+                <input type='radio' name='kind_of_discipline' [(ngModel)]='kind_of_discipline' value="0">individual
+                <input type='radio' name='kind_of_discipline' [(ngModel)]='kind_of_discipline' value="1">team
+                <input type='radio' name='kind_of_discipline' [(ngModel)]='kind_of_discipline' value="2">both individual and team
+            </td>
+        </tr>
+        <tr *ngIf="has_a_discipline==1">
+            <td colspan="2" style="text-align: right;">
+                <button style="height: 30px; width: 200px;background:#b8e1f8" (click)="enter_discipline()">enter sport</button>
+            </td>
+            <td colspan="2" style="text-align: right;">
+                {{msg}}
+            </td>
+        </tr>
+        <tr *ngIf="has_a_discipline==0">
+            <td colspan="2" style="text-align: right;">
+                <button style="height: 30px; width: 200px;background:#b8e1f8" (click)="enter_sport()">enter sport</button>
+            </td>
+        </tr>
+    </table>
+
+
+    <div style="font-weight: bold; padding-left: 3%; padding-top: 60px;">
+        Enter a new discipline for existing sport:
+    </div>
+
+    <table style="margin-left: 3%;">
+        <tr>
+            <input type='radio' name='just_discipline' [(ngModel)]='just_discipline' value="0">No
+            <input type='radio' name='just_discipline' [(ngModel)]='just_discipline' value="1">Yes
+    
+        </tr>
+        <tr *ngIf="just_discipline==1">
+            <td style="width: 10em;">Name of sport: </td>
+            <td style="width: 20em;">
+                <input type='text' name='name_of_sport_just' [(ngModel)]='name_of_sport_just'>
+            </td>
+        </tr>
+        <tr *ngIf="just_discipline==1">
+            <td style="width: 10em;">
+                Name of discipline:
+            </td>
+            <td style="width: 20em;">
+                <input type='text' name='name_of_discipline_just' [(ngModel)]='name_of_discipline_just'>
+            </td>
+        </tr>
+        <tr *ngIf="just_discipline==1">
+            <td style="width: 10em;">Kind of discipline:</td>
+            <td style="width: 20em; font-size: 15px;">
+                <input type='radio' name='kind_of_discipline_just' [(ngModel)]='kind_of_discipline_just' value="0">individual
+                <input type='radio' name='kind_of_discipline_just' [(ngModel)]='kind_of_discipline_just' value="1">team
+                <input type='radio' name='kind_of_discipline_just' [(ngModel)]='kind_of_discipline_just' value="2">both individual and team
+            </td>
+        </tr>
+        <tr *ngIf="just_discipline==1">
+            <td colspan="2" style="text-align: right;">
+                <button style="height: 30px; width: 200px;background:#b8e1f8" (click)="enter_just_discipline()">enter discipline</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: right; color: red; font-size: smaller;">
+                {{msg_just}}
+            </td>
+        </tr>
+    </table>
+    <!-- <span style='color: red'>{{error}}</span> -->
+    
+</div>

@@ -1,0 +1,271 @@
+{
+    "_id" : ObjectId("610c16fb79bb9da3ab548f66"),
+    "country" : "Japan",
+    "img" : "Japan.jpg",
+    "cnt" : 5
+}
+{
+    "_id" : ObjectId("611a40d311d91a1fa9fec6d8"),
+    "country" : "Serbia",
+    "img" : "Serbia.jpg",
+    "cnt" : 48
+}
+{
+    "_id" : ObjectId("611a40d311d91a1fa9fec6db"),
+    "country" : "Italy",
+    "img" : "Italy.jpg",
+    "cnt" : 2
+}
+{
+    "_id" : ObjectId("611a9aed11d91a1fa9fed6ec"),
+    "country" : "Russia",
+    "img" : "Russia.jpg",
+    "cnt" : 30,
+    "num_leaders" : 0
+}
+{
+    "_id" : ObjectId("6134048e37e8758cc097844a"),
+    "country" : "Democratic Republic of the Congo",
+    "img" : "Democratic Republic of the Congo.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc097844d"),
+    "country" : "Denmark",
+    "img" : "Denmark.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978450"),
+    "country" : "Egypt",
+    "img" : "Egypt.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978453"),
+    "country" : "Finland",
+    "img" : "Finland.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978456"),
+    "country" : "France",
+    "img" : "France.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978459"),
+    "country" : "Germany",
+    "img" : "Germany.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc097845c"),
+    "country" : "Ghana",
+    "img" : "Ghana.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc097845f"),
+    "country" : "Great Britain",
+    "img" : "Great Britain.jpg",
+    "cnt" : 21
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978462"),
+    "country" : "Greece",
+    "img" : "Greece.jpg",
+    "cnt" : 7
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978465"),
+    "country" : "India",
+    "img" : "India.jpg",
+    "cnt" : 2
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978468"),
+    "country" : "Israel",
+    "img" : "Israel.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc097846b"),
+    "country" : "Italy",
+    "img" : "Italy.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc097846e"),
+    "country" : "Jamaica",
+    "img" : "Jamaica.jpg",
+    "cnt" : 8
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978471"),
+    "country" : "Kenya",
+    "img" : "Kenya.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978474"),
+    "country" : "Kiribati",
+    "img" : "Kiribati.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978477"),
+    "country" : "Libya",
+    "img" : "Libya.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc097847a"),
+    "country" : "Albania",
+    "img" : "Albania.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc097847d"),
+    "country" : "Argentina",
+    "img" : "Argentina.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978480"),
+    "country" : "Austria",
+    "img" : "Austria.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978483"),
+    "country" : "Bahamas",
+    "img" : "Bahamas.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978486"),
+    "country" : "Brazil",
+    "img" : "Brazil.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978489"),
+    "country" : "Canada",
+    "img" : "Canada.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc097848c"),
+    "country" : "Chile",
+    "img" : "Chile.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc097848f"),
+    "country" : "Colombia",
+    "img" : "Colombia.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978492"),
+    "country" : "Croatia",
+    "img" : "Croatia.jpg",
+    "cnt" : 6
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978495"),
+    "country" : "Cyprus",
+    "img" : "Cyprus.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6134048f37e8758cc0978498"),
+    "country" : "Czech Republic",
+    "img" : "Czech Republic.jpg",
+    "cnt" : 1
+}
+{
+    "_id" : ObjectId("61460ba947e7dc72b8ff9859"),
+    "country" : "Hungary",
+    "img" : "Hungary.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("61460ba947e7dc72b8ff985c"),
+    "country" : "Romania",
+    "img" : "Romania.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("614622c447e7dc72b8ff9ed8"),
+    "country" : "Australia",
+    "img" : "Australia.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("614622c447e7dc72b8ff9edb"),
+    "country" : "United States of America",
+    "img" : "United States of America.jpg",
+    "cnt" : 45
+}
+{
+    "_id" : ObjectId("61469b7e47e7dc72b8ffc851"),
+    "country" : "Algeria",
+    "img" : "Algeria.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("61469b7e47e7dc72b8ffc854"),
+    "country" : "Burkina Faso",
+    "img" : "Burkina Faso.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("61469b7e47e7dc72b8ffc857"),
+    "country" : "People's Republic of China",
+    "img" : "People's Republic of China.jpg",
+    "cnt" : 15
+}
+{
+    "_id" : ObjectId("61469bd347e7dc72b8ffc87f"),
+    "country" : "Portugal",
+    "img" : "Portugal.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6146afbd47e7dc72b8ffceee"),
+    "country" : "Ethiopia",
+    "img" : "Ethiopia.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6146afbd47e7dc72b8ffcef1"),
+    "country" : "Belarus",
+    "img" : "Belarus.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6146afbd47e7dc72b8ffcef4"),
+    "country" : "Bahrain",
+    "img" : "Bahrain.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6146b8e047e7dc72b8ffd3bc"),
+    "country" : "Norway",
+    "img" : "Norway.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("6146b8e047e7dc72b8ffd3bf"),
+    "country" : "Ukraine",
+    "img" : "Ukraine.jpg",
+    "cnt" : 0
+}
+{
+    "_id" : ObjectId("615179f83868392bc513406d"),
+    "country" : "Turkey",
+    "img" : "Turkey.jpg",
+    "cnt" : 24
+}

@@ -1,0 +1,41 @@
+{
+    "_id" : ObjectId("613e561e40b0ed1689499939"),
+    "level" : "Gold Medal Match",
+    "sport" : "tennis",
+    "num_games" : 1
+}
+{
+    "_id" : ObjectId("613e561e40b0ed168949993c"),
+    "level" : "Bronze Medal Match",
+    "sport" : "tennis",
+    "num_games" : 1
+}
+{
+    "_id" : ObjectId("613e561e40b0ed168949993f"),
+    "level" : "Semifinal",
+    "sport" : "tennis",
+    "num_games" : 2
+}
+{
+    "_id" : ObjectId("613e561e40b0ed1689499942"),
+    "level" : "Quarterfinal",
+    "sport" : "tennis",
+    "num_games" : 4
+}
+{
+    "_id" : ObjectId("613e561e40b0ed1689499945"),
+    "level" : "First Round",
+    "sport" : "tennis",
+    "num_games" : 8
+}
+{
+    "_id" : ObjectId("613f555d40b0ed168949d180"),
+    "level" : "Final",
+    "sport" : [ 
+        "shooting", 
+        "swimming", 
+        "cycling", 
+        "athletics"
+    ],
+    "num_games" : 1
+}

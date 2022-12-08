@@ -1,0 +1,159 @@
+<div>
+
+    <div>
+
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td style="width: 15em;">
+                    Name:
+                </td>
+                <td>
+                    {{name}}
+                </td>
+            </tr>
+            <tr *ngIf="lvls.length==1">
+                <td>
+                    Level:
+                </td>
+                <td>
+                    {{level}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Start:
+                </td>
+                <td *ngIf="has_dates==1">
+                    {{date_start_to_display}}
+                </td>
+                <td *ngIf="has_dates==0">
+                    {{msg_dates}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    End:
+                </td>
+                <td *ngIf="has_dates==1">
+                    {{date_end_to_display}}
+                </td>
+                <td *ngIf="has_dates==0">
+                    {{msg_dates}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Location:
+                </td>
+                <td>
+                    {{loc}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Delegate's username:
+                </td>
+                <td>
+                    {{delegate}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Status:
+                </td>
+                <td *ngIf="status==0">
+                    formation phase
+                </td>
+                <td *ngIf="status==1">
+                    formed
+                </td>
+                <td *ngIf="status==2">
+                    finished
+                </td>
+            </tr>
+            <tr *ngIf="has_rqsts==0">
+                <td>
+                    Registered competitors:
+                </td>
+                <td>
+                    {{msg_has_rqsts}}
+                </td>
+            </tr>
+        <tr *ngIf="has_rqsts==1">
+                <td>
+                    Registered competitors:
+                </td>
+            </tr>
+            <tr *ngFor="let r of registered_competitors">
+                <td colspan="2" style="text-align: right;text-align: left;padding-left: 15em;">
+                    {{r.lastname}}&nbsp;{{r.name}}
+                </td>
+            </tr>
+        <tr *ngIf="has_parts==0">
+                <td>
+                    Participants:
+                </td>
+                <td>
+                    {{msg_has_parts}}
+                </td>
+        </tr>
+        <tr *ngIf="has_parts==1">
+                <td>
+                    Participants:
+                </td>
+        </tr>
+        <tr *ngFor="let r of parts">
+                <td colspan="2" style="text-align: right;text-align: left;padding-left: 15em;">
+                    {{r.lastname}}&nbsp;{{r.name}}
+                </td>
+        </tr>
+            <tr>
+                <td>
+                    Bronze:
+                </td>
+                <td *ngIf="has_br==0">
+                    {{msg_br}}
+                </td>
+                <td *ngIf="has_br==1" style="background: rgba(216, 76, 40, 0.829);">
+                    {{bronze.lastname}}&nbsp; {{bronze.name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Silver:
+                </td>
+                <td *ngIf="has_sil==0">
+                    {{msg_sil}}
+                </td>
+                <td *ngIf="has_br==1" style="background: rgb(206, 209, 209);">
+                    {{silver.lastname}}&nbsp;{{silver.name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gold:
+                </td>
+                <td *ngIf="has_gld==0">
+                    {{msg_gld}}
+                </td>
+                <td *ngIf="has_gld==1" style="background: rgb(241, 192, 31);">
+                    {{gold.lastname}}&nbsp;{{gold.name}}&nbsp;
+                </td>
+            </tr>
+        </table>
+        <table *ngIf="lvls.length!=1">
+            <tr>
+                <td>
+                    Levels:
+                </td>
+            </tr>
+            <tr *ngFor="let lev of lvls">
+                <td style="font-weight: bold; padding-left: 15em;">
+                    {{lev}}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

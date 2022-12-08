@@ -1,0 +1,56 @@
+<div class="bck">
+    <div class="meni">
+        <h4>
+            Medals for all participating countries
+        </h4>
+    </div>
+    <div style="
+    background: #a9ccec;
+    padding-left: 40%;
+    " class="pagination">
+        <pagination-controls directionLinks="true" responsive="true" previousLabel="previous" nextLabel="next"
+            maxsize="10" (pageChange)="page = $event" id="country">
+        </pagination-controls>
+    </div>
+
+    <div style="padding-bottom: 1em; margin-right: 35%; margin-left: 35%; text-align: right;">
+        items per page:
+        <input type='radio' name='items' [(ngModel)]='itemsPerPage' value="10">10
+        <input type='radio' name='items' [(ngModel)]='itemsPerPage' value="20">20
+        <input type='radio' name='items' [(ngModel)]='itemsPerPage' value="50">50
+        <input type='radio' name='items' [(ngModel)]='itemsPerPage' value="100">100
+    </div>
+
+
+<div class="pag">
+    <table>
+        <tr>
+            <td>rank</td>
+            <td>
+                &nbsp;
+            </td>
+            <td>country</td>
+            <td>gold</td>
+            <td>silver</td>
+            <td>bronze</td>
+            <td>total</td>
+        </tr>
+        <tr *ngFor="let c of medals | paginate: {
+            itemsPerPage:itemsPerPage,
+            currentPage:page,
+            id: 'country'
+        }">
+            <td>{{c.rank}}</td>
+            <td>
+                <img width="30px" height="30px" src="../../assets/{{c.country}}.jpg">
+            </td>
+            <td>{{c.country}}</td>
+            <td>{{c.gold}}</td>
+            <td>{{c.silver}}</td>
+            <td>{{c.bronze}}</td>
+            <td>{{c.total}}</td>
+        </tr>
+    </table>
+</div>
+
+</div>

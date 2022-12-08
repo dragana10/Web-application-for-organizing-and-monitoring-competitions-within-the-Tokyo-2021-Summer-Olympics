@@ -1,0 +1,441 @@
+<div>
+
+    <div class="meni">
+        <h4>
+            Choose which exact competition for {{name_of_sport}} will you form:
+        </h4>
+    </div>
+
+    <table style="padding-left: 3%;">
+        <tr>
+            <td style="width: 15em;">Discipline:</td>
+            <td style="width: 15em;">
+                <select style="width: 15em;" name='selected_discipline' [(ngModel)]='selected_discipline' (ngModelChange)="get_locations_for_discipline()" id="selectid" class="form-control-mb-12" >
+                    <option value="">---Please select---</option>
+                    <option *ngFor='let c of disciplines'>{{c.name}}</option>
+                </select>        
+            </td>
+        </tr>
+        <tr>
+            <td  style="width: 15em;">Gender:</td>
+            <td  style="width: 15em;">
+                <select style="width: 15em;" name='gender' [(ngModel)]='gender'>
+                    <option value="m">men</option>
+                    <option value="f">female</option>
+                </select>        
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 15em;">Location:</td>
+            <td style="width: 15em;">
+                <select style="width: 15em;" name='location_name' [(ngModel)]='location_name' (ngModelChange)="get_location_by_name()">
+                    <option value="">---Please select---</option>
+                    <option *ngFor='let c of locations'>{{c.name}}</option>
+                </select>        
+            </td>
+        </tr>
+        <tr style="width: 30em;">
+            <div *ngIf="the_disc_is_chosen==0; then thenBlock else elseBlock"></div>
+            <ng-template #thenBlock>
+                <tr *ngIf="kind==2">
+                    <td style="width: 300px;" colspan="2">Individual or team:</td>
+                    <td>
+                        <input type='radio' name='kind' [(ngModel)]='kind' value="0">individual
+                        <input type='radio' name='kind' [(ngModel)]='kind' value="1">team
+                    </td>
+                </tr>
+                <tr *ngIf="kind==0">
+                    <td>This is an exclusively individual sport(discipline).</td>
+                </tr>
+                <tr *ngIf="kind==1">
+                    <td>This is exclusively a team sport(discipline).</td>
+                </tr>
+            </ng-template>
+            <ng-template #elseBlock>
+                {{msg_kind}}
+            </ng-template>
+        </tr>
+        <tr *ngIf="name_of_sport!='tennis'">
+            <td style="width: 15em;">
+                Level:
+            </td>
+            <td style="width: 15em;">
+                <select  style="width: 15em;" name='level_name' [(ngModel)]='level_name' (ngModelChange)="get_level_by_name()">
+                    <option value="">---Please select---</option>
+                    <option *ngFor='let c of levels'>{{c.level}}</option>
+                </select>        
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 30em; text-align: right; padding-right: 6em;" colspan="2">
+                <button style="height: 30px; width: 100px;background:#396b88;" (click)='enter_data()'>enter data</button>
+            </td>
+        </tr>
+        <tr>
+            <td style='color: red; text-align: right; padding-right: 6em;' colspan="2">
+                {{error}}
+            </td>
+        </tr>
+    </table>
+    
+    
+    <div *ngIf="flag==1">
+        <div *ngIf="finished==1" class="finished">
+            <div *ngIf="there_are_medals==1">
+                <table>
+                    <tr>
+                        <td style="font-weight: bold; font-size: 23px;" colspan="3">
+                            This competition is finished. You are not able to enter data.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 15em;">
+                            Bronze:
+                        </td>
+                        <td style="background: rgba(216, 76, 40, 0.829); width: 15em;">
+                            {{bronze.lastname}}&nbsp; {{bronze.name}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Silver:
+                        </td>
+                        <td style="background: rgb(206, 209, 209);">
+                            {{silver.lastname}}&nbsp;{{silver.name}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gold:
+                        </td>
+                        <td style="background: rgb(241, 192, 31);">
+                            {{gold.lastname}}&nbsp;{{gold.name}}&nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div *ngIf="formed==1" class="formed">
+            This competition is formed. You are not able to enter data.
+        </div>
+        <div class="meni">
+            <h5>
+                Term and delegate            
+            </h5>
+        </div>
+        <table style="padding-left: 3%;">
+            <tr style="color: red;">
+                <td colspan="2">
+                    {{msg_ab_time_to_dis}}
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 15em;">Start date:</td>
+                <td style="width: 15em;">
+                    <input style="width: 15em;" type='date' name='start_date' [(ngModel)]='start_date' min="2020-01-01" (ngModelChange)="set_date_start()">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 15em;">End date:</td>
+                <td style="width: 15em;">
+                    <input style="width: 15em;" type='date' name='end_date' [(ngModel)]='end_date' min="2020-01-01" (ngModelChange)="set_date_end()">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 15em;">
+                    Delegate:
+                </td>
+                <td *ngIf="flag_about_delegate==0">
+                    <select style="width: 15em;" name='delegate_name' [(ngModel)]='delegate_name' (ngModelChange)="add_delegate_to_compet()">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of delegates'>{{c.name}}{{spc}}{{c.lastname}}</option>
+                    </select> 
+                </td>
+                <td *ngIf="flag_about_delegate==1" colspan="2" style="width: 20em;">
+                    {{msg_about_delegate}}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div *ngIf="name_of_sport!='tennis'">
+
+    <div *ngIf="flag==1 && has_rqsts==1" class="meni">
+        <button style="height: 30px; width: 150px;" (click)='show_req()'>show requests</button>
+        <div *ngIf="kind_disc==0 && flag==1 && show_req_flag==1">
+            <button style="height: 30px; width: 150px;" (click)='hide_req()'>hide requests</button>
+        </div>
+    </div>
+
+    <div style="padding-left: 3%; color: red; padding-top: 20px;" *ngIf="flag==1">
+        {{msg_has_rqsts}}
+    </div>
+    
+
+    <table style="margin-left: 35%; margin-right: 35%;" *ngIf="kind_disc==0 && flag==1 && show_req_flag==1">
+        <tr>
+            <td style="width: 15em; color: red;" colspan="2">
+                {{msg_req}}
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 15em;">
+                country
+            </td>
+            <td style="width: 15em;">
+                <h4>
+                   lastname and name
+                </h4>
+            </td>
+        </tr>
+        <tr *ngFor="let r of registered_competitors">
+            <td>
+                <img width="25px" height="25px" src="../../assets/{{r.country}}.jpg">
+            </td>
+            <td style="width: 20em;">
+                {{r.lastname}}&nbsp;{{r.name}}
+            </td>
+            <td style="width: 5em;">
+                <button style="height: 30px; width: 70px;" (click)='add(r)'>add</button>
+            </td>
+            <td style="width: 5em;">
+                <button style="height: 30px; width: 70px;" (click)='remove(r)'>remove</button>
+            </td>
+        </tr>
+            <tr>
+                <td colspan="2">
+                    <h3>
+                        Competitors who are selected
+                    </h3>
+                </td>
+                <td>
+                    <button style="height: 30px; width: 70px;" (click)='show()'>show</button>
+                </td>
+                <td *ngIf="show_selected==1">
+                    <button style="height: 30px; width: 70px;" (click)='hide()'>hide</button>
+                </td>
+            </tr>
+            <tr *ngFor="let r of selected_competitors">
+                <td>
+                    <img width="25px" height="25px" src="../../assets/{{r.country}}.jpg">
+                </td>
+                <td  *ngIf="show_selected==1" colspan="3">
+                    {{r.lastname}}&nbsp;{{r.name}}
+                </td>
+            </tr>
+    </table>
+
+
+    </div>
+
+    
+    <div *ngIf="is_tennis==1 && flag==1" class="meni" style="margin-top: 50px;">
+        <button (click)='show_candidates_fun()' style="width: 25em;">Show candidates for holders</button>
+        <span style='color: red'>{{msg_candidates}}</span>
+    </div>
+    <div *ngIf="is_tennis==1 && show_candidates==1" class="meni">
+        <button (click)='hide_candidates_fun()' style="width: 25em;">Hide candidates for holders</button>
+    </div>
+    
+
+    <div *ngIf="is_tennis==1 && show_candidates==1">
+
+        <div class="meni" style="margin-top: 50px;">
+            Candidates for holders
+        </div>
+        <table style="padding-left: 35%; padding-right: 35%;">
+            <tr *ngFor="let c of candidates">
+                <td>
+                    <img width='30px' height='30px' src='assets/{{c.country}}.jpg'>
+                </td>
+                <td>{{c.country}}</td>
+                <td>{{c.lastname}}</td>
+                <td>{{c.name}}</td>
+        
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align: right;">
+                    <button style="width: 25em;" (click)='set_holders_fun()'>set holders</button>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div *ngIf="set_holders==1 && show_candidates==1">
+
+        <div class="meni">
+            Set holders:
+        </div>
+
+        <table style="padding-left: 35%; padding-right: 35%;">
+            <tr>
+                <td>first holder:</td>
+                <td>
+                    <select name='first' [(ngModel)]='first' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>second holder:</td>
+                <td>
+                    <select name='second' [(ngModel)]='second' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>third holder:</td>
+                <td>
+                    <select name='third' [(ngModel)]='third' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>fourth holder:</td>
+                <td>
+                    <select name='fourth' [(ngModel)]='fourth' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>fifth holder:</td>
+                <td>
+                    <select name='fifth' [(ngModel)]='fifth' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>sixth holder:</td>
+                <td>
+                    <select name='sixth' [(ngModel)]='sixth' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>seventh holder:</td>
+                <td>
+                    <select name='seventh' [(ngModel)]='seventh' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>eighth holder:</td>
+                <td>
+                    <select name='eighth' [(ngModel)]='eighth' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>ninth holder:</td>
+                <td>
+                    <select name='ninth' [(ngModel)]='ninth' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>tenth holder:</td>
+                <td>
+                    <select name='tenth' [(ngModel)]='tenth' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>eleventh holder:</td>
+                <td>
+                    <select name='eleventh' [(ngModel)]='eleventh' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>twelfth holder:</td>
+                <td>
+                    <select name='twelfth' [(ngModel)]='twelfth' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>thirteenth holder:</td>
+                <td>
+                    <select name='thirteenth' [(ngModel)]='thirteenth' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>fourteenth holder:</td>
+                <td>
+                    <select name='fourteenth' [(ngModel)]='fourteenth' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>fifteenth holder:</td>
+                <td>
+                    <select name='fifteenth' [(ngModel)]='fifteenth' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td>sixteenth holder:</td>
+                <td>
+                    <select name='sixteenth' [(ngModel)]='sixteenth' style="width: 25em;">
+                        <option value="">---Please select---</option>
+                        <option *ngFor='let c of candidates'>{{c.lastname}}{{spc}}{{c.name}}{{spc}}{{c.country}}</option>
+                    </select>        
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right;">
+                    <button style="width: 25em;" (click)='enter_holders()'>enter holders</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right; color: red;">
+                    {{msg_set_holders}}
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="formed"  *ngIf="flag==1">
+        Confirm that you have formed a competition.
+        <div style="font-size: 12px; font-weight: bold;">
+            (after clicking this field, you will no longer be able to change the data)
+        </div>
+        <button style="width: 10em;background:#396b88;" (click)="form_a_compet()">form a competition</button>
+    </div>
+    <div *ngIf="flag==1" style="padding-top: 30px;" class="meni">
+        <a routerLink="{{name}}">show all information</a>
+    </div>
+
+</div>

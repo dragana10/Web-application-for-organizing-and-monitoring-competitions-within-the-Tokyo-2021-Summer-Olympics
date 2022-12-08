@@ -1,0 +1,12 @@
+.bck_rgacmp{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-position: center;
+    background-size: 20% 20%;
+    padding-top: 15em;
+    padding-bottom: 10em;
+    margin-right: 2em;
+    background-image: url(../../assets/one.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}

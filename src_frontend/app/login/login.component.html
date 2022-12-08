@@ -1,0 +1,73 @@
+<div class="back">
+    <div class="table_class">
+        <table class="table_al">
+            <tr>
+                <td>Username:</td>
+                <td>
+                    <input  type='text' name='username' [(ngModel)]='username'>
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type='password' name='password' [(ngModel)]='password'>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button style="background-color: rgb(245, 188, 65);font: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 500;" (click)="login()">login</button>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td *ngIf="register_flag==0">
+                    <button style="background-color: rgb(245, 188, 65);font: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 500;" (click)="register()">register</button>
+                </td>
+            </tr>
+        
+        </table>
+        <span style='color: red'>{{error}}</span>
+</div>
+<div class="frame_class" *ngIf="register_flag==1">
+    <iframe width="100%" height="300px" src="login/registration">
+    </iframe>
+</div>
+
+<!-- <div class="row">
+    <div class="col-6- m-auto">
+        <div class="card m-auto">
+            <div class="card-header">
+                Login
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form group col-12">
+                        <label>Name:</label>
+                        <input type="form-control" required>
+                    </div>
+                    <div class="form group col-12">
+                        <label>Password:</label>
+                        <input type="form-control" required>
+                    </div>
+                    <div class="form-group col-12">
+                        <button type="submit" class="btn btn-primary">login</button>
+                        <button type="button" class="btn btn-secondary ml-2">cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> -->
+</div>
+<div class="back_bottom">
+<p>
+</p>
+</div>
+<div class="org_class">
+    <a routerLink="organizer">organizer</a>
+</div>
+
+
+
+

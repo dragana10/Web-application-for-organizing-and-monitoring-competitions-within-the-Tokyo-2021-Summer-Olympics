@@ -1,0 +1,39 @@
+<div>
+    <div>
+        <div style="padding-bottom: 10px; padding-top: 0px;" class="login_line_del">
+            <img height="35px" src='assets/pass_logo.png'>   
+            <a style="font-size: 15px; color: white;" routerLink="change-password">change password</a> 
+            <img height="35px" src='assets/logout1.jpg'>
+            <button style="background:rgb(246, 248, 252); height: 30px; margin-right: 1em; margin-top: 0em; color: rgb(58, 124, 199); border-style: none;" (click)="logout()">logout</button>    
+        </div>
+    </div>
+    <!-- <div>
+        <div style="padding-bottom: 10px; padding-top: 0px;" class="login_line_del">
+            <img style="margin-right: 50px;" height="45px" src='assets/pass_logo.png'>   
+            <a style="font-size: 15px;" routerLink="change-password">change password</a> 
+        </div>
+    </div> -->
+    
+    <div class="meni">
+        <h5>
+            Select the competition for which you enter data
+        </h5>
+    </div>
+    
+    <table style="margin-left: 42%;margin-right: 42%;">
+        <tr>
+            <td>
+                <select style="width: 20em; background: cornflowerblue;" name='competition_name' [(ngModel)]='competition_name' (ngModelChange)="get_competition_by_name()">
+                    <option value="">---Please select---</option>
+                    <option *ngFor='let c of competitions'>{{c.name}}</option>
+                </select> 
+            </td>
+        </tr>
+    </table>
+
+    <div class="bck_del">
+        <p>
+
+        </p>
+    </div>
+</div>

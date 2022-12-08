@@ -1,0 +1,576 @@
+{
+    "_id" : ObjectId("615102ea3868392bc5130088"),
+    "year" : 2012,
+    "city" : "London",
+    "sport" : "athletics",
+    "discipline" : "100m Running",
+    "gender" : "m",
+    "name" : "Usain",
+    "lastname" : "BOLT",
+    "country" : "Jamaica",
+    "result" : "9.63"
+}
+{
+    "_id" : ObjectId("6151034d3868392bc51300bb"),
+    "year" : 2021,
+    "city" : "Tokyo",
+    "sport" : "athletics",
+    "discipline" : "100m Running",
+    "gender" : "f",
+    "name" : "Elaine",
+    "lastname" : "THOMPSON-HERAH",
+    "country" : "Jamaica",
+    "result" : "10.61"
+}
+{
+    "_id" : ObjectId("615103633868392bc51300c4"),
+    "year" : 1988,
+    "city" : "Jamsil",
+    "sport" : "athletics",
+    "discipline" : "200m Running",
+    "gender" : "f",
+    "name" : "Florence",
+    "lastname" : "GRIFFITH-JOYNER",
+    "country" : "United States of America",
+    "result" : "21.34"
+}
+{
+    "_id" : ObjectId("615103633868392bc51300c7"),
+    "year" : 1996,
+    "city" : "Atlanta",
+    "sport" : "athletics",
+    "discipline" : "400m Running",
+    "gender" : "f",
+    "name" : "Marie-José",
+    "lastname" : "PÉREC",
+    "country" : "France",
+    "result" : "48.25"
+}
+{
+    "_id" : ObjectId("615103b13868392bc51300ea"),
+    "year" : 1980,
+    "city" : "Moskva",
+    "sport" : "athletics",
+    "discipline" : "800m Running",
+    "gender" : "f",
+    "name" : "Nadezhda",
+    "lastname" : "OLIZARENKO",
+    "country" : "Russia",
+    "result" : "1:53.43"
+}
+{
+    "_id" : ObjectId("615104383868392bc5130120"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "athletics",
+    "discipline" : "5000m Running",
+    "gender" : "f",
+    "name" : "Vivian Jepkemoi",
+    "lastname" : "CHERUIYOT",
+    "country" : "Kenya",
+    "result" : "14:26.17"
+}
+{
+    "_id" : ObjectId("615104383868392bc5130123"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "athletics",
+    "discipline" : "10000m Running",
+    "gender" : "f",
+    "name" : "Almaz",
+    "lastname" : "AYANA",
+    "country" : "Ethiopia",
+    "result" : "29:17.45"
+}
+{
+    "_id" : ObjectId("615104383868392bc5130126"),
+    "year" : 2012,
+    "city" : "London",
+    "sport" : "athletics",
+    "discipline" : "Marathon",
+    "gender" : "f",
+    "name" : "Tiki",
+    "lastname" : "GELANA",
+    "country" : "Ethiopia",
+    "result" : "2:23.07"
+}
+{
+    "_id" : ObjectId("615104383868392bc5130129"),
+    "year" : 2012,
+    "city" : "London",
+    "sport" : "athletics",
+    "discipline" : "20km Race Walk",
+    "gender" : "f",
+    "name" : "Yelena",
+    "lastname" : "LASHMANOVA",
+    "country" : "Russia",
+    "result" : "1:25.02"
+}
+{
+    "_id" : ObjectId("615104383868392bc513012c"),
+    "year" : 2004,
+    "city" : "Athina",
+    "sport" : "athletics",
+    "discipline" : "High Jump",
+    "gender" : "f",
+    "name" : "Yelena",
+    "lastname" : "SLESARENKO",
+    "country" : "Russia",
+    "result" : "2.06"
+}
+{
+    "_id" : ObjectId("615104383868392bc513012f"),
+    "year" : 2008,
+    "city" : "Beijing",
+    "sport" : "athletics",
+    "discipline" : "Pole Vault",
+    "gender" : "f",
+    "name" : "Yelena",
+    "lastname" : "ISINBAYEVA",
+    "country" : "Russia",
+    "result" : "5.05"
+}
+{
+    "_id" : ObjectId("615104383868392bc5130132"),
+    "year" : 1988,
+    "city" : "Jamsil",
+    "sport" : "athletics",
+    "discipline" : "Long Jump",
+    "gender" : "f",
+    "name" : "Jackie",
+    "lastname" : "JOYNER-KERSEE",
+    "country" : "United States of America",
+    "result" : "7.40"
+}
+{
+    "_id" : ObjectId("615104383868392bc5130135"),
+    "year" : 2021,
+    "city" : "Tokyo",
+    "sport" : "athletics",
+    "discipline" : "Triple Jump",
+    "gender" : "f",
+    "name" : "Yulimar",
+    "lastname" : "ROJAS",
+    "country" : "Venezuela",
+    "result" : "15.67"
+}
+{
+    "_id" : ObjectId("615104383868392bc5130138"),
+    "year" : 1980,
+    "city" : "Moskva",
+    "sport" : "athletics",
+    "discipline" : "Shot Put",
+    "gender" : "f",
+    "name" : "Ilona",
+    "lastname" : "SLUPIANEK",
+    "country" : "German Democratic Republic",
+    "result" : "22.41"
+}
+{
+    "_id" : ObjectId("615104383868392bc513013b"),
+    "year" : 1988,
+    "city" : "Jamsil",
+    "sport" : "athletics",
+    "discipline" : "Discus Throw",
+    "gender" : "f",
+    "name" : "Martina",
+    "lastname" : "HELLMANN",
+    "country" : "German Democratic Republic",
+    "result" : "72.30"
+}
+{
+    "_id" : ObjectId("615104383868392bc513013e"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "athletics",
+    "discipline" : "Hammer Throw",
+    "gender" : "f",
+    "name" : "Anita ",
+    "lastname" : "WŁODARCZYK",
+    "country" : "Poland",
+    "result" : "82.29"
+}
+{
+    "_id" : ObjectId("615104383868392bc5130141"),
+    "year" : 2014,
+    "city" : "Athina",
+    "sport" : "athletics",
+    "discipline" : "Javelin Throw",
+    "gender" : "f",
+    "name" : "Olisdeilys ",
+    "lastname" : "MENÉNDEZ",
+    "country" : "Cuba",
+    "result" : "71.53"
+}
+{
+    "_id" : ObjectId("61510cf93868392bc51304f9"),
+    "year" : 2008,
+    "city" : "Beijing",
+    "sport" : "athletics",
+    "discipline" : "200m Running",
+    "gender" : "m",
+    "name" : "Usain ",
+    "lastname" : "Bolt",
+    "country" : "Jamaica",
+    "result" : "10.30"
+}
+{
+    "_id" : ObjectId("61510d0f3868392bc5130502"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "athletics",
+    "discipline" : "400m Running",
+    "gender" : "m",
+    "name" : "Wayde",
+    "lastname" : "van Niekerk",
+    "country" : "South Africa",
+    "result" : "43.03"
+}
+{
+    "_id" : ObjectId("61510d353868392bc5130520"),
+    "year" : 2012,
+    "city" : "London",
+    "sport" : "athletics",
+    "discipline" : "800m Running",
+    "gender" : "m",
+    "name" : "David",
+    "lastname" : "Rudisha",
+    "country" : "Kenya",
+    "result" : "1:40.91"
+}
+{
+    "_id" : ObjectId("61510d453868392bc5130528"),
+    "year" : 2008,
+    "city" : "Beijing",
+    "sport" : "athletics",
+    "discipline" : "5000m Running",
+    "gender" : "m",
+    "name" : "Kenenisa",
+    "lastname" : "Bekele",
+    "country" : "Ethiopia",
+    "result" : "12:57.82 "
+}
+{
+    "_id" : ObjectId("61510d453868392bc513052b"),
+    "year" : 2008,
+    "city" : "Beijing",
+    "sport" : "athletics",
+    "discipline" : "10000m Running",
+    "gender" : "m",
+    "name" : "Kenenisa",
+    "lastname" : "Bekele",
+    "country" : "Ethiopia",
+    "result" : "27:01.17"
+}
+{
+    "_id" : ObjectId("61510d453868392bc513052e"),
+    "year" : 2008,
+    "city" : "Beijing",
+    "sport" : "athletics",
+    "discipline" : "Marathon",
+    "gender" : "m",
+    "name" : "Samuel",
+    "lastname" : "Wanjiru",
+    "country" : "Kenya ",
+    "result" : "2:06:32"
+}
+{
+    "_id" : ObjectId("61510d5a3868392bc513053a"),
+    "year" : 2012,
+    "city" : "London",
+    "sport" : "athletics",
+    "discipline" : "20km Race Walk",
+    "gender" : "m",
+    "name" : "Chen",
+    "lastname" : "Ding",
+    "country" : "People's Republic of China",
+    "result" : "1:18:46"
+}
+{
+    "_id" : ObjectId("61510d5a3868392bc513053d"),
+    "year" : 2012,
+    "city" : "London",
+    "sport" : "athletics",
+    "discipline" : "50km Race Walk",
+    "gender" : "m",
+    "name" : "Jared",
+    "lastname" : "Tallent",
+    "country" : "Australia",
+    "result" : "3:36:53"
+}
+{
+    "_id" : ObjectId("61510d5a3868392bc5130540"),
+    "year" : 1996,
+    "city" : "Atlanta",
+    "sport" : "athletics",
+    "discipline" : "High Jump",
+    "gender" : "m",
+    "name" : "Charles",
+    "lastname" : "Austin",
+    "country" : "United States of America",
+    "result" : "2.39"
+}
+{
+    "_id" : ObjectId("61510d5a3868392bc5130543"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "athletics",
+    "discipline" : "Pole Vault",
+    "gender" : "m",
+    "name" : "Thiago",
+    "lastname" : "Braz",
+    "country" : "Brazil",
+    "result" : "6.03"
+}
+{
+    "_id" : ObjectId("61510d5a3868392bc5130546"),
+    "year" : 1968,
+    "city" : "Mexico City",
+    "sport" : "athletics",
+    "discipline" : "Long Jump",
+    "gender" : "m",
+    "name" : "Bob",
+    "lastname" : "Beamon",
+    "country" : "United States of America",
+    "result" : "8.90"
+}
+{
+    "_id" : ObjectId("61510d5a3868392bc5130549"),
+    "year" : 1996,
+    "city" : "Atlanta",
+    "sport" : "athletics",
+    "discipline" : "Triple Jump",
+    "gender" : "m",
+    "name" : "Kenny",
+    "lastname" : "Harrison",
+    "country" : "United States of America",
+    "result" : "18.09"
+}
+{
+    "_id" : ObjectId("61510d5a3868392bc513054c"),
+    "year" : 2021,
+    "city" : "Tokyo",
+    "sport" : "athletics",
+    "discipline" : "Shot Put",
+    "gender" : "m",
+    "name" : "Ryan",
+    "lastname" : "Crouser",
+    "country" : "United States of America",
+    "result" : "23.30"
+}
+{
+    "_id" : ObjectId("61510d5a3868392bc513054f"),
+    "year" : 2004,
+    "city" : "Athens",
+    "sport" : "athletics",
+    "discipline" : "Discus Throw",
+    "gender" : "m",
+    "name" : "Virgilijus",
+    "lastname" : "Alekna",
+    "country" : "Lithuania",
+    "result" : "69.89"
+}
+{
+    "_id" : ObjectId("61510d5a3868392bc5130552"),
+    "year" : 1988,
+    "city" : "Seoul",
+    "sport" : "athletics",
+    "discipline" : "Hammer Throw",
+    "gender" : "m",
+    "name" : "Sergey",
+    "lastname" : "Litvinov",
+    "country" : "Soviet Union",
+    "result" : "84.80"
+}
+{
+    "_id" : ObjectId("61510d5a3868392bc5130555"),
+    "year" : 2008,
+    "city" : "Beijing",
+    "sport" : "athletics",
+    "discipline" : "Javelin Throw",
+    "gender" : "m",
+    "name" : "Andreas",
+    "lastname" : "Thorkildsen",
+    "country" : "Norway",
+    "result" : "90.57"
+}
+{
+    "_id" : ObjectId("61510ff23868392bc513069f"),
+    "year" : 2008,
+    "city" : "Beijing",
+    "sport" : "swimming",
+    "discipline" : "200m Freestyle",
+    "gender" : "m",
+    "name" : "Michael",
+    "lastname" : "Phelps",
+    "country" : "United States of America",
+    "result" : "1:42.96"
+}
+{
+    "_id" : ObjectId("61510ff23868392bc51306a2"),
+    "year" : 2021,
+    "city" : "Tokyo",
+    "sport" : "swimming",
+    "discipline" : "100m Butterfly",
+    "gender" : "m",
+    "name" : "Caeleb",
+    "lastname" : "Dressel",
+    "country" : "United States of America",
+    "result" : "49.45"
+}
+{
+    "_id" : ObjectId("61510ff23868392bc51306a5"),
+    "year" : 2021,
+    "city" : "Tokyo",
+    "sport" : "swimming",
+    "discipline" : "200m Freestyle",
+    "gender" : "f",
+    "name" : "Ariarne",
+    "lastname" : "Titmus",
+    "country" : "Australia",
+    "result" : "1:53.50"
+}
+{
+    "_id" : ObjectId("61510ff23868392bc51306a8"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "swimming",
+    "discipline" : "100m Butterfly",
+    "gender" : "f",
+    "name" : "Sarah",
+    "lastname" : "Sjöström",
+    "country" : "Sweden",
+    "result" : "55.48"
+}
+{
+    "_id" : ObjectId("615114013868392bc51308ce"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "shooting",
+    "discipline" : "50m Rifle 3 Positions",
+    "gender" : "m",
+    "name" : "Sergey",
+    "lastname" : "Kamenskiy",
+    "country" : "Russia",
+    "result" : "1642.5"
+}
+{
+    "_id" : ObjectId("615114013868392bc51308d1"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "shooting",
+    "discipline" : "10m Air Rifle",
+    "gender" : "m",
+    "name" : "Niccolò",
+    "lastname" : "Campriani",
+    "country" : "Italy",
+    "result" : "1642.5"
+}
+{
+    "_id" : ObjectId("615114013868392bc51308d4"),
+    "year" : 2021,
+    "city" : "Tokyo",
+    "sport" : "shooting",
+    "discipline" : "25m Pistol",
+    "gender" : "m",
+    "name" : "Jean",
+    "lastname" : "Quiquampoix",
+    "country" : "France",
+    "result" : "34"
+}
+{
+    "_id" : ObjectId("615114013868392bc51308d7"),
+    "year" : 2021,
+    "city" : "Tokyo",
+    "sport" : "shooting",
+    "discipline" : "25m Pistol",
+    "gender" : "m",
+    "name" : "Jean",
+    "lastname" : "Quiquampoix",
+    "country" : "France",
+    "result" : "34"
+}
+{
+    "_id" : ObjectId("615114013868392bc51308da"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "shooting",
+    "discipline" : "25m Pistol",
+    "gender" : "m",
+    "name" : "Christian",
+    "lastname" : "Reitz",
+    "country" : "Germany",
+    "result" : "34"
+}
+{
+    "_id" : ObjectId("615114013868392bc51308dd"),
+    "year" : 2012,
+    "city" : "London",
+    "sport" : "shooting",
+    "discipline" : "25m Pistol",
+    "gender" : "m",
+    "name" : "Leuris",
+    "lastname" : "Pupo",
+    "country" : "Cuba",
+    "result" : "34"
+}
+{
+    "_id" : ObjectId("615114013868392bc51308e0"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "shooting",
+    "discipline" : "10m Air Pistol",
+    "gender" : "m",
+    "name" : "Xuân Vinh",
+    "lastname" : "Hoàng",
+    "country" : "Vietnam",
+    "result" : "783.5"
+}
+{
+    "_id" : ObjectId("615114013868392bc51308e3"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "shooting",
+    "discipline" : "50m Rifle 3 Positions",
+    "gender" : "f",
+    "name" : "Barbara",
+    "lastname" : "Engleder",
+    "country" : "Germany",
+    "result" : "458.6"
+}
+{
+    "_id" : ObjectId("615114013868392bc51308e6"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "shooting",
+    "discipline" : "10m Air Rifle",
+    "gender" : "f",
+    "name" : "Virginia",
+    "lastname" : "Thrasher",
+    "country" : "United States of America",
+    "result" : "624.3"
+}
+{
+    "_id" : ObjectId("615114013868392bc51308e9"),
+    "year" : 2008,
+    "city" : "Beijing",
+    "sport" : "shooting",
+    "discipline" : "25m Pistol",
+    "gender" : "f",
+    "name" : "Chen",
+    "lastname" : "Ying",
+    "country" : "People's Republic of China",
+    "result" : "793.4"
+}
+{
+    "_id" : ObjectId("615114013868392bc51308ec"),
+    "year" : 2016,
+    "city" : "Rio de Janeiro",
+    "sport" : "shooting",
+    "discipline" : "10m Air Pistol",
+    "gender" : "f",
+    "name" : "Vitalina",
+    "lastname" : "Batsarashkina",
+    "country" : "Russia",
+    "result" : "587.1"
+}

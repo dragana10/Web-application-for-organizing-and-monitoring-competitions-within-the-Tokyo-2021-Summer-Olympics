@@ -1,0 +1,26 @@
+<div class="back_form">
+
+    <div class="meni">
+        <h4>
+            Select the sport
+        </h4>
+    </div>
+    <table class="meniO" style="padding-left: 35%;padding-right: 35%;">
+        <tr>
+            <td colspan="3" style="text-align: right;">
+                Number of competitors
+            </td>
+        </tr>
+        <tr *ngFor='let k of all_sports_in_system'>
+            <td>
+                <img routerLink='{{k.name}}'  width='50px' height='50px' src='assets/{{k.name}}.jpg'>
+            </td>
+            <td style="width: 15em;">
+                <a routerLink='{{k.name}}'>{{k.name}}</a>
+            </td>
+            <td>
+                {{k.cnt_cmpttrs}}
+            </td>
+        </tr>
+    </table>
+</div>

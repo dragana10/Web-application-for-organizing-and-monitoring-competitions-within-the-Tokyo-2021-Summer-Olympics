@@ -1,0 +1,96 @@
+<div class="bck">
+
+    <div class="meni">
+        <h4>
+            Search athletes
+        </h4>
+    </div>
+<div class="athpag" style="text-align: left;">
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td>
+                <input style="width: 18em;" type='text' name='name' [(ngModel)]='name'>
+            </td>
+        </tr>
+        <tr>
+            <td>Lastname:</td>
+            <td>
+                <input style="width: 18em;" type='text' name='lastname' [(ngModel)]='lastname'>
+            </td>
+        </tr>
+        <tr>
+            <td>Country:</td>
+            <td>
+                <select  style="width: 18em;" name='countries' [(ngModel)]='selected_country'>
+                    <option *ngFor='let c of countries'>{{c.country}}</option>
+                </select>        
+            </td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type='radio' name='gender' [(ngModel)]='gender' value='m'>male
+                <input type='radio' name='gender' [(ngModel)]='gender' value='f'>female
+            </td>
+        </tr>
+        <tr>
+            <td>Only medal winners:</td>
+            <td>
+                <input type='checkbox' name='only_winners' [(ngModel)]='only_winners'>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: right;">
+                <button (click)="search()">Search</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div *ngIf="flag==1">
+
+<div style="
+background: #a9ccec;
+padding-left: 35%;
+"  class="pagination">
+    <pagination-controls directionLinks="true" responsive="true" 
+    previousLabel="previous" nextLabel="next" maxsize="30
+    " (pageChange)="page = $event" id="athletes">
+</pagination-controls>
+</div>
+
+<div style="padding-bottom: 1em; margin-right: 35%; margin-left: 35%; text-align: left;">
+    items per page:
+    <input type='radio' name='items' [(ngModel)]='itemsPerPage' value="10">10
+    <input type='radio' name='items' [(ngModel)]='itemsPerPage' value="20">20
+    <input type='radio' name='items' [(ngModel)]='itemsPerPage' value="50">50
+    <input type='radio' name='items' [(ngModel)]='itemsPerPage' value="100">100
+</div>
+
+    <table  class="athpag" style="text-align: left;">
+        <tr style="font-weight: 700;">
+            <td colspan="2" style="width: 30em;">
+                country
+            </td>
+            <td>name</td>
+            <td colspan="4">lastname</td>
+        </tr>
+        <tr *ngFor="let c of athletes_for_display | paginate: {
+            itemsPerPage:itemsPerPage,
+            currentPage:page,
+            id: 'athletes'
+        }">
+            <td>
+                <img width="30px" height="30px" src="../../assets/{{c.country}}.jpg">
+            </td>
+            <td>
+                {{c.country}}
+            </td>
+            <td>{{c.name}}</td>
+            <td>{{c.lastname}}</td>
+        </tr>
+    </table>
+</div>
+
+</div>

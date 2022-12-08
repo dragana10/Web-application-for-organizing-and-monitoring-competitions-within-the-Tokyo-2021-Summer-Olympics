@@ -1,0 +1,40 @@
+.bg-image{
+    background-image: url(../../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 100%; */
+    padding: 20em;
+}
+.bckg{
+    background-image: url(../../assets/back5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:40% 100%;
+    padding-bottom: 30%;
+}
+.left{
+    background-image: url(../../assets/tokyo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:50% 100%;
+    background-position-y: 0%;
+    background-position-x: 0%;
+}
+.logo{
+    background-image: url(../../assets/logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    padding-bottom: 3em;
+    padding-top: 10em;
+}
+.backlogo{
+    background:white
+}
+.plnt{
+    background-image: url(../../assets/back6.jpg); 
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    padding-bottom: 40em;
+    background-position-y: 40%;
+}

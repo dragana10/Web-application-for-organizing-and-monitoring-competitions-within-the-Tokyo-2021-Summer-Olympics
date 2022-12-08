@@ -1,0 +1,26 @@
+.frame_class{
+    margin-left: 20%;
+    margin-right: 25%;
+    background:rgb(224, 64, 104);
+    margin-bottom: 10px;
+}
+.table_class{
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 25%;
+}
+.back{
+    background:#a9ccec;
+}
+.back_bottom{
+    background:url(../../assets/one.jpg);
+    /* background-size: cover; */
+    padding: 20em;
+    background-position: center;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+}
+.org_class{
+    text-align: right;
+    background:rgb(26, 15, 15);
+}

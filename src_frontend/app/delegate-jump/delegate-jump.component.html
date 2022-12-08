@@ -1,0 +1,666 @@
+<div>
+
+    
+    <div class="meni">
+        <h5>
+            Information about selected competition:
+        </h5>
+    </div>
+
+    <div *ngIf="flag==1">
+        <div *ngIf="finished==1" class="finished">
+            <div *ngIf="awarded_medals==1">
+                <table>
+                    <tr>
+                        <td style="font-weight: bold; font-size: 23px;" colspan="3">
+                            This competition is finished. You are not able to enter data.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 15em;">
+                            Bronze:
+                        </td>
+                        <td style="background: rgba(216, 76, 40, 0.829); width: 15em;">
+                            {{bronze.lastname}}&nbsp; {{bronze.name}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Silver:
+                        </td>
+                        <td style="background: rgb(206, 209, 209);">
+                            {{silver.lastname}}&nbsp;{{silver.name}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gold:
+                        </td>
+                        <td style="background: rgb(241, 192, 31);">
+                            {{gold.lastname}}&nbsp;{{gold.name}}&nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div *ngIf="formed==0 && finished==0" class="formed">
+                <div>
+                    <table>
+                        <tr>
+                            <td style="font-weight: bold; font-size: 23px;" colspan="3">
+                                This competition is not formed. You are not able to enter data.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+
+<div *ngIf="kind==0 && flag==1 && participants.length!=0">
+    <div style="margin-left: 3%;color: red;font-weight: bold;" *ngIf="participants.length==0">
+        {{msg_abt_par}}
+    </div>
+    <table style="margin-left: 3%;">
+        <tr>
+            <td style="font-weight: bold;">
+                Participants:
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="width: 20em;">
+                <h4>
+                    country
+                </h4>
+            </td>
+            <td colspan="2" style="width: 15em;">
+                <h4>
+                    lastname and name
+                </h4>
+            </td>
+        </tr>
+        <tr *ngFor="let r of participants">
+            <td>
+                <img src="../../assets/{{r.country}}.jpg" width="30px" height="30px">
+            </td>
+            <td>
+                {{r.country}}
+            </td>
+            <td colspan="2">
+                {{r.lastname}}&nbsp;{{r.name}}
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div *ngIf="flag==1 && kind==0">
+    <table style="margin-left: 3%;">
+        <tr>
+            <td style="width: 20em;">
+                <h4>
+                    Start:
+                </h4>
+            </td>
+            <td style="width: 20em;">
+                <h4>
+                    End:
+                </h4>
+            </td>
+        </tr>
+        <tr>
+            <td class="dates">
+                {{date_start_to_display}}
+            </td>
+            <td class="dates">
+                {{date_end_to_display}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Location:
+            </td>
+            <td>
+                {{location_name}}
+            </td>
+        </tr>
+        <tr *ngIf="flag2==1">
+            <td colspan="2">
+                Location is not available in the following terms:
+            </td>
+        </tr>
+        <tr *ngFor="let t of time_date_to_display">
+            <td *ngIf="flag2==1" style="padding-left: 20em;font-weight: bold;" colspan="2">
+                {{t}}
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="meni">
+    <h5>
+        Enter the start time:
+    </h5>
+</div>
+<table style="margin-left: 42%;margin-right: 42%;">
+    <tr>
+        <td style="width: 15em;">
+            <input style="width: 15em;" type="time" name='time_start' [(ngModel)]='time_start'>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button style="width: 15em; height: 30px;background: cornflowerblue;" (click)='set_time()'>enter</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            {{msg_time}}
+        </td>
+    </tr>
+</table>
+
+<div class="meni">
+    <h5>
+        Input of results
+    </h5>
+</div>
+
+<div *ngIf="kind==0 && flag==1">
+    <table style="margin-left: 3%;margin-right: 3%;">
+        <tr>
+            <td>
+                <h2>
+                    Finale
+                </h2>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h4>
+                    country
+                </h4>
+            </td>
+            <td colspan="3">
+                <h4>
+                    lastname and name
+                </h4>
+            </td>
+            <td colspan="18">
+                <h3>
+                    First attempt
+                </h3>
+            </td>
+            <td colspan="18">
+                <h3>
+                    Second attempt
+                </h3>
+            </td>
+            <td colspan="10">
+                <h3>
+                    Third attempt
+                </h3>
+            </td>
+        </tr>
+        <tr *ngFor="let r of participants">
+            <td>
+                <img src="../../assets/{{r.country}}.jpg" width="30px" height="30px">
+            </td>
+            <td>
+                {{r.country}}
+            </td>
+            <td colspan="3">
+                {{r.lastname}}&nbsp;{{r.name}}
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.curr_res_sec'>
+            </td>
+            <td style="text-align: left; color: red;">
+                {{reg0}}
+            </td>
+            <td>
+                {{reg1}}
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.curr_res_cen'>
+            </td>
+            <td colspan="6" style="text-align: left; color: red;">
+                {{reg2}}
+            </td>
+            <td colspan="8">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>
+                <input style="width: 50px;text-align: right;" type="number" [(ngModel)]='r.curr_res_sec2'>
+            </td>
+            <td style="text-align: left; color: red;">
+                {{reg0}}
+            </td>
+            <td style="text-align: center;">
+                {{reg1}}
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.curr_res_cen2'>
+            </td>
+            <td colspan="6" style="text-align: left; color: red;">
+                {{reg2}}
+            </td>
+            <td colspan="8">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.curr_res_sec3'>
+            </td>
+            <td style="text-align: left; color: red;">
+                {{reg0}}
+            </td>
+            <td style="text-align: center;">
+                {{reg1}}
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.curr_res_cen3'>
+            </td>
+            <td colspan="6" style="text-align: left; color: red;">
+                {{reg2}}
+            </td>
+        </tr>
+        <tr>
+            <td colspan="45" style="text-align: right;">
+                <button (click)="enter_result_fun()">enter</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+<div *ngIf="new_bronze==1">
+    <h2>
+        New round for bronze medal
+    </h2>
+    <table style="margin-left: 3%;margin-right: 3%;">
+        <tr>
+            <td>
+
+            </td>
+            <td  colspan="2">
+                <h4>
+                    country
+                </h4>
+            </td>
+            <td colspan="3">
+                <h4>
+                    lastname and name
+                </h4>
+            </td>
+            <td colspan="18">
+                <h3>
+                    First attempt
+                </h3>
+            </td>
+            <td colspan="18">
+                <h3>
+                    Second attempt
+                </h3>
+            </td>
+            <td colspan="10">
+                <h3>
+                    Third attempt
+                </h3>
+            </td>
+        </tr>
+        <tr *ngFor="let r of new_bronze_array">
+            <td>
+                <img src="../../assets/{{r.country}}.jpg" width="30px" height="30px">
+            </td>
+            <td>
+                {{r.country}}
+            </td>
+            <td colspan="3">
+                {{r.lastname}}&nbsp;{{r.name}}
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_sec'>
+            </td>
+            <td style="text-align: left; color: red;">
+                {{reg0}}
+            </td>
+            <td>
+                {{reg1}}
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_cen'>
+            </td>
+            <td colspan="6" style="text-align: left; color: red;">
+                {{reg2}}
+            </td>
+            <td colspan="8">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>
+                <input style="width: 50px;text-align: right;" type="number" [(ngModel)]='r.new_res_sec2'>
+            </td>
+            <td style="text-align: left; color: red;">
+                {{reg0}}
+            </td>
+            <td style="text-align: center;">
+                {{reg1}}
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_cen2'>
+            </td>
+            <td colspan="6" style="text-align: left; color: red;">
+                {{reg2}}
+            </td>
+            <td colspan="8">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_sec3'>
+            </td>
+            <td style="text-align: left; color: red;">
+                {{reg0}}
+            </td>
+            <td style="text-align: center;">
+                {{reg1}}
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_cen3'>
+            </td>
+            <td colspan="6" style="text-align: left; color: red;">
+                {{reg2}}
+            </td>
+        </tr>
+        <tr>
+            <td colspan="45" style="text-align: right;">
+                <button (click)="confirm_bronze()">enter</button>
+            </td>
+    </table>
+</div>
+<div *ngIf="new_silver==1">
+    <h2>
+        New round for silver medal
+    </h2>
+    <table style="margin-left: 3%;margin-right: 3%;">
+        <tr>
+            <td>
+
+            </td>
+            <td  colspan="2">
+                <h4>
+                    country
+                </h4>
+            </td>
+            <td colspan="3">
+                <h4>
+                    lastname and name
+                </h4>
+            </td>
+        <td colspan="18">
+            <h3>
+                First attempt
+            </h3>
+        </td>
+        <td colspan="18">
+            <h3>
+                Second attempt
+            </h3>
+        </td>
+        <td colspan="10">
+            <h3>
+                Third attempt
+            </h3>
+        </td>
+    </tr>
+    <tr *ngFor="let r of new_silver_array">
+        <td>
+            <img src="../../assets/{{r.country}}.jpg" width="30px" height="30px">
+        </td>
+        <td>
+            {{r.country}}
+        </td>
+        <td colspan="3">
+            {{r.lastname}}&nbsp;{{r.name}}
+        </td>
+        <td>
+            <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_sec'>
+        </td>
+        <td style="text-align: left; color: red;">
+            {{reg0}}
+        </td>
+        <td>
+            {{reg1}}
+        </td>
+        <td>
+            <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_cen'>
+        </td>
+        <td colspan="6" style="text-align: left; color: red;">
+            {{reg2}}
+        </td>
+        <td colspan="8">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </td>
+        <td>
+            <input style="width: 50px;text-align: right;" type="number" [(ngModel)]='r.new_res_sec2'>
+        </td>
+        <td style="text-align: left; color: red;">
+            {{reg0}}
+        </td>
+        <td style="text-align: center;">
+            {{reg1}}
+        </td>
+        <td>
+            <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_cen2'>
+        </td>
+        <td colspan="6" style="text-align: left; color: red;">
+            {{reg2}}
+        </td>
+        <td colspan="8">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </td>
+        <td>
+            <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_sec3'>
+        </td>
+        <td style="text-align: left; color: red;">
+            {{reg0}}
+        </td>
+        <td style="text-align: center;">
+            {{reg1}}
+        </td>
+        <td>
+            <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_cen3'>
+        </td>
+        <td colspan="6" style="text-align: left; color: red;">
+            {{reg2}}
+        </td>
+    </tr>
+    <tr>
+        <td colspan="45" style="text-align: right;">
+            <button (click)="confirm_silver()">enter</button>
+        </td>
+    </tr>
+    </table>
+</div>
+<div *ngIf="new_gold==1">
+    <h2>
+        New round for gold medal
+    </h2>
+    <table style="margin-left: 3%;margin-right: 3%;">
+        <tr>
+            <td>
+
+            </td>
+            <td  colspan="2">
+                <h4>
+                    country
+                </h4>
+            </td>
+            <td colspan="3">
+                <h4>
+                    lastname and name
+                </h4>
+            </td>
+            <td colspan="18">
+                <h3>
+                    First attempt
+                </h3>
+            </td>
+            <td colspan="18">
+                <h3>
+                    Second attempt
+                </h3>
+            </td>
+            <td colspan="10">
+                <h3>
+                    Third attempt
+                </h3>
+            </td>
+        </tr>
+        <tr *ngFor="let r of new_gold_array">
+            <td>
+                <img src="../../assets/{{r.country}}.jpg" width="30px" height="30px">
+            </td>
+            <td>
+                {{r.country}}
+            </td>
+            <td colspan="3">
+                {{r.lastname}}&nbsp;{{r.name}}
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_sec'>
+            </td>
+            <td style="text-align: left; color: red;">
+                {{reg0}}
+            </td>
+            <td>
+                {{reg1}}
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_cen'>
+            </td>
+            <td colspan="6" style="text-align: left; color: red;">
+                {{reg2}}
+            </td>
+            <td colspan="8">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>
+                <input style="width: 50px;text-align: right;" type="number" [(ngModel)]='r.new_res_sec2'>
+            </td>
+            <td style="text-align: left; color: red;">
+                {{reg0}}
+            </td>
+            <td style="text-align: center;">
+                {{reg1}}
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_cen2'>
+            </td>
+            <td colspan="6" style="text-align: left; color: red;">
+                {{reg2}}
+            </td>
+            <td colspan="8">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_sec3'>
+            </td>
+            <td style="text-align: left; color: red;">
+                {{reg0}}
+            </td>
+            <td style="text-align: center;">
+                {{reg1}}
+            </td>
+            <td>
+                <input style="width: 50px;" type="number" [(ngModel)]='r.new_res_cen3'>
+            </td>
+            <td colspan="6" style="text-align: left; color: red;">
+                {{reg2}}
+            </td>
+        </tr>
+        <tr>
+            <td colspan="45" style="text-align: right;">
+                <button (click)="confirm_gold()">enter</button>
+            </td>
+    </table>
+</div>
+<div *ngIf="awarded_medals==1">
+    <table style="margin-left: 3%;margin-right: 3%;">
+        <tr>
+            <td>
+                <h1>
+                    Medals
+                </h1>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h4>
+                    country
+                </h4>
+            </td>
+            <td colspan="2">
+                <h4>
+                    lastname and name
+                </h4>
+            </td>
+            <td>
+                rank
+            </td>
+            <td>
+                increment medals
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="../../assets/{{bronze.country}}.jpg" width="30px" height="30px">
+            </td>
+            <td>
+                {{bronze.country}}
+            </td>
+            <td colspan="2"  style="background: rgba(216, 76, 40, 0.829);">
+                {{bronze.lastname}}&nbsp;{{bronze.name}}
+            </td>
+            <td>
+                bronze medal
+            </td>
+            <td>
+                <button style="width: 15em;" (click)="set_bronze()">award a bronze medal</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="../../assets/{{silver.country}}.jpg" width="30px" height="30px">
+            </td>
+            <td>
+                {{silver.country}}
+            </td>
+            <td colspan="2"  style="background: rgb(206, 209, 209);">
+                {{silver.lastname}}&nbsp;{{silver.name}}
+            </td>
+            <td>
+                silver medal
+            </td>
+            <td>
+                <button style="width: 15em;" (click)="set_silver()">award a silver medal</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="../../assets/{{gold.country}}.jpg" width="30px" height="30px">
+            </td>
+            <td>
+                {{gold.country}}
+            </td>
+            <td colspan="2" style="background: rgb(241, 192, 31);">
+                {{gold.lastname}}&nbsp;{{gold.name}}
+            </td>
+            <td>
+                gold medal
+            </td>
+            <td>
+                <button style="width: 15em;" (click)="set_gold()">award a gold medal</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+</div>

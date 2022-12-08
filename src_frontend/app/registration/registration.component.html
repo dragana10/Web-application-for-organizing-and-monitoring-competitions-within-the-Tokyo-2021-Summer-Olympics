@@ -1,0 +1,54 @@
+<h2 class="hdr">Registration:</h2>
+<table class="table_class_reg">
+    <tr>
+        <td>Name:</td>
+        <td>
+            <input type='text' name='name' [(ngModel)]='name'>
+        </td>
+    </tr>
+    <tr>
+        <td>Lastname:</td>
+        <td>
+            <input type='text' name='lastname' [(ngModel)]='lastname'>
+        </td>
+    </tr>
+    <tr>
+        <td>Username:</td>
+        <td>
+            <input type='text' name='username' [(ngModel)]='username'>
+        </td>
+    </tr>
+    <tr>
+        <td>Password:</td>
+        <td>
+            <input type='text' name='password' [(ngModel)]='password'>
+        </td>
+    </tr>
+    <tr>
+        <td>Nationality:</td>
+        <td>
+            <input type='text' name='nationality' [(ngModel)]='nationality'>
+        </td>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td>
+            <input type='text' name='email' [(ngModel)]='email'>
+        </td>
+    </tr>
+    <tr>
+        <td>Are you delegate or leader:</td>
+        <td>
+            <input type='radio' name='type' [(ngModel)]='type' value="1">delegate
+            <input type='radio' name='type' [(ngModel)]='type' value="2">leader
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <button style="background-color: rgb(245, 188, 65);" (click)="register()">register</button>
+        </td>
+    </tr>
+
+</table>
+<span style='color: red'>{{error}}</span>

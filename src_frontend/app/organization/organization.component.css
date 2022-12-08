@@ -1,0 +1,40 @@
+.hdr_class_orgnztr{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: rgb(23, 42, 209);
+    background-position: center;
+    background-size: 50% 300px;
+    padding-bottom: 40em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../../assets/one.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.meniO{
+    padding-bottom: 5px;
+    color: white;
+}
+.meniO a{
+    color: white;
+}
+
+.meniO a:hover{
+    color: white;
+    font-weight: bold;
+}
+.login_line_org{
+    background-color: #a9ccec;
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    height: 40px;
+}
+.back_bottomO{
+    background:url(../../assets/one.jpg);
+    /* background-size: cover; */
+    padding: 20em;
+    background-position: center;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+}

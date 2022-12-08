@@ -1,0 +1,129 @@
+<div>
+    <div class="meni">
+        <h5>
+            Register a new competitor:
+        </h5>
+    </div>
+    <table style="margin-left: 42%;margin-right: 42%;">
+        <tr>
+            <td colspan="2" >Name:</td>
+            <td colspan="2" >
+                <input style="width: 15em" type='text' name='name' [(ngModel)]='name'>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" >Lastname:</td>
+            <td colspan="2" >
+                <input style="width: 15em" type='text' name='lastname' [(ngModel)]='lastname'>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" >Country:</td>
+            <td colspan="2" >
+                {{country_name}}      
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" >Gender:</td>
+            <td colspan="2" >
+                <input type='radio' name='gender' [(ngModel)]='gender' value='m'>Male
+                <input type='radio' name='gender' [(ngModel)]='gender' value='f'>Female
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" >
+                Sport:
+            </td>
+            <td colspan="2" >
+                <select style="width: 15em" name='selected_sport' [(ngModel)]='selected_sport' (ngModelChange)="get_discipline_for_sport()">
+                    <option value="">---Please select---</option>
+                    <option *ngFor='let c of all_sports_in_the_sys'>{{c.name}}</option>
+                </select>        
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" >
+                Discipline:
+            </td>
+            <div *ngIf="choose_disc==0">
+                <td style="text-align: right;" colspan="2" >
+                    <button (click)="choose_disc_fun();">select disciplines</button>
+                </td>
+            </div>
+            <div *ngIf="choose_disc==1">
+                <td style="text-align: right;" colspan="2" >
+                    <button (click)="hide_disc_fun();">hide disciplines</button>
+                </td>
+            </div>
+        </tr>
+        <tr *ngFor='let c of disc_for_display'>
+                <td  *ngIf="choose_disc==1" colspan="3" style="text-align: right;">
+                    {{c.name}}
+                </td>
+                <td *ngIf="choose_disc==1"  colspan="2" style="text-align: left;">
+                    <button (click)="register(c)">register</button>
+                </td>
+                <td style="color: red; width: 10em;">
+                    {{c.msg}}
+                </td>
+        </tr>
+        <tr>
+            <td *ngIf="flag1==1" colspan="3" style="text-align: right; color: red;">
+                Selected sport has no disciplines.
+            </td>
+        </tr>
+        <tr>
+            <td *ngIf="flag1==1" colspan="3" style="text-align: right;">
+                <button (click)="register_sport()">register</button>
+            </td>
+        </tr>
+        <tr>
+            <td *ngIf="flag1==1" colspan="3" style="text-align: right; color:red;">
+                {{flag1_msg}}
+            </td>
+        </tr>
+    </table>
+
+    <div style="margin-top: 7em;">
+        <div class="meni">
+            <h5>
+                All registered competitors from my country
+            </h5>
+            <br>
+            <div *ngIf="my_competitors_flag==0">
+                <button style="width: 10em;" (click)="show_my_competitors()">show</button>
+            </div>
+            <div *ngIf="my_competitors_flag==1">
+                <button  style="width: 10em;" (click)="hide_my_competitors()">hide</button>
+            </div>
+        </div>
+    </div>
+
+    <div *ngIf="my_competitors_flag==1">
+        <table style="margin-left: 42%;margin-right: 42%;">
+            <tr style="font-weight: bold;">
+                <td colspan="2" style="width: 20em;">
+                    lastname
+                </td>
+                <td colspan="2" style="width: 20em;">
+                    name
+                </td>
+            </tr>
+            <tr *ngFor="let c of my_competitors">
+                <td colspan="2" style="width: 20em;">
+                    {{c.lastname}}
+                </td>
+                <td colspan="2" style="width: 20em;">
+                    {{c.name}}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- <button (click)="add()">add all</button> -->
+
+
+    <div class="bck_rgacmp">
+        <p></p>
+    </div>
+</div>

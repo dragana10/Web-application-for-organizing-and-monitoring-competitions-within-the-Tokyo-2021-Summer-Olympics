@@ -1,0 +1,223 @@
+{
+    "_id" : ObjectId("613b77e537e8758cc099b6e9"),
+    "name" : "Aomi Urban Sports Park",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z"
+    ],
+    "sports" : [ 
+        "backetball"
+    ]
+}
+{
+    "_id" : ObjectId("613b849537e8758cc099ba8e"),
+    "name" : "Ariake Arena",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z"
+    ],
+    "sports" : [ 
+        "volleyball"
+    ]
+}
+{
+    "_id" : ObjectId("613b849537e8758cc099ba91"),
+    "name" : "Tatsumi Water Polo Centre",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z"
+    ],
+    "sports" : [ 
+        "water-polo"
+    ]
+}
+{
+    "_id" : ObjectId("613b84ea37e8758cc099babb"),
+    "name" : "Olympic Stadium - High Jump",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z"
+    ],
+    "sports" : [ 
+        "athletics"
+    ],
+    "disciplines" : [ 
+        "High Jump"
+    ]
+}
+{
+    "_id" : ObjectId("613b84ea37e8758cc099babe"),
+    "name" : "Olympic Stadium - Long Jump",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z"
+    ],
+    "sports" : [ 
+        "athletics"
+    ],
+    "disciplines" : [ 
+        "Long Jump"
+    ]
+}
+{
+    "_id" : ObjectId("613b850137e8758cc099bacf"),
+    "name" : "Olympic Stadium - Triple Jump",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z"
+    ],
+    "sports" : [ 
+        "athletics"
+    ],
+    "disciplines" : [ 
+        "Triple Jump"
+    ]
+}
+{
+    "_id" : ObjectId("613b850137e8758cc099bad2"),
+    "name" : "Olympic Stadium - Pole Vault",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z"
+    ],
+    "sports" : [ 
+        "athletics"
+    ],
+    "disciplines" : [ 
+        "Pole Vault"
+    ]
+}
+{
+    "_id" : ObjectId("613b850137e8758cc099bad5"),
+    "name" : "Olympic Stadium - Shot Put",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z"
+    ],
+    "sports" : [ 
+        "athletics"
+    ],
+    "disciplines" : [ 
+        "Shot Put"
+    ]
+}
+{
+    "_id" : ObjectId("613b850137e8758cc099bad8"),
+    "name" : "Olympic Stadium - Long Throws",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z"
+    ],
+    "sports" : [ 
+        "athletics"
+    ],
+    "disciplines" : [ 
+        "Discus Throw", 
+        "Hammer Throw", 
+        "Javelin Throw"
+    ]
+}
+{
+    "_id" : ObjectId("613b850137e8758cc099badb"),
+    "name" : "Sapporo Odori Park",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z"
+    ],
+    "sports" : [ 
+        "athletics"
+    ],
+    "disciplines" : [ 
+        "20km Race Walk", 
+        "50km Race Walk", 
+        "Marathon"
+    ]
+}
+{
+    "_id" : ObjectId("613b850137e8758cc099bade"),
+    "name" : "Fuji International Speedway",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z"
+    ],
+    "sports" : [ 
+        "cycling"
+    ],
+    "disciplines" : [ 
+        "225km Road Race"
+    ]
+}
+{
+    "_id" : ObjectId("613b850137e8758cc099bae1"),
+    "name" : "Tokyo Aquatics Centre",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z", 
+        "2021-09-01T11:00Z"
+    ],
+    "sports" : [ 
+        "swimming"
+    ],
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ]
+}
+{
+    "_id" : ObjectId("613b850137e8758cc099bae4"),
+    "name" : "Asaka Shooting Range",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z", 
+        "2021-09-08T17:00Z", 
+        "2021-09-08T18:00Z"
+    ],
+    "sports" : [ 
+        "shooting"
+    ],
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "10m Air Pistol", 
+        "25m Pistol"
+    ]
+}
+{
+    "_id" : ObjectId("613b887037e8758cc099bb49"),
+    "name" : "Ariake Tennis Centre Court",
+    "time_scheduled" : [ 
+        "2021-09-01T19:00Z", 
+        "2021-09-10T20:00Z", 
+        "2021-09-10T07:00Z"
+    ],
+    "sports" : [ 
+        "tennis"
+    ],
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ]
+}
+{
+    "_id" : ObjectId("613bb6ad37e8758cc099cb82"),
+    "name" : "Olympic Stadium-Track",
+    "time_scheduled" : [ 
+        "2021-9-9T15:00:00Z", 
+        "2021-9-9T20:00:00Z", 
+        "2021-09-01T12:32Z", 
+        "2021-09-01TundefinedZ", 
+        "2021-09-01T03:48Z"
+    ],
+    "sports" : [ 
+        "athletics"
+    ],
+    "disciplines" : [ 
+        "100m Running", 
+        "100m Relay Running", 
+        "200m Running", 
+        "400m Running", 
+        "800m Running", 
+        "5000m Running", 
+        "10000m Running"
+    ]
+}

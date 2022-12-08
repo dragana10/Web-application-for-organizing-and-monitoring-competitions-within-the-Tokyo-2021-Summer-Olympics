@@ -1,0 +1,18 @@
+.holders{
+    font-size: 15px;
+    font-weight: 600px;
+    color: blue;
+    background: rgb(150, 214, 216);
+}
+.imprtnt{
+    background:blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-weight: 700px;
+    text-align: center;
+}
+.msgs{
+    font: italic;
+    font-weight: 700;
+    color: red;
+}

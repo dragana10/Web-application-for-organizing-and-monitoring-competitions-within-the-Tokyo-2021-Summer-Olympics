@@ -1,0 +1,897 @@
+<div class="back">
+
+    <div class="meni">
+        <h5>
+            Information about selected competition:
+        </h5>
+    </div>
+
+    <div *ngIf="finished==1" class="finished">
+        <div *ngIf="awarded_medals==1">
+            <table>
+                <tr>
+                    <td style="font-weight: bold; font-size: 23px;" colspan="3">
+                        This competition is finished. You are not able to enter data.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15em;">
+                        Bronze:
+                    </td>
+                    <td style="background: rgba(216, 76, 40, 0.829); width: 15em;">
+                        {{bronze.lastname}}&nbsp; {{bronze.name}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Silver:
+                    </td>
+                    <td style="background: rgb(206, 209, 209);">
+                        {{silver.lastname}}&nbsp;{{silver.name}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gold:
+                    </td>
+                    <td style="background: rgb(241, 192, 31);">
+                        {{gold.lastname}}&nbsp;{{gold.name}}&nbsp;
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div *ngIf="formed==0 && finished==0" class="formed">
+        <div>
+            <table>
+                <tr>
+                    <td style="font-weight: bold; font-size: 23px;" colspan="3">
+                        This competition is not formed. You are not able to enter data.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="notification">
+        The competition is scheduled for {{date_start_to_display}} to {{date_end_to_display}} by the organizer.
+    </div>
+
+
+    <div class="holders" *ngIf="initialized==1">
+        <table style="padding-left: 4%;">
+            <tr>
+                <td>
+                    1. holder:
+                </td>
+                <td>
+                    {{this.first[0].lastname}}&nbsp;{{this.first[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2. holder:
+                </td>
+                <td>
+                    {{this.second[0].lastname}}&nbsp;{{this.second[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3. holder:
+                </td>
+                <td>
+                    {{this.third[0].lastname}}&nbsp;{{this.third[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    4. holder:
+                </td>
+                <td>
+                    {{this.fourth[0].lastname}}&nbsp;{{this.fourth[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    5. holder:
+                </td>
+                <td>
+                    {{this.fifth[0].lastname}}&nbsp;{{this.fifth[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    6. holder:
+                </td>
+                <td>
+                    {{this.sixth[0].lastname}}&nbsp;{{this.sixth[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    7. holder:
+                </td>
+                <td>
+                    {{this.seventh[0].lastname}}&nbsp;{{this.seventh[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    8. holder:
+                </td>
+                <td>
+                    {{this.eighth[0].lastname}}&nbsp;{{this.eighth[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    9. holder:
+                </td>
+                <td>
+                    {{this.ninth[0].lastname}}&nbsp;{{this.ninth[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    10. holder:
+                </td>
+                <td>
+                    {{this.tenth[0].lastname}}&nbsp;{{this.tenth[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    11. holder:
+                </td>
+                <td>
+                    {{this.eleventh[0].lastname}}&nbsp;{{this.eleventh[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    12. holder:
+                </td>
+                <td>
+                    {{this.twelfth[0].lastname}}&nbsp;{{this.twelfth[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    13. holder:
+                </td>
+                <td>
+                    {{this.thirteenth[0].lastname}}&nbsp;{{this.thirteenth[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    14. holder:
+                </td>
+                <td>
+                    {{this.fourteenth[0].lastname}}&nbsp;{{this.fourteenth[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    15. holder:
+                </td>
+                <td>
+                    {{this.fifteenth[0].lastname}}&nbsp;{{this.fifteenth[0].name}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    16. holder:
+                </td>
+                <td>
+                    {{this.sixteenth[0].lastname}}&nbsp;{{this.sixteenth[0].name}}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="meni">
+        Scheduling algorithm
+        <br>
+        <button (click)="schedule_fun()" style="width: 20em;">schedule</button>
+    </div>
+
+    <div *ngIf="players_scheduled==1">
+        <table style="padding-left: 28%; padding-right: 28%; text-align: right;">
+            <tr>
+                <td colspan="2" style="text-align: right; width: 25em; font-weight: bold;">
+                    left half
+                </td>
+                <td style="text-align: right; width: 20em; font-weight: bold;">
+                    right half
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5em; text-align: left;">
+                    1.match
+                </td>
+                <td style="width: 20em;">
+                    {{first_player.lastname}}&nbsp;-&nbsp;{{second_player.lastname}}
+                </td>
+                <td style="width: 20em;">
+                    {{ninth_player.lastname}}&nbsp;-&nbsp;{{tenth_player.lastname}}
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5em; text-align: left;">
+                    2.match
+                </td>
+                <td style="width: 20em;">
+                    {{third_player.lastname}}&nbsp;-&nbsp;{{fourth_player.lastname}}
+                </td>
+                <td style="width: 20em;">
+                    {{eleventh_player.lastname}}&nbsp;-&nbsp;{{twelfth_player.lastname}}
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5em; text-align: left;">
+                    3.match
+                </td>
+                <td>
+                    {{fifth_player.lastname}}&nbsp;-&nbsp;{{sixth_player.lastname}}
+                </td>
+                <td>
+                    {{thirteenth_player.lastname}}&nbsp;-&nbsp;{{fourteenth_player.lastname}}
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5em; text-align: left;">
+                    4.match
+                </td>
+                <td>
+                    {{seventh_player.lastname}}&nbsp;-&nbsp;{{eighth_player.lastname}}
+                </td>
+                <td>
+                    {{fifteenth_player.lastname}}&nbsp;-&nbsp;{{sixteenth_player.lastname}}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="meni">
+        Enter players for first round:
+        <br>
+        <button (click)="set_plyrs_first_round()" style="width: 20em;">set</button>
+        <br>
+        {{msg_to_set_players}}
+    </div>
+
+    <div class="meni" style="margin-top: 30px;">
+        Show games
+        <br>
+        <button (click)="show_games()" style="width: 20em;">show first round</button>
+        <div *ngIf="want_to_show_games==1">
+            <button (click)="hide_games()" style="width: 20em;">hide first round</button>
+        </div>
+    </div>
+
+    <div *ngIf="want_to_show_games==1">
+        <table *ngFor="let t of games_fir_round" style="padding-left: 4%; font-size: 17px;">
+            <tr class="meni">
+                <td>
+                    <p>
+
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px; font-weight: bold; color:#9e1818;">
+                    {{t.level}}
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 15px; font-weight: bold; color:#9e1818; font-style: italic;">
+                    {{t.group}}
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left; font-weight: bold;" *ngIf="t.status!=2">
+                    unfinished
+                </td>
+                <td style="text-align: left; font-weight: bold;" *ngIf="t.status==2">
+                    finished
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left; font-weight: bold; color: rgb(145, 7, 7);">
+                    {{msg_1}}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right; padding-left: 10em;">
+                    participants
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: right; font-weight: bold; font-size: 18px; padding-left: 10em;">
+                    {{t.team_A.lastname}}
+                </td>
+                <td style="text-align: left;" *ngIf="t.winn_num==1">
+                    winner
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right; font-weight: bold; font-size: 18px; padding-left: 10em;">
+                    {{t.team_B.lastname}}
+                </td>
+                <td style="text-align: left;" *ngIf="t.winn_num==2">
+                    winner
+                </td>
+            </tr>
+
+            <tr aria-rowspan="3" style="height: 50px;">
+                <td colspan="3" style="font-weight: bold; text-align: left; color:rgb(145, 7, 7); padding-left: 10em;">
+                    {{location_name}}
+                </td>
+                <td style="font-style: italic;">
+                    scheduled:
+                </td>
+                <td *ngFor="let z of time_date_to_display"
+                    style="font-style: italic; color: red;font-size: 13px; font-weight: bold;">
+                    {{z}}&nbsp;|&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" colspan="3">
+                    <input min="date_start" max="date_end" type="date" name='date_start_my'
+                        [(ngModel)]='t.date_to_enter'>
+                </td>
+                <td style="font-style: italic;">
+                    set date
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" colspan="3">
+                    <input type="time" name='time_start' [(ngModel)]='t.time_to_enter'>
+                </td>
+                <td>
+                    <button (click)='set_time(t)'>set date and time</button>
+                </td>
+                <td colspan="8" style="font-style: italic; color: red;">
+                    {{t.msg_about_time_start}}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; padding-left: 10em;">
+                    <input type="text" [(ngModel)]='t.curr_res'>
+                </td>
+                <td>
+                    <button (click)="enter(t)">enter</button>
+                </td>
+                <td colspan="8" style="font-style: italic; color: red;">
+                    {{t.msg_about_res}}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="padding-bottom: 50px; text-align: right; color: red; padding-left: 10em;">
+                    {{msg_regex}}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="meni" style="margin-top: 30px;">
+        <button style="width: 20em;" (click)="show_games_next(3)">show quarterfinal</button>
+        <div *ngIf="want_quarterfinal==1">
+            <button (click)="hide_games_next(3)" style="width: 20em;">hide quarterfinal</button>
+        </div>
+    </div>
+
+    <div *ngIf="can_next[3]==1 && want_quarterfinal==1">
+        <table *ngFor="let t of games_quarter" style="padding-left: 4%; font-size: 17px;">
+            <tr class="meni">
+                <td>
+                    <p>
+
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px; font-weight: bold; color:#9e1818;">
+                    {{t.level}}
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 15px; font-weight: bold; color:#9e1818; font-style: italic;">
+                    {{t.group}}
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left; font-weight: bold;" *ngIf="t.status!=2">
+                    unfinished
+                </td>
+                <td style="text-align: left; font-weight: bold;" *ngIf="t.status==2">
+                    finished
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right; padding-left: 10em;">
+                    participants
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: right; font-weight: bold; font-size: 18px; padding-left: 10em;">
+                    {{t.team_A.lastname}}
+                </td>
+                <td style="text-align: left;" *ngIf="t.winn_num==1">
+                    winner
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right; font-weight: bold; font-size: 18px; padding-left: 10em;">
+                    {{t.team_B.lastname}}
+                </td>
+                <td style="text-align: left;" *ngIf="t.winn_num==2">
+                    winner
+                </td>
+            </tr>
+
+            <tr aria-rowspan="3" style="height: 50px;">
+                <td colspan="3" style="font-weight: bold; text-align: left; color:rgb(145, 7, 7); padding-left: 10em;">
+                    {{location_name}}
+                </td>
+                <td style="font-style: italic;">
+                    scheduled:
+                </td>
+                <td *ngFor="let z of time_date_to_display"
+                    style="font-style: italic; color: red;font-size: 13px; font-weight: bold;">
+                    {{z}}&nbsp;|&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" colspan="3">
+                    <input min="date_start" max="date_end" type="date" name='date_start_my'
+                        [(ngModel)]='t.date_to_enter'>
+                </td>
+                <td style="font-style: italic;">
+                    set date
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" colspan="3">
+                    <input type="time" name='time_start' [(ngModel)]='t.time_to_enter'>
+                </td>
+                <td>
+                    <button (click)='set_time(t)'>set date and time</button>
+                </td>
+                <td colspan="8" style="font-style: italic; color: red;">
+                    {{t.msg_about_time_start}}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; padding-left: 10em;">
+                    <input type="text" [(ngModel)]='t.curr_res'>
+                </td>
+                <td>
+                    <button (click)="enter(t)">enter</button>
+                </td>
+                <td colspan="8" style="font-style: italic; color: red;">
+                    {{t.msg_about_res}}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="padding-bottom: 50px; text-align: right; color: red; padding-left: 10em;">
+                    {{msg_regex}}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="meni" style="margin-top: 30px;">
+        <button style="width: 20em;" (click)="show_games_next(2)">show semifinal</button>
+        <div *ngIf="want_semifinal==1">
+            <button (click)="hide_games_next(2)" style="width: 20em;">hide semifinal</button>
+        </div>
+    </div>
+
+    <div *ngIf="can_next[2]==1 && want_semifinal==1">
+        <table *ngFor="let t of games_semi" style="padding-left: 4%; font-size: 17px;">
+            <tr class="meni">
+                <td>
+                    <p>
+
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px; font-weight: bold; color:#9e1818;">
+                    {{t.level}}
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 15px; font-weight: bold; color:#9e1818; font-style: italic;">
+                    {{t.group}}
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left; font-weight: bold;" *ngIf="t.status!=2">
+                    unfinished
+                </td>
+                <td style="text-align: left; font-weight: bold;" *ngIf="t.status==2">
+                    finished
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right; padding-left: 10em;">
+                    participants
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: right; font-weight: bold; font-size: 18px; padding-left: 10em;">
+                    {{t.team_A.lastname}}
+                </td>
+                <td style="text-align: left;" *ngIf="t.winn_num==1">
+                    winner
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right; font-weight: bold; font-size: 18px; padding-left: 10em;">
+                    {{t.team_B.lastname}}
+                </td>
+                <td style="text-align: left;" *ngIf="t.winn_num==2">
+                    winner
+                </td>
+            </tr>
+
+            <tr aria-rowspan="3" style="height: 50px;">
+                <td colspan="3" style="font-weight: bold; text-align: left; color:rgb(145, 7, 7); padding-left: 10em;">
+                    {{location_name}}
+                </td>
+                <td style="font-style: italic;">
+                    scheduled:
+                </td>
+                <td *ngFor="let z of time_date_to_display"
+                    style="font-style: italic; color: red;font-size: 13px; font-weight: bold;">
+                    {{z}}&nbsp;|&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" colspan="3">
+                    <input min="date_start" max="date_end" type="date" name='date_start_my'
+                        [(ngModel)]='t.date_to_enter'>
+                </td>
+                <td style="font-style: italic;">
+                    set date
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" colspan="3">
+                    <input type="time" name='time_start' [(ngModel)]='t.time_to_enter'>
+                </td>
+                <td>
+                    <button (click)='set_time(t)'>set date and time</button>
+                </td>
+                <td colspan="8" style="font-style: italic; color: red;">
+                    {{t.msg_about_time_start}}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; padding-left: 10em;">
+                    <input type="text" [(ngModel)]='t.curr_res'>
+                </td>
+                <td>
+                    <button (click)="enter(t)">enter</button>
+                </td>
+                <td colspan="8" style="font-style: italic; color: red;">
+                    {{t.msg_about_res}}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="padding-bottom: 50px; text-align: right; color: red; padding-left: 10em;">
+                    {{msg_regex}}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="meni" style="margin-top: 30px;">
+        <button style="width: 20em;" (click)="show_games_next(1)">show match for bronze medal</button>
+        <div *ngIf="want_bronze==1">
+            <button (click)="hide_games_next(1)" style="width: 20em;">hide match for bronze medal</button>
+        </div>
+    </div>
+
+    <div *ngIf="can_next[1]==1 && want_bronze==1">
+        <table *ngFor="let t of games_bronze" style="padding-left: 4%; font-size: 17px;">
+            <tr class="meni">
+                <td>
+                    <p>
+
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px; font-weight: bold; color:#9e1818;">
+                    {{t.level}}
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 15px; font-weight: bold; color:#9e1818; font-style: italic;">
+                    {{t.group}}
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left; font-weight: bold;" *ngIf="t.status!=2">
+                    unfinished
+                </td>
+                <td style="text-align: left; font-weight: bold;" *ngIf="t.status==2">
+                    finished
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right; padding-left: 10em;">
+                    participants
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: right; font-weight: bold; font-size: 18px; padding-left: 10em;">
+                    {{t.team_A.lastname}}
+                </td>
+                <td style="text-align: left;" *ngIf="t.winn_num==1">
+                    winner
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right; font-weight: bold; font-size: 18px; padding-left: 10em;">
+                    {{t.team_B.lastname}}
+                </td>
+                <td style="text-align: left;" *ngIf="t.winn_num==2">
+                    winner
+                </td>
+            </tr>
+
+            <tr aria-rowspan="3" style="height: 50px;">
+                <td colspan="3" style="font-weight: bold; text-align: left; color:rgb(145, 7, 7); padding-left: 10em;">
+                    {{location_name}}
+                </td>
+                <td style="font-style: italic;">
+                    scheduled:
+                </td>
+                <td *ngFor="let z of time_date_to_display"
+                    style="font-style: italic; color: red;font-size: 13px; font-weight: bold;">
+                    {{z}}&nbsp;|&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" colspan="3">
+                    <input min="date_start" max="date_end" type="date" name='date_start_my'
+                        [(ngModel)]='t.date_to_enter'>
+                </td>
+                <td style="font-style: italic;">
+                    set date
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" colspan="3">
+                    <input type="time" name='time_start' [(ngModel)]='t.time_to_enter'>
+                </td>
+                <td>
+                    <button (click)='set_time(t)'>set date and time</button>
+                </td>
+                <td colspan="8" style="font-style: italic; color: red;">
+                    {{t.msg_about_time_start}}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; padding-left: 10em;">
+                    <input type="text" [(ngModel)]='t.curr_res'>
+                </td>
+                <td>
+                    <button (click)="enter(t)">enter</button>
+                </td>
+                <td colspan="8" style="font-style: italic; color: red;">
+                    {{t.msg_about_res}}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="padding-bottom: 50px; text-align: right; color: red; padding-left: 10em;">
+                    {{msg_regex}}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="meni" style="margin-top: 30px;">
+        <button style="width: 20em;" (click)="show_games_next(0)">show match for gold medal</button>
+        <div *ngIf="want_gold==1">
+            <button (click)="hide_games_next(0)" style="width: 20em;">hide match for gold medal</button>
+        </div>
+    </div>
+
+    <div *ngIf="can_next[0]==1 && want_gold==1">
+        <table *ngFor="let t of games_gold" style="padding-left: 4%; font-size: 17px;">
+            <tr class="meni">
+                <td>
+                    <p>
+
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px; font-weight: bold; color:#9e1818;">
+                    {{t.level}}
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 15px; font-weight: bold; color:#9e1818; font-style: italic;">
+                    {{t.group}}
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left; font-weight: bold;" *ngIf="t.status!=2">
+                    unfinished
+                </td>
+                <td style="text-align: left; font-weight: bold;" *ngIf="t.status==2">
+                    finished
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right; padding-left: 10em;">
+                    participants
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: right; font-weight: bold; font-size: 18px; padding-left: 10em;">
+                    {{t.team_A.lastname}}
+                </td>
+                <td style="text-align: left;" *ngIf="t.winn_num==1">
+                    winner
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right; font-weight: bold; font-size: 18px; padding-left: 10em;">
+                    {{t.team_B.lastname}}
+                </td>
+                <td style="text-align: left;" *ngIf="t.winn_num==2">
+                    winner
+                </td>
+            </tr>
+
+            <tr aria-rowspan="3" style="height: 50px;">
+                <td colspan="3" style="font-weight: bold; text-align: left; color:rgb(145, 7, 7); padding-left: 10em;">
+                    {{location_name}}
+                </td>
+                <td style="font-style: italic;">
+                    scheduled:
+                </td>
+                <td *ngFor="let z of time_date_to_display"
+                    style="font-style: italic; color: red;font-size: 13px; font-weight: bold;">
+                    {{z}}&nbsp;|&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" colspan="3">
+                    <input min="date_start" max="date_end" type="date" name='date_start_my'
+                        [(ngModel)]='t.date_to_enter'>
+                </td>
+                <td style="font-style: italic;">
+                    set date
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" colspan="3">
+                    <input type="time" name='time_start' [(ngModel)]='t.time_to_enter'>
+                </td>
+                <td>
+                    <button (click)='set_time(t)'>set date and time</button>
+                </td>
+                <td colspan="8" style="font-style: italic; color: red;">
+                    {{t.msg_about_time_start}}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; padding-left: 10em;">
+                    <input type="text" [(ngModel)]='t.curr_res'>
+                </td>
+                <td>
+                    <button (click)="enter(t)">enter</button>
+                </td>
+                <td colspan="8" style="font-style: italic; color: red;">
+                    {{t.msg_about_res}}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="padding-bottom: 50px; text-align: right; color: red; padding-left: 10em;">
+                    {{msg_regex}}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div *ngIf="awarded_medals==1">
+        <table style="margin-left: 3%;margin-right: 3%;">
+            <tr>
+                <td>
+                    <h1>
+                        Medals
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h4>
+                        country
+                    </h4>
+                </td>
+                <td colspan="2">
+                    <h4>
+                        lastname and name
+                    </h4>
+                </td>
+                <td>
+                    rank
+                </td>
+                <td>
+                    increment medals
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../../assets/{{bronze.country}}.jpg" width="30px" height="30px">
+                </td>
+                <td>
+                    {{bronze.country}}
+                </td>
+                <td colspan="2"  style="background: rgba(216, 76, 40, 0.829);">
+                    {{bronze.lastname}}&nbsp;{{bronze.name}}
+                </td>
+                <td>
+                    bronze medal
+                </td>
+                <td>
+                    <button style="width: 15em;" (click)="set_bronze()">award a bronze medal</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../../assets/{{silver.country}}.jpg" width="30px" height="30px">
+                </td>
+                <td>
+                    {{silver.country}}
+                </td>
+                <td colspan="2"  style="background: rgb(206, 209, 209);">
+                    {{silver.lastname}}&nbsp;{{silver.name}}
+                </td>
+                <td>
+                    silver medal
+                </td>
+                <td>
+                    <button style="width: 15em;" (click)="set_silver()">award a silver medal</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../../assets/{{gold.country}}.jpg" width="30px" height="30px">
+                </td>
+                <td>
+                    {{gold.country}}
+                </td>
+                <td colspan="2" style="background: rgb(241, 192, 31);">
+                    {{gold.lastname}}&nbsp;{{gold.name}}
+                </td>
+                <td>
+                    gold medal
+                </td>
+                <td>
+                    <button style="width: 15em;" (click)="set_gold()">award a gold medal</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+</div>

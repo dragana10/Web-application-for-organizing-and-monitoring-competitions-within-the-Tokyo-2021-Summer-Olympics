@@ -1,0 +1,4375 @@
+{
+    "_id" : ObjectId("611a85bd11d91a1fa9fed5ae"),
+    "name" : "Novak",
+    "lastname" : "DJOKOVIC",
+    "country" : "Serbia",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 1,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("611a86e111d91a1fa9fed62d"),
+    "name" : "Kei",
+    "lastname" : "Nishikori",
+    "country" : "Japan",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 1,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("611a9c3211d91a1fa9fed780"),
+    "name" : "Karen",
+    "lastname" : "Khachanov",
+    "country" : "Russia",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 3
+    }
+}
+{
+    "_id" : ObjectId("611a9cbc11d91a1fa9fed7b3"),
+    "name" : "Elena",
+    "lastname" : "Vesnina",
+    "country" : "Russia",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("611a9d7611d91a1fa9fed80b"),
+    "name" : "Ivan",
+    "lastname" : "Dodig",
+    "country" : "Croatia",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6133e38d37e8758cc09777fb"),
+    "name" : "Maja",
+    "lastname" : "Aleksic",
+    "country" : "Serbia",
+    "sport" : "volleyball",
+    "disciplines" : [ 
+        "0"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6133e38d37e8758cc09777fe"),
+    "name" : "Tijana",
+    "lastname" : "Boskovic",
+    "country" : "Serbia",
+    "sport" : "volleyball",
+    "disciplines" : [ 
+        "0"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6133e50037e8758cc09778c5"),
+    "name" : "Bianka",
+    "lastname" : "Busa",
+    "country" : "Serbia",
+    "sport" : "volleyball",
+    "disciplines" : [ 
+        "0"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6133e50037e8758cc09778c8"),
+    "name" : "Sladjana",
+    "lastname" : "Mirkovic",
+    "country" : "Serbia",
+    "sport" : "volleyball",
+    "disciplines" : [ 
+        "0"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a103f"),
+    "name" : "Alejandro",
+    "lastname" : "DAVIDOVICH FOKINA",
+    "country" : "Spain",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a1042"),
+    "name" : "Pablo",
+    "lastname" : "CARRENO BUSTA",
+    "country" : "Spain",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a1045"),
+    "name" : "Karen",
+    "lastname" : "KHACHANOV",
+    "country" : "Russia",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a1048"),
+    "name" : "Andrey",
+    "lastname" : "RUBLEV",
+    "country" : "Russia",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a104b"),
+    "name" : "Aslan",
+    "lastname" : "KARATSEV",
+    "country" : "Russia",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a104e"),
+    "name" : "Stefanos",
+    "lastname" : "TSITSIPAS",
+    "country" : "Greece",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a1051"),
+    "name" : "Jeremy",
+    "lastname" : "CHARDY",
+    "country" : "France",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a1054"),
+    "name" : "Michael",
+    "lastname" : "VENUS",
+    "country" : "New Zealand",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a1057"),
+    "name" : "Marcus",
+    "lastname" : "DANIELL",
+    "country" : "New Zealand",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a105a"),
+    "name" : "Mate",
+    "lastname" : "PAVIC",
+    "country" : "Croatia",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a105d"),
+    "name" : "Marin",
+    "lastname" : "CILIC",
+    "country" : "Croatia",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a1060"),
+    "name" : "Alexander",
+    "lastname" : "ZVEREV",
+    "country" : "Germany",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("613fee0540b0ed16894a1063"),
+    "name" : "Jan-Lennard",
+    "lastname" : "STRUFF",
+    "country" : "Germany",
+    "sport" : "tennis",
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61460aad47e7dc72b8ff97c6"),
+    "name" : "Martin",
+    "lastname" : "MALYUTIN",
+    "country" : "Russia",
+    "sport" : "swimming",
+    "disciplines" : [ 
+        "200m Freestyle", 
+        "100m Butterfly"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61460aad47e7dc72b8ff97c9"),
+    "name" : "David",
+    "lastname" : "POPOVICI",
+    "country" : "Romania",
+    "sport" : "swimming",
+    "disciplines" : [ 
+        "200m Freestyle", 
+        "100m Butterfly"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61460aad47e7dc72b8ff97cc"),
+    "name" : "Fernando",
+    "lastname" : "SCHEFFER",
+    "country" : "Brazil",
+    "sport" : "swimming",
+    "disciplines" : [ 
+        "200m Freestyle", 
+        "100m Butterfly"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61460aad47e7dc72b8ff97cf"),
+    "name" : "Thomas",
+    "lastname" : "NEIL",
+    "country" : "Australia",
+    "sport" : "swimming",
+    "disciplines" : [ 
+        "200m Freestyle", 
+        "100m Butterfly"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61460aad47e7dc72b8ff97d2"),
+    "name" : "Townley",
+    "lastname" : "HAAS",
+    "country" : "United States of America",
+    "sport" : "swimming",
+    "disciplines" : [ 
+        "200m Freestyle", 
+        "100m Butterfly"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61460aad47e7dc72b8ff97d5"),
+    "name" : "Stefano",
+    "lastname" : "di COLA",
+    "country" : "Italy",
+    "sport" : "swimming",
+    "disciplines" : [ 
+        "200m Freestyle", 
+        "100m Butterfly"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61460aad47e7dc72b8ff97d8"),
+    "name" : "Nandor",
+    "lastname" : "NEMETH",
+    "country" : "Hungary",
+    "sport" : "swimming",
+    "disciplines" : [ 
+        "200m Freestyle", 
+        "100m Butterfly"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61460aad47e7dc72b8ff97db"),
+    "name" : "Velimir",
+    "lastname" : "STJEPANOVIC",
+    "country" : "Serbia",
+    "sport" : "swimming",
+    "disciplines" : [ 
+        "200m Freestyle", 
+        "100m Butterfly"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146983147e7dc72b8ffc591"),
+    "name" : "Pedro",
+    "lastname" : "PICHARDO",
+    "country" : "Portugal",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Triple Jump"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146983147e7dc72b8ffc594"),
+    "name" : "Yaming",
+    "lastname" : "ZHU",
+    "country" : "People's Republic of China",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Triple Jump"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146983147e7dc72b8ffc597"),
+    "name" : "Hugues Fabrice",
+    "lastname" : "ZANGO",
+    "country" : "Burkina Faso",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Triple Jump"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146983147e7dc72b8ffc59a"),
+    "name" : "Will",
+    "lastname" : "CLAYE",
+    "country" : "United States of America",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Triple Jump"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146983147e7dc72b8ffc59d"),
+    "name" : "Yasser Mohamed",
+    "lastname" : "TRIKI",
+    "country" : "Algeria",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Triple Jump"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146983147e7dc72b8ffc5a0"),
+    "name" : "Necati",
+    "lastname" : "ER",
+    "country" : "Turkey",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Triple Jump"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146983147e7dc72b8ffc5a3"),
+    "name" : "Donald",
+    "lastname" : "SCOTT",
+    "country" : "United States of America",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Triple Jump"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146983147e7dc72b8ffc5a6"),
+    "name" : "Yaoqing",
+    "lastname" : "FANG",
+    "country" : "People's Republic of China",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Triple Jump"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146ae7547e7dc72b8ffce4e"),
+    "name" : "Peres",
+    "lastname" : "JEPCHIRCHIR",
+    "country" : "Kenya",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146ae7547e7dc72b8ffce51"),
+    "name" : "Brigid",
+    "lastname" : "KOSGEI",
+    "country" : "Kenya",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146ae7547e7dc72b8ffce54"),
+    "name" : "Molly",
+    "lastname" : "SEIDEL",
+    "country" : "United States of America",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 1
+    }
+}
+{
+    "_id" : ObjectId("6146ae7547e7dc72b8ffce57"),
+    "name" : "Roza",
+    "lastname" : "DEREJE",
+    "country" : "Ethiopia",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 1,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146ae7547e7dc72b8ffce5a"),
+    "name" : "Volha",
+    "lastname" : "MAZURONAK",
+    "country" : "Belarus",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146ae7547e7dc72b8ffce5d"),
+    "name" : "Melat Yisak",
+    "lastname" : "KEJETA",
+    "country" : "Germany",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146ae7547e7dc72b8ffce60"),
+    "name" : "Eunice Chebichii",
+    "lastname" : "CHUMBA",
+    "country" : "Bahrain",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146ae7547e7dc72b8ffce63"),
+    "name" : "Mao",
+    "lastname" : "ICHIYAMA",
+    "country" : "Japan",
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "gender" : "f",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 1,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146b80547e7dc72b8ffd316"),
+    "name" : "Changhong",
+    "lastname" : "ZHANG",
+    "country" : "People's Republic of China",
+    "sport" : "shooting",
+    "disciplines" : [ 
+        "50m Rifle 3 Positions"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 1,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146b80547e7dc72b8ffd319"),
+    "name" : "Sergey",
+    "lastname" : "KAMENSKIY",
+    "country" : "Russia",
+    "sport" : "shooting",
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 1,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146b80547e7dc72b8ffd31c"),
+    "name" : "Milenko",
+    "lastname" : "SEBIC",
+    "country" : "Serbia",
+    "sport" : "shooting",
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "25m Pistol"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 1,
+        "silver" : 0,
+        "bronze" : 1
+    }
+}
+{
+    "_id" : ObjectId("6146b80547e7dc72b8ffd31f"),
+    "name" : "Jon-Hermann",
+    "lastname" : "HEGG",
+    "country" : "Norway",
+    "sport" : "shooting",
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 1
+    }
+}
+{
+    "_id" : ObjectId("6146b80547e7dc72b8ffd322"),
+    "name" : "Petar",
+    "lastname" : "GORSA",
+    "country" : "Croatia",
+    "sport" : "shooting",
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146b80547e7dc72b8ffd325"),
+    "name" : "Miran",
+    "lastname" : "MARICIC",
+    "country" : "Croatia",
+    "sport" : "shooting",
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146b80547e7dc72b8ffd328"),
+    "name" : "Yury",
+    "lastname" : "SHCHERBATSEVICH",
+    "country" : "Belarus",
+    "sport" : "shooting",
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6146b80547e7dc72b8ffd32b"),
+    "name" : "Serhiy",
+    "lastname" : "KULISH",
+    "country" : "Ukraine",
+    "sport" : "shooting",
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle"
+    ],
+    "gender" : "m",
+    "has_a_medal" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614d60321bcafd3cc085093e"),
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running"
+    ],
+    "name" : "Elaine",
+    "lastname" : "THOMPSON-HERAH",
+    "country" : "Jamaica",
+    "gender" : "f",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614d609a1bcafd3cc0850945"),
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running"
+    ],
+    "name" : "Shelly-Ann",
+    "lastname" : "FRASER-PRYCE",
+    "country" : "Jamaica",
+    "gender" : "f",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614d60c81bcafd3cc0850948"),
+    "sport" : "athletics",
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running"
+    ],
+    "name" : "Shericka",
+    "lastname" : "JACKSON",
+    "country" : "Jamaica",
+    "gender" : "f",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614d62be1bcafd3cc085094c"),
+    "disciplines" : [ 
+        "100m Running"
+    ],
+    "name" : "Tyquendo",
+    "lastname" : "TRACEY",
+    "country" : "Jamaica",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 1,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614d64f1627c664280b316e2"),
+    "disciplines" : [ 
+        "100m Running"
+    ],
+    "name" : "Oblique",
+    "lastname" : "SEVILLE",
+    "country" : "Jamaica",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614d6759afc86b1e14148c07"),
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running", 
+        "400m Running"
+    ],
+    "name" : "Nathon",
+    "lastname" : "ALLEN",
+    "country" : "Jamaica",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614d69bcafc86b1e14148c0b"),
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running", 
+        "400m Running"
+    ],
+    "name" : "Sean",
+    "lastname" : "BAILEY",
+    "country" : "Jamaica",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614d6b2a9da7d82d40c25662"),
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running", 
+        "400m Running"
+    ],
+    "name" : "Karayme",
+    "lastname" : "BARTLEY",
+    "country" : "Jamaica",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2902731cca44a01dacdc"),
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running", 
+        "800m Running"
+    ],
+    "name" : "Dina",
+    "lastname" : "ASHER-SMITH",
+    "country" : "Great Britain",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2936731cca44a01dace0"),
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running", 
+        "800m Running"
+    ],
+    "name" : "Daryll",
+    "lastname" : "NEITA",
+    "country" : "Great Britain",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2980731cca44a01dace4"),
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "name" : "Stephanie",
+    "lastname" : "DAVIS",
+    "country" : "Great Britain",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e29bf731cca44a01dace6"),
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "name" : "Chris",
+    "lastname" : "Thompson",
+    "country" : "Great Britain",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e29fa731cca44a01dace8"),
+    "disciplines" : [ 
+        "High Jump"
+    ],
+    "name" : "Tom",
+    "lastname" : "GALE",
+    "country" : "Great Britain",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2a34731cca44a01dacea"),
+    "disciplines" : [ 
+        "High Jump"
+    ],
+    "name" : "Katarina",
+    "lastname" : "JOHNSON-THOMPSON",
+    "country" : "Great Britain",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2aaf731cca44a01dacec"),
+    "disciplines" : [ 
+        "High Jump"
+    ],
+    "name" : "Sophie",
+    "lastname" : "McKINNA",
+    "country" : "Great Britain",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2ae3731cca44a01dacee"),
+    "disciplines" : [ 
+        "Shot Put"
+    ],
+    "name" : "Scott",
+    "lastname" : "LINCOLN",
+    "country" : "Great Britain",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2b47731cca44a01dacf0"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Geraint",
+    "lastname" : "THOMAS",
+    "country" : "Great Britain",
+    "gender" : "m",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2b88731cca44a01dacf2"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Tao",
+    "lastname" : "GEOGHEGAN HART",
+    "country" : "Great Britain",
+    "gender" : "m",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2bb9731cca44a01dacf4"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Anna",
+    "lastname" : "SHACKLEY",
+    "country" : "Great Britain",
+    "gender" : "f",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2c0f731cca44a01dacf6"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Anna",
+    "lastname" : "HOPKIN",
+    "country" : "Great Britain",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2c2d731cca44a01dacf9"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Freya",
+    "lastname" : "ANDERSON",
+    "country" : "Great Britain",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2c65731cca44a01dacfc"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Joe",
+    "lastname" : "LITCHFIELD",
+    "country" : "Great Britain",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2c83731cca44a01dacff"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Duncan",
+    "lastname" : "SCOTT",
+    "country" : "Great Britain",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2cd7731cca44a01dad02"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Seonaid",
+    "lastname" : "McINTOSH",
+    "country" : "Great Britain",
+    "gender" : "f",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 1,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2d32731cca44a01dad07"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Heather",
+    "lastname" : "WATSON ",
+    "country" : "Great Britain",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2d4d731cca44a01dad0a"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Andy",
+    "lastname" : "MURRAY",
+    "country" : "Great Britain",
+    "gender" : "m",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2d61731cca44a01dad0d"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Joe",
+    "lastname" : "SALISBURY ",
+    "country" : "Great Britain",
+    "gender" : "m",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2d9d731cca44a01dad10"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Jamie",
+    "lastname" : "MURRAY",
+    "country" : "Great Britain",
+    "gender" : "m",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2dac731cca44a01dad13"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Neal",
+    "lastname" : "SKUPSKI",
+    "country" : "Great Britain",
+    "gender" : "m",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e2e3e731cca44a01dad16"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Nikola",
+    "lastname" : "ACIN",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e377c731cca44a01dad19"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Milan",
+    "lastname" : "ALEKSIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3871731cca44a01dad1b"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Yvonne",
+    "lastname" : "ANDERSON",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "basketball",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e389c731cca44a01dad1d"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Jovana",
+    "lastname" : "Arsovic",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 1,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e38bb731cca44a01dad22"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Zorana",
+    "lastname" : "ARUNOVIC",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 1
+    }
+}
+{
+    "_id" : ObjectId("614e38de731cca44a01dad27"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Andrej",
+    "lastname" : "BARNA Andrej",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3920731cca44a01dad2a"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Dajana",
+    "lastname" : "BUTULIJA",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "basketball",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3934731cca44a01dad2c"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Sasa",
+    "lastname" : "CADO Sasa",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "basketball",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3968731cca44a01dad2e"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Vuk",
+    "lastname" : "CELIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e397f731cca44a01dad31"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Anja",
+    "lastname" : "CREVAR",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e399c731cca44a01dad34"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Aleksandra",
+    "lastname" : "CRVENDAKIC",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "basketball",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e39b0731cca44a01dad36"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Ana",
+    "lastname" : "DABOVIC",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "basketball",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e39cc731cca44a01dad38"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Nikola",
+    "lastname" : "DEDOVIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e39ea731cca44a01dad3a"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Angela",
+    "lastname" : "DUGALIC",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "basketball",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3a0a731cca44a01dad3c"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Filip",
+    "lastname" : "FILIPOVIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3a1e731cca44a01dad3e"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Nikola",
+    "lastname" : "JAKSIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3a35731cca44a01dad40"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Ivana",
+    "lastname" : "JOROVIC",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3a49731cca44a01dad43"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Nevena",
+    "lastname" : "JOVANOVIC",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "basketball",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3a62731cca44a01dad45"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Miomir",
+    "lastname" : "KECMANOVIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3a82731cca44a01dad48"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Tina",
+    "lastname" : "KRAJISNIK",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "basketball",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3a96731cca44a01dad4a"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Aleksandra",
+    "lastname" : "KRUNIC",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3aae731cca44a01dad4d"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Djordje",
+    "lastname" : "LAZIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3ac9731cca44a01dad4f"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Dusan",
+    "lastname" : "MANDIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3af3731cca44a01dad51"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Damir",
+    "lastname" : "MIKEC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3b11731cca44a01dad56"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Jasmina",
+    "lastname" : "MILOVANOVIC",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3b2a731cca44a01dad5b"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Branislav",
+    "lastname" : "MITROVIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3b35731cca44a01dad5d"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Stefan",
+    "lastname" : "MITROVIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3b4d731cca44a01dad5f"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Dusko",
+    "lastname" : "PIJETLOVIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3b6a731cca44a01dad61"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Uros",
+    "lastname" : "NIKOLIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3b7e731cca44a01dad64"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Vladimir",
+    "lastname" : "STJEPANOVIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3bb2731cca44a01dad67"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Caba",
+    "lastname" : "SILADI",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3bd9731cca44a01dad6a"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Gojko",
+    "lastname" : "PIJETLOVIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3bef731cca44a01dad6c"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Andrija",
+    "lastname" : "PRLAINOVIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3bfe731cca44a01dad6e"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Sava",
+    "lastname" : "RANDELOVIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3c0e731cca44a01dad70"),
+    "disciplines" : [ 
+        "0"
+    ],
+    "name" : "Strahinja",
+    "lastname" : "RASOVIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "water polo",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3c5a731cca44a01dad73"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Milutin",
+    "lastname" : "STEFANOVIC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3c7e731cca44a01dad78"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Sanja",
+    "lastname" : "VUKASINOVIC",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3cac731cca44a01dad7d"),
+    "disciplines" : [ 
+        "Shot Put"
+    ],
+    "name" : "Asmir",
+    "lastname" : "KOLASINAC",
+    "country" : "Serbia",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3cca731cca44a01dad7f"),
+    "disciplines" : [ 
+        "Long Jump"
+    ],
+    "name" : "Ivana",
+    "lastname" : "SPANOVIC",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3ce1731cca44a01dad81"),
+    "disciplines" : [ 
+        "Javelin Throw"
+    ],
+    "name" : "Marija",
+    "lastname" : "VUCENOVIC",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e3cf7731cca44a01dad83"),
+    "disciplines" : [ 
+        "Discus Throw"
+    ],
+    "name" : "Dragana",
+    "lastname" : "TOMASEVIC",
+    "country" : "Serbia",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e40be731cca44a01dad85"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Omer",
+    "lastname" : "AKGUN",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e414b731cca44a01dad8a"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Yigit",
+    "lastname" : "ASLAN",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4177731cca44a01dad8d"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle"
+    ],
+    "name" : "Yusuf",
+    "lastname" : "DIKEC",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e41ac731cca44a01dad90"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Beril",
+    "lastname" : "BOCEKLER",
+    "country" : "Turkey",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e41d7731cca44a01dad93"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Deniz",
+    "lastname" : "ERTAN",
+    "country" : "Turkey",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e41f2731cca44a01dad96"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Viktoria",
+    "lastname" : "GUNES",
+    "country" : "Turkey",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e422d731cca44a01dad99"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Berkay",
+    "lastname" : "OGRETIR",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4244731cca44a01dad9c"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Ismail",
+    "lastname" : "KELES",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4266731cca44a01dada1"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Merve",
+    "lastname" : "TUNCEL",
+    "country" : "Turkey",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e428e731cca44a01dada4"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Baturlap",
+    "lastname" : "UNLU",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e42a8731cca44a01dada7"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Defne",
+    "lastname" : "TACYILDIZ",
+    "country" : "Turkey",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e42e4731cca44a01dadaa"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Berke",
+    "lastname" : "SAKA",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4300731cca44a01dadad"),
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "name" : "Yavuz",
+    "lastname" : "AGRALI",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4318731cca44a01dadaf"),
+    "disciplines" : [ 
+        "Hammer Throw"
+    ],
+    "name" : "Esref",
+    "lastname" : "APAK",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4333731cca44a01dadb1"),
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "name" : "Polat Kemboi",
+    "lastname" : "ARIKAN",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4353731cca44a01dadb3"),
+    "disciplines" : [ 
+        "Hammer Throw"
+    ],
+    "name" : "Ozkan",
+    "lastname" : "BALTACI",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4367731cca44a01dadb5"),
+    "disciplines" : [ 
+        "Shot Put"
+    ],
+    "name" : "Emel",
+    "lastname" : "DERELI",
+    "country" : "Turkey",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4393731cca44a01dadb7"),
+    "disciplines" : [ 
+        "100m Running", 
+        "100m Relay Running"
+    ],
+    "name" : "Emre Zafer",
+    "lastname" : "BARNES",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 1
+    }
+}
+{
+    "_id" : ObjectId("614e43b1731cca44a01dadba"),
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "name" : "Meryem",
+    "lastname" : "ERDOGAN",
+    "country" : "Turkey",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e43ca731cca44a01dadbc"),
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running"
+    ],
+    "name" : "Jak Ali",
+    "lastname" : "HARVEY",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 1,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e43f5731cca44a01dadbf"),
+    "disciplines" : [ 
+        "100m Running", 
+        "100m Relay Running"
+    ],
+    "name" : "Kayhan",
+    "lastname" : "OZER",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4413731cca44a01dadc2"),
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running"
+    ],
+    "name" : "Ertan",
+    "lastname" : "OZKAN",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4427731cca44a01dadc5"),
+    "disciplines" : [ 
+        "Marathon"
+    ],
+    "name" : "Sahin",
+    "lastname" : "SENODUNCU",
+    "country" : "Turkey",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4505731cca44a01dadc7"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle"
+    ],
+    "name" : "Alexey",
+    "lastname" : "ALIPOV",
+    "country" : "Russia",
+    "gender" : "m",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4520731cca44a01dadca"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Veronika",
+    "lastname" : "ANDRUSENKO",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e453b731cca44a01dadcd"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Nataliia",
+    "lastname" : "ANTONOVA",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4553731cca44a01dadcf"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Anton",
+    "lastname" : "ARISTARKHOV",
+    "country" : "Russia",
+    "gender" : "m",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e457f731cca44a01dadd4"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Yuliya",
+    "lastname" : "EFIMOVA",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e45e7731cca44a01dadd7"),
+    "disciplines" : [ 
+        "Pole Vault"
+    ],
+    "name" : "Anzhelika",
+    "lastname" : "SIDOROVA",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4625731cca44a01dadd9"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Natalia",
+    "lastname" : "AFREMOVA",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4646731cca44a01daddb"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Ekaterina",
+    "lastname" : "ALEKSANDROVA ",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4661731cca44a01dadde"),
+    "disciplines" : [ 
+        "High Jump"
+    ],
+    "name" : "Mariya",
+    "lastname" : "LASITSKENE",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e46ad731cca44a01dade0"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "25m Pistol"
+    ],
+    "name" : "Anastasiia",
+    "lastname" : "GALASHINA",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e46c7731cca44a01dade4"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle"
+    ],
+    "name" : "Vitalina",
+    "lastname" : "BATSARASHKINA ",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e46e5731cca44a01dade7"),
+    "disciplines" : [ 
+        "10m Air Pistol"
+    ],
+    "name" : "Artem",
+    "lastname" : "CHERNOUSOV",
+    "country" : "Russia",
+    "gender" : "m",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4706731cca44a01dade9"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "10m Air Pistol"
+    ],
+    "name" : "Yulia",
+    "lastname" : "ZYKOVA",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e4717731cca44a01daded"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions", 
+        "10m Air Rifle", 
+        "10m Air Pistol", 
+        "25m Pistol"
+    ],
+    "name" : "Yulia",
+    "lastname" : "KARIMOVA ",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e47a5731cca44a01dadf2"),
+    "disciplines" : [ 
+        "100m Butterfly"
+    ],
+    "name" : "Mikhail",
+    "lastname" : "DOVGALYUK",
+    "country" : "Russia",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e47b9731cca44a01dadf4"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Aleksandr",
+    "lastname" : "KRASNYKH",
+    "country" : "Russia",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e47c9731cca44a01dadf7"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Ivan",
+    "lastname" : "GIREV",
+    "country" : "Russia",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e47d8731cca44a01dadfa"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Mikhail",
+    "lastname" : "VEKOVISHCHEV",
+    "country" : "Russia",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e47f5731cca44a01dadfd"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Evgeny",
+    "lastname" : "RYLOV",
+    "country" : "Russia",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e480e731cca44a01dae00"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Kliment",
+    "lastname" : "KOLESNIKOV",
+    "country" : "Russia",
+    "gender" : "m",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e482d731cca44a01dae03"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Daniil",
+    "lastname" : "MEDVEDEV",
+    "country" : "Russia",
+    "gender" : "m",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e485b731cca44a01dae06"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Anastasia",
+    "lastname" : "PAVLYUCHENKOVA",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 1
+    }
+}
+{
+    "_id" : ObjectId("614e4885731cca44a01dae09"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Veronika",
+    "lastname" : "KUDERMETOVA",
+    "country" : "Russia",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e677cc1d01839f4540fd3"),
+    "disciplines" : [ 
+        "50m Rifle 3 Positions"
+    ],
+    "name" : "Wei",
+    "lastname" : "PANG",
+    "country" : "People's Republic of China",
+    "gender" : "m",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e755054b51d27e0c61a58"),
+    "disciplines" : [ 
+        "Javelin Throw"
+    ],
+    "name" : "Shiying",
+    "lastname" : "LIU",
+    "country" : "People's Republic of China",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e756854b51d27e0c61a5a"),
+    "disciplines" : [ 
+        "Javelin Throw"
+    ],
+    "name" : "Huihui",
+    "lastname" : "LYU",
+    "country" : "People's Republic of China",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e759354b51d27e0c61a5c"),
+    "disciplines" : [ 
+        "Shot Put"
+    ],
+    "name" : "Lijiao",
+    "lastname" : "GONG",
+    "country" : "People's Republic of China",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e75a754b51d27e0c61a5e"),
+    "disciplines" : [ 
+        "Shot Put"
+    ],
+    "name" : "Yang",
+    "lastname" : "GAO",
+    "country" : "People's Republic of China",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e75cb54b51d27e0c61a60"),
+    "disciplines" : [ 
+        "Hammer Throw"
+    ],
+    "name" : "Zheng",
+    "lastname" : "WANG",
+    "country" : "People's Republic of China",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e764454b51d27e0c61a62"),
+    "disciplines" : [ 
+        "20km Race Walk"
+    ],
+    "name" : "Hong",
+    "lastname" : "LIU",
+    "country" : "People's Republic of China",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e765c54b51d27e0c61a64"),
+    "disciplines" : [ 
+        "20km Race Walk"
+    ],
+    "name" : "Jiayu",
+    "lastname" : "YANG",
+    "country" : "People's Republic of China",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e76c154b51d27e0c61a66"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Bingjie",
+    "lastname" : "LI",
+    "country" : "People's Republic of China",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e76f454b51d27e0c61a69"),
+    "disciplines" : [ 
+        "200m Freestyle"
+    ],
+    "name" : "Liyan",
+    "lastname" : "YU",
+    "country" : "People's Republic of China",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e776054b51d27e0c61a6b"),
+    "disciplines" : [ 
+        "Single"
+    ],
+    "name" : "Saisai",
+    "lastname" : "ZHENG",
+    "country" : "People's Republic of China",
+    "gender" : "m",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("614e778054b51d27e0c61a6d"),
+    "disciplines" : [ 
+        "Single"
+    ],
+    "name" : "Qiang",
+    "lastname" : "WANG",
+    "country" : "People's Republic of China",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150efe27020b72bb48d6ecb"),
+    "disciplines" : [ 
+        "High Jump", 
+        "Long Jump"
+    ],
+    "name" : "Juvaughn",
+    "lastname" : "HARRISON",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f0127020b72bb48d6ece"),
+    "disciplines" : [ 
+        "High Jump"
+    ],
+    "name" : "Shelby",
+    "lastname" : "McEWEN",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f0397020b72bb48d6ed0"),
+    "disciplines" : [ 
+        "Discus Throw", 
+        "Hammer Throw"
+    ],
+    "name" : "Sam",
+    "lastname" : "MATTIS",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f0667020b72bb48d6ed3"),
+    "disciplines" : [ 
+        "100m Running", 
+        "100m Relay Running", 
+        "200m Running", 
+        "400m Running"
+    ],
+    "name" : "Benard",
+    "lastname" : "KETER",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f08a7020b72bb48d6ed8"),
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running", 
+        "400m Running", 
+        "800m Running"
+    ],
+    "name" : "Hillary",
+    "lastname" : "BOR",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f0f27020b72bb48d6edd"),
+    "disciplines" : [ 
+        "5000m Running", 
+        "10000m Running"
+    ],
+    "name" : "Cory Ann",
+    "lastname" : "McGEE",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f12f7020b72bb48d6ee0"),
+    "disciplines" : [ 
+        "Discus Throw", 
+        "Hammer Throw", 
+        "Javelin Throw", 
+        "Marathon"
+    ],
+    "name" : "Reggie",
+    "lastname" : "JAGERS",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f1517020b72bb48d6ee5"),
+    "disciplines" : [ 
+        "Discus Throw", 
+        "Hammer Throw", 
+        "Javelin Throw"
+    ],
+    "name" : "Rachel",
+    "lastname" : "DINCOFF",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f1757020b72bb48d6ee9"),
+    "disciplines" : [ 
+        "400m Running", 
+        "800m Running", 
+        "5000m Running"
+    ],
+    "name" : "Dalilah",
+    "lastname" : "MUHAMMAD",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f1907020b72bb48d6eed"),
+    "disciplines" : [ 
+        "800m Running", 
+        "5000m Running"
+    ],
+    "name" : "Raevyn",
+    "lastname" : "ROGERS",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f1b17020b72bb48d6ef0"),
+    "disciplines" : [ 
+        "Shot Put", 
+        "Discus Throw"
+    ],
+    "name" : "Raven",
+    "lastname" : "SAUNDERS",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f1d57020b72bb48d6ef3"),
+    "disciplines" : [ 
+        "Shot Put", 
+        "Discus Throw"
+    ],
+    "name" : "Jessica",
+    "lastname" : "RAMSEY",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f1f97020b72bb48d6ef6"),
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running", 
+        "400m Running", 
+        "800m Running"
+    ],
+    "name" : "Fred",
+    "lastname" : "KERLEY",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f2177020b72bb48d6efb"),
+    "disciplines" : [ 
+        "Hammer Throw", 
+        "Javelin Throw"
+    ],
+    "name" : "Alex",
+    "lastname" : "YOUNG",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f2777020b72bb48d6efe"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Brandon",
+    "lastname" : "McNULTY",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f28c7020b72bb48d6f00"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Lawson",
+    "lastname" : "CRADDOCK",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f2c27020b72bb48d6f02"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Coryn",
+    "lastname" : "RIVERA",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f2d67020b72bb48d6f04"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Leah",
+    "lastname" : "THOMAS",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f2ee7020b72bb48d6f06"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Chloe",
+    "lastname" : "DYGERT",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f2fe7020b72bb48d6f08"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Ruth",
+    "lastname" : "WINDER",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f3ac7020b72bb48d6f0a"),
+    "disciplines" : [ 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Mary Carolynn",
+    "lastname" : "TUCKER",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f3ec7020b72bb48d6f0e"),
+    "disciplines" : [ 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Nickolaus",
+    "lastname" : "MOWRER",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f4197020b72bb48d6f12"),
+    "disciplines" : [ 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Alexis",
+    "lastname" : "LAGAN",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f49a7020b72bb48d6f16"),
+    "disciplines" : [ 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Sandra",
+    "lastname" : "UPTAGRAFFT",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f4ba7020b72bb48d6f1a"),
+    "disciplines" : [ 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "Lucas",
+    "lastname" : "KOZENIESKY",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f4f17020b72bb48d6f1e"),
+    "disciplines" : [ 
+        "10m Air Rifle", 
+        "25m Pistol", 
+        "10m Air Pistol"
+    ],
+    "name" : "William",
+    "lastname" : "SHANER",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "shooting",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f60c7020b72bb48d6f22"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Emma",
+    "lastname" : "WEYANT",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f66f7020b72bb48d6f25"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Regan",
+    "lastname" : "SMITH",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f6887020b72bb48d6f28"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Rhyan Elizabeth",
+    "lastname" : "WHITE",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f69d7020b72bb48d6f2b"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Lydia",
+    "lastname" : "JACOBY",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f6c87020b72bb48d6f2e"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Lilly",
+    "lastname" : "KING",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f6f47020b72bb48d6f31"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Alex",
+    "lastname" : "WALSH",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f7067020b72bb48d6f34"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Kate",
+    "lastname" : "DOUGLASS",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f73c7020b72bb48d6f37"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Kathleen",
+    "lastname" : "LEDECKY",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f7527020b72bb48d6f3a"),
+    "disciplines" : [ 
+        "100m Butterfly", 
+        "200m Freestyle"
+    ],
+    "name" : "Erica",
+    "lastname" : "SULLIVAN",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "swimming",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f9a27020b72bb48d6f3d"),
+    "disciplines" : [ 
+        "Single"
+    ],
+    "name" : "Nicole",
+    "lastname" : "MELICHAR",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f9bd7020b72bb48d6f3f"),
+    "disciplines" : [ 
+        "Double"
+    ],
+    "name" : "Tennys",
+    "lastname" : "SANDGREN",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f9d17020b72bb48d6f41"),
+    "disciplines" : [ 
+        "Double"
+    ],
+    "name" : "Tommy",
+    "lastname" : "PAUL",
+    "country" : "United States of America",
+    "gender" : "m",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f9e27020b72bb48d6f43"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Jessica",
+    "lastname" : "PEGULA",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150f9f57020b72bb48d6f46"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Alison",
+    "lastname" : "RISKE",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 1,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150fa177020b72bb48d6f49"),
+    "disciplines" : [ 
+        "Single", 
+        "Double"
+    ],
+    "name" : "Jennifer",
+    "lastname" : "BRADY",
+    "country" : "United States of America",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6150fb8e7020b72bb48d6f4c"),
+    "disciplines" : [ 
+        "20km Race Walk", 
+        "50km Race Walk", 
+        "Marathon"
+    ],
+    "name" : "Yemaneberhan",
+    "lastname" : "CRIPPA",
+    "country" : "Italy",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6151345fc7524046d80c797f"),
+    "disciplines" : [ 
+        "100m Running"
+    ],
+    "name" : "Sarthak",
+    "lastname" : "BHAMBRI",
+    "country" : "India",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("615136335070e74290e46753"),
+    "disciplines" : [ 
+        "100m Running"
+    ],
+    "name" : "Alex",
+    "lastname" : "ANTONY",
+    "country" : "India",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("615173e828b9fe217cd96f37"),
+    "disciplines" : [ 
+        "Single"
+    ],
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    },
+    "name" : "Nao",
+    "lastname" : "HIBINO",
+    "country" : "Japan",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0
+}
+{
+    "_id" : ObjectId("615175555c01aa45dcbf69b2"),
+    "disciplines" : [ 
+        "Single"
+    ],
+    "name" : "Misaki",
+    "lastname" : "DOI",
+    "country" : "Japan",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "silver" : 0,
+        "gold" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("615175fd5281cd4818ef4961"),
+    "disciplines" : [ 
+        "Single"
+    ],
+    "name" : "Makoto",
+    "lastname" : "NINOMIYA",
+    "country" : "Japan",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61517fbe568a3d2aa8f6131f"),
+    "disciplines" : [ 
+        "Single"
+    ],
+    "name" : "Donna",
+    "lastname" : "VEKIC",
+    "country" : "Croatia",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("615186d6568a3d2aa8f61322"),
+    "disciplines" : [ 
+        "Single"
+    ],
+    "name" : "Barbora",
+    "lastname" : "KREJCIKOVA",
+    "country" : "Czech Republic",
+    "gender" : "f",
+    "sport" : "tennis",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("615230790b257347408a84fc"),
+    "disciplines" : [ 
+        "100m Running"
+    ],
+    "name" : "Julio",
+    "lastname" : "ARENAS",
+    "country" : "Spain",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6152331bc3d107197860663f"),
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running"
+    ],
+    "name" : "Laura",
+    "lastname" : "BUENO",
+    "country" : "Spain",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6152366fc3d1071978606642"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Gorka",
+    "lastname" : "IZAGIRRE INSAUSTI",
+    "country" : "Spain",
+    "gender" : "m",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61523683c3d1071978606644"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Alejandro",
+    "lastname" : "VALVERDE",
+    "country" : "Spain",
+    "gender" : "m",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6152369ec3d1071978606646"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Jesus",
+    "lastname" : "HERRADA",
+    "country" : "Spain",
+    "gender" : "m",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("615236bcc3d1071978606648"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Jon",
+    "lastname" : "IZAGIRRE INSAUSTI",
+    "country" : "Spain",
+    "gender" : "m",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("615236d0c3d107197860664a"),
+    "disciplines" : [ 
+        "225km Road Race"
+    ],
+    "name" : "Omar",
+    "lastname" : "FRAILE MATARRANZ",
+    "country" : "Spain",
+    "gender" : "m",
+    "sport" : "cycling",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("615247d7c3d1071978606663"),
+    "disciplines" : [ 
+        "200m Running", 
+        "400m Running", 
+        "800m Running"
+    ],
+    "name" : "Miltiadis",
+    "lastname" : "TENTOGLOU",
+    "country" : "Greece",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61524812c3d1071978606667"),
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running", 
+        "400m Running", 
+        "800m Running", 
+        "5000m Running"
+    ],
+    "name" : "Rafalia",
+    "lastname" : "SPANOUDAKI",
+    "country" : "Greece",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61524864c3d107197860666d"),
+    "disciplines" : [ 
+        "High Jump", 
+        "Long Jump", 
+        "Triple Jump", 
+        "Pole Vault", 
+        "Shot Put", 
+        "Discus Throw", 
+        "Hammer Throw", 
+        "Javelin Throw"
+    ],
+    "name" : "Chrysoula",
+    "lastname" : "ANAGNOSTOPOULOU",
+    "country" : "Greece",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("61524888c3d1071978606676"),
+    "disciplines" : [ 
+        "Hammer Throw", 
+        "Javelin Throw", 
+        "Marathon"
+    ],
+    "name" : "Michail",
+    "lastname" : "ANASTASAKIS",
+    "country" : "Greece",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("615248aac3d107197860667a"),
+    "disciplines" : [ 
+        "200m Running", 
+        "400m Running", 
+        "800m Running", 
+        "5000m Running", 
+        "10000m Running"
+    ],
+    "name" : "Stylianos",
+    "lastname" : "ARGYROPOULOS KANAKAKIS",
+    "country" : "Greece",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("615248d8c3d1071978606680"),
+    "disciplines" : [ 
+        "100m Running", 
+        "200m Running", 
+        "400m Running", 
+        "400m Relay Running", 
+        "800m Running", 
+        "5000m Running", 
+        "10000m Running"
+    ],
+    "name" : "Christina Ioanna",
+    "lastname" : "BOURMPOU",
+    "country" : "Greece",
+    "gender" : "f",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}
+{
+    "_id" : ObjectId("6152493cc3d1071978606688"),
+    "disciplines" : [ 
+        "100m Relay Running", 
+        "200m Running", 
+        "400m Running", 
+        "800m Running", 
+        "5000m Running"
+    ],
+    "name" : "Konstantinos",
+    "lastname" : "DOUVALIDIS",
+    "country" : "Greece",
+    "gender" : "m",
+    "sport" : "athletics",
+    "__v" : 0,
+    "medals" : {
+        "gold" : 0,
+        "silver" : 0,
+        "bronze" : 0
+    }
+}

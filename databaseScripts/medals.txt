@@ -1,0 +1,360 @@
+{
+    "_id" : ObjectId("611a799211d91a1fa9fed1df"),
+    "country" : "Japan",
+    "gold" : 1,
+    "silver" : 2,
+    "bronze" : 0,
+    "total" : 3
+}
+{
+    "_id" : ObjectId("611a799211d91a1fa9fed1e2"),
+    "country" : "Serbia",
+    "gold" : 4,
+    "silver" : 1,
+    "bronze" : 2,
+    "total" : 7
+}
+{
+    "_id" : ObjectId("611a799211d91a1fa9fed1e5"),
+    "country" : "Spain",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("611a799211d91a1fa9fed1e8"),
+    "country" : "Italy",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500d6247e7dc72b801b795"),
+    "country" : "Russia",
+    "gold" : 1,
+    "silver" : 1,
+    "bronze" : 1,
+    "total" : 3
+}
+{
+    "_id" : ObjectId("61500d6247e7dc72b801b798"),
+    "country" : "Democratic Republic of the Congo",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500d6247e7dc72b801b79b"),
+    "country" : "Denmark",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500d6247e7dc72b801b79e"),
+    "country" : "Egypt",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500d6247e7dc72b801b7a1"),
+    "country" : "Finland",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500d6247e7dc72b801b7a4"),
+    "country" : "France",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500d6247e7dc72b801b7a7"),
+    "country" : "Germany",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500d6247e7dc72b801b7aa"),
+    "country" : "Ghana",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500ddc47e7dc72b801b7dd"),
+    "country" : "Great Britain",
+    "gold" : 1,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 1
+}
+{
+    "_id" : ObjectId("61500ddc47e7dc72b801b7e0"),
+    "country" : "Greece",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500ddc47e7dc72b801b7e3"),
+    "country" : "India",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500ddc47e7dc72b801b7e6"),
+    "country" : "Israel",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500ddc47e7dc72b801b7e9"),
+    "country" : "Jamaica",
+    "gold" : 1,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 1
+}
+{
+    "_id" : ObjectId("61500ddc47e7dc72b801b7ec"),
+    "country" : "Kenya",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500ddc47e7dc72b801b7ef"),
+    "country" : "Kiribati",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500ddc47e7dc72b801b7f2"),
+    "country" : "Libya",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500e4b47e7dc72b801b828"),
+    "country" : "Albania",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500e4b47e7dc72b801b82b"),
+    "country" : "Argentina",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500e4b47e7dc72b801b82e"),
+    "country" : "Austria",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500e4b47e7dc72b801b831"),
+    "country" : "Bahamas",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500e4b47e7dc72b801b834"),
+    "country" : "Brazil",
+    "gold" : 0,
+    "silver" : 1,
+    "bronze" : 0,
+    "total" : 1
+}
+{
+    "_id" : ObjectId("61500e4b47e7dc72b801b837"),
+    "country" : "Canada",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500e4b47e7dc72b801b83a"),
+    "country" : "Chile",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500e4b47e7dc72b801b83d"),
+    "country" : "Colombia",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500eb447e7dc72b801b874"),
+    "country" : "Croatia",
+    "gold" : 0,
+    "silver" : 1,
+    "bronze" : 0,
+    "total" : 1
+}
+{
+    "_id" : ObjectId("61500eb447e7dc72b801b877"),
+    "country" : "Cyprus",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500eb447e7dc72b801b87a"),
+    "country" : "Czech Republic",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500eb447e7dc72b801b87d"),
+    "country" : "Hungary",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500eb447e7dc72b801b880"),
+    "country" : "Romania",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 1,
+    "total" : 1
+}
+{
+    "_id" : ObjectId("61500eb447e7dc72b801b883"),
+    "country" : "Australia",
+    "gold" : 1,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 1
+}
+{
+    "_id" : ObjectId("61500eb447e7dc72b801b886"),
+    "country" : "United States of America",
+    "gold" : 1,
+    "silver" : 1,
+    "bronze" : 0,
+    "total" : 2
+}
+{
+    "_id" : ObjectId("61500eb447e7dc72b801b889"),
+    "country" : "Algeria",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500f2d47e7dc72b801b8b9"),
+    "country" : "Burkina Faso",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500f2d47e7dc72b801b8bc"),
+    "country" : "People's Republic of China",
+    "gold" : 1,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 1
+}
+{
+    "_id" : ObjectId("61500f2d47e7dc72b801b8bf"),
+    "country" : "Portugal",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500f2d47e7dc72b801b8c2"),
+    "country" : "Ethiopia",
+    "gold" : 0,
+    "silver" : 1,
+    "bronze" : 0,
+    "total" : 1
+}
+{
+    "_id" : ObjectId("61500f2d47e7dc72b801b8c5"),
+    "country" : "Belarus",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500f2d47e7dc72b801b8c8"),
+    "country" : "Bahrain",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61500f2d47e7dc72b801b8cb"),
+    "country" : "Norway",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 2,
+    "total" : 2
+}
+{
+    "_id" : ObjectId("61500f2d47e7dc72b801b8ce"),
+    "country" : "Ukraine",
+    "gold" : 0,
+    "silver" : 0,
+    "bronze" : 0,
+    "total" : 0
+}
+{
+    "_id" : ObjectId("61517a0f3868392bc5134087"),
+    "country" : "Turkey",
+    "gold" : 0,
+    "silver" : 1,
+    "bronze" : 1,
+    "total" : 2
+}

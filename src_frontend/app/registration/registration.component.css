@@ -1,0 +1,10 @@
+.table_class_reg{
+    text-align: center;
+    /* margin-left: 30%;
+    margin-right: 25%; */
+    margin-inline-end: 10%;
+    margin-inline-start: 20%;
+}
+.hdr{
+    text-align: center;
+}

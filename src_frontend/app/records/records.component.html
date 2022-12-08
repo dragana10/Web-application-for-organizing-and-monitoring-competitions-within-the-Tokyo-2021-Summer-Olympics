@@ -1,0 +1,52 @@
+<div class="bck">
+
+    <div class="meni">
+        <h4>
+            Olympic records
+        </h4>
+    </div>
+
+
+<div *ngIf="flag==1">
+
+
+    <table style="text-align: left; padding-left: 4%;">
+        <tr style="font-weight: 700;">
+            <td style="width: 10%;">
+                year
+            </td>
+            <td style="width: 10%;">city</td>
+            <td style="width: 10%;">sport</td>
+            <td style="width: 10%;">discipline</td>
+            <td style="width: 10%;">lastname</td>
+            <td style="width: 10%;">name</td>
+            <td style="width: 10%;">nationality</td>
+            <td style="width: 10%;">scor</td>
+
+        </tr>
+        <tr *ngFor="let c of records">
+            <td>
+                {{c.year}}
+            </td>
+            <td>
+                {{c.city}}
+            </td>
+            <td style="font-weight: 600; color: rgb(170, 39, 39);">
+                {{c.sport}}
+            </td>
+            <td style="color: rgb(170, 39, 39);">
+                {{c.discipline}}
+            </td>
+            <td style="font-weight: 600;">{{c.lastname}}</td>
+            <td>{{c.name}}</td>
+            <td>
+                {{c.country}}
+            </td>
+            <td>
+                {{c.result}}
+            </td>
+        </tr>
+    </table>
+</div>
+
+</div>

@@ -1,0 +1,26 @@
+.dates{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+.login_line_del{
+    background-color: #a9ccec;
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    height: 30px;
+}
+.bck_del{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    /* background: #b8e1f8; */
+    background-position: center;
+    background-size: 10% 10%;
+    padding-bottom: 6em;
+    padding-top: 21em;
+    margin-right: 2em;
+    background-image: url(../../assets/one.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    font-size: 18px;
+}
